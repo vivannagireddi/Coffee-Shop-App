@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {# Tailwind CSS! #}
+{#    <link href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">#}
+    <style>
+         /* General Styling */
+    body {
+        font-family: sans-serif;
+        margin: 0;
+    }
+    #grad1 {
+      padding: 20px;
+      font-size: 20px;
+      border-radius: 200px;
+      /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(to bottom, '#CBCD93', '#ACAD82');
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5) inset;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        color: white;
+        padding: 1rem;
+    }
+
+    /* Logo */
+    .logo a {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+    }
+
+    /* Navigation Links */
+    .nav-links {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .menu li {
+        padding: 0 1rem;
+    }
+
+    .menu li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+        transition: color 0.3s ease;
+    }
+
+    .menu li a:hover {
+        color: #17a2b8;
+    }
+
+    /* Dropdown Menu */
+    .services {
+        position: relative;
+    }
+
+    .dropdown {
+        display: none;
+        position: absolute;
+        background-color: #444;
+        list-style: none;
+        padding: 0.5rem 0;
+        margin-top: 0.5rem;
+        border-radius: 4px;
+        min-width: 150px;
+    }
+
+    .services:hover .dropdown {
+        display: block;
+    }
+
+    .dropdown li {
+        padding: 0.5rem 1rem;
+    }
+
+    .dropdown li a {
+        white-space: nowrap;
+    }
+
+    /* Hamburger Menu */
+    #checkbox_toggle {
+        display: none;
+    }
+
+    .hamburger {
+        display: none;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .menu {
+            display: none;
+            flex-direction: column;
+            background-color: #444;
+            position: absolute;
+            top: 60px;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        .menu li {
+            padding: 1rem 0;
+        }
+
+        .nav-links {
+            order: 1; /* Change order to place hamburger on the right */
+        }
+
+        .logo {
+            order: 0;
+        }
+
+        .hamburger {
+            display: block;
+        }
+
+        #checkbox_toggle:checked ~ .menu {
+            display: flex;
+        }
+
+        .dropdown {
+            position: static;
+            display: none;
+            background-color: #555;
+        }
+
+        .services:hover .dropdown {
+            display: block;
+        }
+    }
+
+    </style>
+</head>
+<body>
+    <script>
+        function pushNotification(title, body){
+            if ("Notification" in window) {
+                Notification.requestPermission().then(permission => {
+                    if (permission === 'granted') {
+                        const alerta = new Notification(title, {body: body});
+                        return alerta
+                    } else {
+                        console.log('Notification permission denied ..')
+                    }
+                });
+            } else {
+                console.log('This browser doesnt support notifications. ')
+                return navigator.userAgent
+                return navigator.appVersion
+            }
+        }
+    </script>
+    <nav class="navbar">
+            <div class="logo">
+                <a href="#">Logo</a>
+            </div>
+        <button id="grad1">Click me</button>
+            <ul class="nav-links">
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <div class="menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li class="services">
+                        <a href="/">Services</a>
+                        <ul class="dropdown">
+                            <li><a href="/" onclick="pushNotification('I love you', 'OMG DoWnload this now!!!!!')">Dropdown 1</a></li>
+                            <li><a href="/">Dropdown 2</a></li>
+                            <li><a href="/">Dropdown 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/">Pricing</a></li>
+                    <li><a href="/">Contact</a></li>
+                </div>
+            </ul>
+        </nav>
+    {% for i in range(1,4) %}
+    <p>Hello Puppy Manya!! {{ i }}</p>
+        <p>{{ i*2 }}</p>
+        <h1>Polyglot 🦜 💬 🇬🇧 ➡️ 🏴‍☠️</h1>
+        <p>Translate English into Pirate speak...</p>
+        <p><button onclick="pushNotification('Hey..', 'It\'s me!')">Hi!!!!</button></p>
+
+    {% endfor %}
+    <form action="/submit_data" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username_input">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password_input">
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
