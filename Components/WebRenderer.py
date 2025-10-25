@@ -27,8 +27,9 @@ class BrowserFrame(tk.Frame):
         window_info = cef.WindowInfo()
         rect = [0, 0, self.winfo_width(), self.winfo_height()]
         window_info.SetAsChild(self.get_window_handle(), rect)
+        # fix: correct URL scheme (remove extra slash)
         self.browser = cef.CreateBrowserSync(window_info,
-                                             url="http:///127.0.0.1:5000")
+                                             url="http://127.0.0.1:5000")
         assert self.browser
         # self.browser.SetClientHandler(LifespanHandler(self))
         # self.browser.SetClientHandler(LoadHandler(self))

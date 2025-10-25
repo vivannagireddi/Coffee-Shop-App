@@ -1,0 +1,93 @@
+2025-10-24 17:26:24,951 INFO werkzeug: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-24 17:26:24,952 INFO werkzeug: [33mPress CTRL+C to quit[0m
+2025-10-24 19:55:55,167 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-24 19:55:55,167 INFO: [33mPress CTRL+C to quit[0m
+2025-10-24 19:55:57,593 INFO: 127.0.0.1 - - [24/Oct/2025 19:55:57] "GET / HTTP/1.1" 200 -
+2025-10-24 19:56:01,335 INFO: Creating account for reg with ID 7799
+2025-10-25 09:04:01,082 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-25 09:04:01,082 INFO: [33mPress CTRL+C to quit[0m
+2025-10-25 09:04:07,982 INFO: 127.0.0.1 - - [25/Oct/2025 09:04:07] "GET / HTTP/1.1" 200 -
+2025-10-25 09:04:13,587 INFO: Creating account for None with ID 6817
+2025-10-25 09:07:42,129 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-25 09:07:42,145 INFO: [33mPress CTRL+C to quit[0m
+2025-10-25 09:07:50,352 INFO: 127.0.0.1 - - [25/Oct/2025 09:07:50] "GET / HTTP/1.1" 200 -
+2025-10-25 09:07:54,365 INFO: Creating account for wef with ID 1374
+2025-10-25 09:15:26,528 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-25 09:15:26,529 INFO: [33mPress CTRL+C to quit[0m
+2025-10-25 09:15:37,225 ERROR: Exception on / [GET]
+Traceback (most recent call last):
+  File "D:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\.venv\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\.venv\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\.venv\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\.venv\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "d:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\Run.py", line 56, in list_users
+    db = get_db()
+  File "d:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\Run.py", line 31, in get_db
+    host=current_app.config['DB_HOST'],
+KeyError: 'DB_HOST'
+2025-10-25 09:15:37,303 INFO: 127.0.0.1 - - [25/Oct/2025 09:15:37] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-10-25 09:16:45,208 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-25 09:16:45,208 INFO: [33mPress CTRL+C to quit[0m
+2025-10-25 09:19:23,457 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-25 09:19:23,473 INFO: [33mPress CTRL+C to quit[0m
+2025-10-25 09:19:31,806 INFO: 127.0.0.1 - - [25/Oct/2025 09:19:31] "GET / HTTP/1.1" 200 -
+2025-10-25 09:20:01,870 INFO: Creating account for lol with ID 1340
+2025-10-25 09:20:01,871 ERROR: Exception on /create_account [POST]
+Traceback (most recent call last):
+  File "D:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\.venv\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\.venv\lib\site-packages\flask\app.py", line 920, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\.venv\lib\site-packages\flask\app.py", line 939, in finalize_request
+    response = self.make_response(rv)
+  File "D:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\.venv\lib\site-packages\flask\app.py", line 1212, in make_response
+    raise TypeError(
+TypeError: The view function for 'create_account' did not return a valid response. The function either returned None or ended without a return statement.
+2025-10-25 09:20:01,919 INFO: 127.0.0.1 - - [25/Oct/2025 09:20:01] "[35m[1mPOST /create_account HTTP/1.1[0m" 500 -
+2025-10-25 09:27:39,715 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-25 09:27:39,715 INFO: [33mPress CTRL+C to quit[0m
+2025-10-25 09:27:46,684 INFO: 127.0.0.1 - - [25/Oct/2025 09:27:46] "GET / HTTP/1.1" 200 -
+2025-10-25 09:27:54,396 INFO: Creating account for lol with ID 1877
+2025-10-25 09:28:01,564 INFO: Creating account for lol with ID 5091
+2025-10-25 09:28:53,131 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-25 09:28:53,131 INFO: [33mPress CTRL+C to quit[0m
+2025-10-25 09:28:53,131 INFO:  * Restarting with stat
+2025-10-25 09:28:54,058 WARNING:  * Debugger is active!
+2025-10-25 09:28:54,058 INFO:  * Debugger PIN: 197-792-031
+2025-10-25 09:35:06,610 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-25 09:35:06,624 INFO: [33mPress CTRL+C to quit[0m
+2025-10-25 09:37:35,707 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-25 09:37:35,707 INFO: [33mPress CTRL+C to quit[0m
+2025-10-25 09:39:16,317 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-25 09:39:16,317 INFO: [33mPress CTRL+C to quit[0m
+2025-10-25 09:39:19,301 INFO: 127.0.0.1 - - [25/Oct/2025 09:39:19] "[33mGET /ping HTTP/1.1[0m" 404 -
+2025-10-25 09:41:04,211 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-25 09:41:04,215 INFO: [33mPress CTRL+C to quit[0m
+2025-10-25 09:41:10,558 INFO: Index requested
+2025-10-25 09:42:16,659 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-25 09:42:16,659 INFO: [33mPress CTRL+C to quit[0m
+2025-10-25 09:42:23,016 INFO: Index requested
+2025-10-25 09:42:23,016 INFO: PING received
+2025-10-25 09:45:24,589 INFO: Starting Flask backend
+2025-10-25 09:45:24,643 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-25 09:45:24,643 INFO: [33mPress CTRL+C to quit[0m
+2025-10-25 09:45:31,066 INFO: Index requested
