@@ -91,3 +91,168 @@ TypeError: The view function for 'create_account' did not return a valid respons
  * Running on http://127.0.0.1:5000
 2025-10-25 09:45:24,643 INFO: [33mPress CTRL+C to quit[0m
 2025-10-25 09:45:31,066 INFO: Index requested
+2025-10-25 09:54:29,171 INFO: Starting Flask backend
+2025-10-25 09:54:29,232 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-25 09:54:29,232 INFO: [33mPress CTRL+C to quit[0m
+2025-10-25 09:54:38,029 INFO: Index requested
+2025-10-25 09:55:47,012 INFO: Starting Flask backend
+2025-10-25 09:55:47,025 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-25 09:55:47,138 INFO: [33mPress CTRL+C to quit[0m
+2025-10-25 09:55:53,278 INFO: Index requested
+2025-10-25 10:05:01,333 INFO: Starting Flask backend
+2025-10-25 10:05:01,456 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-25 10:05:01,458 INFO: [33mPress CTRL+C to quit[0m
+2025-10-25 10:05:09,780 INFO: Index requested
+2025-10-25 10:05:09,993 INFO: 127.0.0.1 - - [25/Oct/2025 10:05:09] "GET / HTTP/1.1" 200 -
+2025-10-25 10:05:14,845 INFO: Creating account for asd
+2025-10-25 10:26:48,843 INFO: Starting Flask backend
+2025-10-25 10:26:48,882 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-25 10:26:48,883 INFO: [33mPress CTRL+C to quit[0m
+2025-10-25 10:26:55,992 INFO: Index requested
+2025-10-25 10:26:56,098 INFO: 127.0.0.1 - - [25/Oct/2025 10:26:56] "GET / HTTP/1.1" 200 -
+2025-10-25 10:26:59,438 INFO: Creating account for erg
+2025-10-25 10:39:12,717 INFO: Starting Flask backend
+2025-10-25 10:39:12,755 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-25 10:39:12,755 INFO: [33mPress CTRL+C to quit[0m
+2025-10-25 10:39:20,095 INFO: Index requested
+2025-10-25 10:39:20,111 INFO: 127.0.0.1 - - [25/Oct/2025 10:39:20] "GET / HTTP/1.1" 200 -
+2025-10-25 10:39:27,727 INFO: create_account called (username='rerg')
+2025-10-26 09:06:33,701 INFO: Starting Flask backend
+2025-10-26 09:06:33,820 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-26 09:06:33,821 INFO: [33mPress CTRL+C to quit[0m
+2025-10-26 09:06:41,698 INFO: Index requested
+2025-10-26 09:06:41,715 INFO: 127.0.0.1 - - [26/Oct/2025 09:06:41] "GET / HTTP/1.1" 200 -
+2025-10-26 09:06:46,701 INFO: create_account called (username='lol')
+2025-10-26 09:11:53,906 INFO: Starting Flask backend
+2025-10-26 09:11:53,940 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-26 09:11:53,940 INFO: [33mPress CTRL+C to quit[0m
+2025-10-26 09:12:00,263 INFO: Index requested
+2025-10-26 09:12:00,274 INFO: 127.0.0.1 - - [26/Oct/2025 09:12:00] "GET / HTTP/1.1" 200 -
+2025-10-26 09:12:06,640 INFO: create_account called (username='weufh')
+2025-10-26 09:18:27,879 INFO: Starting Flask backend
+2025-10-26 09:18:27,904 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-26 09:18:27,904 INFO: [33mPress CTRL+C to quit[0m
+2025-10-26 09:18:35,275 INFO: Starting Flask backend
+2025-10-26 09:18:35,281 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-26 09:18:35,281 INFO: [33mPress CTRL+C to quit[0m
+2025-10-26 09:18:42,168 INFO: Index requested
+2025-10-26 09:18:42,186 INFO: 127.0.0.1 - - [26/Oct/2025 09:18:42] "GET / HTTP/1.1" 200 -
+2025-10-26 09:18:50,303 INFO: create_account called (username='afeka')
+2025-10-26 09:22:18,293 INFO: Starting Flask backend
+2025-10-26 09:22:18,683 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-26 09:22:18,683 INFO: [33mPress CTRL+C to quit[0m
+2025-10-26 09:22:24,579 INFO: Index requested
+2025-10-26 09:22:24,595 INFO: 127.0.0.1 - - [26/Oct/2025 09:22:24] "GET / HTTP/1.1" 200 -
+2025-10-26 09:22:30,326 INFO: create_account called (username='lolJIO')
+2025-10-26 09:25:51,407 INFO: Starting Flask backend
+2025-10-26 09:25:51,442 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-26 09:25:51,442 INFO: [33mPress CTRL+C to quit[0m
+2025-10-26 09:25:57,810 INFO: Index requested
+2025-10-26 09:25:57,810 INFO: 127.0.0.1 - - [26/Oct/2025 09:25:57] "GET / HTTP/1.1" 200 -
+2025-10-26 09:26:01,518 INFO: Starting Flask backend
+2025-10-26 09:26:01,530 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-26 09:26:01,530 INFO: [33mPress CTRL+C to quit[0m
+2025-10-26 09:26:07,813 INFO: Index requested
+2025-10-26 09:26:07,826 INFO: 127.0.0.1 - - [26/Oct/2025 09:26:07] "GET / HTTP/1.1" 200 -
+2025-10-26 09:26:13,213 INFO: create_account called (username='eokf')
+2025-10-26 09:27:03,548 INFO: Starting Flask backend
+2025-10-26 09:27:03,566 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-26 09:27:03,567 INFO: [33mPress CTRL+C to quit[0m
+2025-10-26 09:27:09,812 INFO: Index requested
+2025-10-26 09:27:09,824 INFO: 127.0.0.1 - - [26/Oct/2025 09:27:09] "GET / HTTP/1.1" 200 -
+2025-10-26 09:27:12,170 INFO: create_account called (username='aef')
+2025-10-26 09:28:31,194 INFO: Starting Flask backend
+2025-10-26 09:28:31,208 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-26 09:28:31,208 INFO: [33mPress CTRL+C to quit[0m
+2025-10-26 09:28:37,644 INFO: Index requested
+2025-10-26 09:28:37,656 INFO: 127.0.0.1 - - [26/Oct/2025 09:28:37] "GET / HTTP/1.1" 200 -
+2025-10-26 09:28:41,272 INFO: create_account called (username='ewf')
+2025-10-26 09:39:07,045 INFO: Starting Flask backend
+2025-10-26 09:39:07,096 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-10-26 09:39:07,096 INFO: [33mPress CTRL+C to quit[0m
+2025-10-26 09:39:13,850 INFO: Index requested
+2025-10-26 09:39:13,868 INFO: 127.0.0.1 - - [26/Oct/2025 09:39:13] "GET / HTTP/1.1" 200 -
+2025-10-26 09:39:17,402 INFO: create_account called (username='sv')
+2025-10-26 09:39:17,402 ERROR: Exception on /create_account [POST]
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "d:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\Run.py", line 53, in create_account
+    conn = mysql.connector.connect(
+AttributeError: 'MySQL' object has no attribute 'connector'
+2025-10-26 09:39:17,413 INFO: 127.0.0.1 - - [26/Oct/2025 09:39:17] "[35m[1mPOST /create_account HTTP/1.1[0m" 500 -
+2025-10-26 09:39:44,964 INFO: Starting Flask backend
+2025-10-26 09:39:44,984 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-10-26 09:39:44,984 INFO: [33mPress CTRL+C to quit[0m
+2025-10-26 09:39:51,465 INFO: Index requested
+2025-10-26 09:39:51,477 INFO: 127.0.0.1 - - [26/Oct/2025 09:39:51] "GET / HTTP/1.1" 200 -
+2025-10-26 09:39:55,452 INFO: create_account called (username='sef')
+2025-10-26 09:39:55,795 ERROR: Exception on /create_account [POST]
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "d:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\Run.py", line 54, in create_account
+    cursor.execute(''' INSERT INTO info_table VALUES(%s,%s)''',(username,password))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'coffee.info_table' doesn't exist")
+2025-10-26 09:39:55,802 INFO: 127.0.0.1 - - [26/Oct/2025 09:39:55] "[35m[1mPOST /create_account HTTP/1.1[0m" 500 -
+2025-10-26 09:40:22,499 INFO: Starting Flask backend
+2025-10-26 09:40:22,512 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-10-26 09:40:22,512 INFO: [33mPress CTRL+C to quit[0m
+2025-10-26 09:40:29,037 INFO: Index requested
+2025-10-26 09:40:29,052 INFO: 127.0.0.1 - - [26/Oct/2025 09:40:29] "GET / HTTP/1.1" 200 -
+2025-10-26 09:40:33,717 INFO: create_account called (username='weiofj')
+2025-10-26 09:40:33,784 ERROR: Exception on /create_account [POST]
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "d:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\Run.py", line 54, in create_account
+    cursor.execute(''' INSERT INTO users VALUES(%s,%s)''',(username,password))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1136, "Column count doesn't match value count at row 1")
+2025-10-26 09:40:33,784 INFO: 127.0.0.1 - - [26/Oct/2025 09:40:33] "[35m[1mPOST /create_account HTTP/1.1[0m" 500 -

@@ -6,9 +6,9 @@ from tkinter import *
 from cefpython3 import cefpython as cef
 import ctypes
 from flask import Flask, render_template, request, current_app, g
+import mysql
 import mysql.connector as mysqlot
-
-# Components
+from flask_mysqldb import MySQL
 import Components.WebRenderer as WebRenderer
 
 # Imports
@@ -17,29 +17,16 @@ from datetime import datetime
 import logging
 import sys
 
-app = Flask(__name__)
-
-app.config['DB_HOST'] = 'localhost'
-app.config['DB_USER'] = 'root'
-app.config['DB_PASSWORD'] = 'VN@220508'
-app.config['DB_DATABASE'] = 'coffee'
-
-def get_db():
-    try:
-        if 'db' not in g or not getattr(g, 'db', None) or not g.db.is_connected():
-            g.db = mysqlot.connect(
-                host=current_app.config['DB_HOST'],
-                user=current_app.config['DB_USER'],
-                password=current_app.config['DB_PASSWORD'],
-                database=current_app.config['DB_DATABASE']
-            )
-        return g.db
-    except Exception as e:
-        app.logger.exception("get_db() failed")
-        raise
 
 def runFlaskBackend():
     
+    app = Flask(__name__)
+    app.config['MYSQL_HOST'] = 'localhost'
+    app.config['MYSQL_USER'] = 'root'
+    app.config['MYSQL_PASSWORD'] = 'VN@220508'
+    app.config['MYSQL_DB'] = 'coffee'
+    
+    mysql = MySQL(app)
     # simple file + console logging
     logging.basicConfig(filename='flask.log', level=logging.INFO,
                         format='%(asctime)s %(levelname)s: %(message)s')
@@ -49,67 +36,27 @@ def runFlaskBackend():
     app.logger.setLevel(logging.INFO)
 
     app.logger.info("Starting Flask backend")
-    @app.teardown_appcontext
-    def close_db(exception):    
-        db = g.pop('db', None)
-        if db is not None:
-            try:
-                db.close()
-            except Exception:
-                pass
-
-    @app.route("/ping")
-    def ping():
-        app.logger.info("PING received")
-        return "ok", 200
 
     @app.route("/")
     def hello_world():
         app.logger.info("Index requested")
         # do not call ping() here; it's a separate route
-        try:
-            db = get_db()
-            cursor = db.cursor()
-            cursor.execute("SELECT username FROM users")
-            rows = cursor.fetchall()
-            users = [r[0] for r in rows]
-            cursor.close()
-            app.logger.info("Loaded %d users", len(users))
-            return render_template('index.html', users=users)
-        except Exception as e:
-            # log full exception and return helpful text for debugging
-            app.logger.exception("Failed to load users: %s", e)
-            # return plain text fallback so you can see something in the browser/CEF
-            return f"Error loading users: {type(e).__name__} - {e}", 500
+        return render_template('index.html')
 
     @app.route('/create_account', methods=['POST'])
     def create_account():
-        username = request.form.get('username_input')
-        password = request.form.get('password_input')
-        try:
-            db = get_db()
-            cursor = db.cursor()
-            # ensure table exists with AUTO_INCREMENT to avoid PK collisions
-            cursor.execute(
-                "CREATE TABLE IF NOT EXISTS users ("
-                " userID INT AUTO_INCREMENT PRIMARY KEY,"
-                " username VARCHAR(50),"
-                " password VARCHAR(255)"
-                ")"
-            )
-            cursor.execute(
-                "INSERT INTO users (username, password) VALUES (%s, %s)",
-                (username, password)
-            )
-            db.commit()
+        
+        if request.method == 'POST':
+            username = request.form['username_input']
+            password = request.form['password_input']
+            app.logger.info("create_account called (username=%r)", username)
+            cursor = mysql.connection.cursor()
+            cursor.execute(''' INSERT INTO users VALUES(%s,%s,%s)''',(random.randrange(1000,9999),username,password))
+            mysql.connection.commit()
             cursor.close()
-            return render_template('Account.html')
-        except Exception:
-            app.logger.exception("Failed to create account")
-            return "Database error", 500
-
+            return f"Done!!"
     # IMPORTANT: disable the reloader in a child process
-    app.run(host='127.0.0.1', port=5000, debug=False, use_reloader=False)
+    app.run(host='localhost', port=5000, debug=False, use_reloader=False)
 
 def window():
     win = Tk()
