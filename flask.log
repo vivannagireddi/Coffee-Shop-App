@@ -256,3 +256,11 @@ Traceback (most recent call last):
     _mysql.connection.query(self, query)
 MySQLdb.OperationalError: (1136, "Column count doesn't match value count at row 1")
 2025-10-26 09:40:33,784 INFO: 127.0.0.1 - - [26/Oct/2025 09:40:33] "[35m[1mPOST /create_account HTTP/1.1[0m" 500 -
+2025-10-26 09:41:45,148 INFO: Starting Flask backend
+2025-10-26 09:41:45,160 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-10-26 09:41:45,163 INFO: [33mPress CTRL+C to quit[0m
+2025-10-26 09:41:51,624 INFO: Index requested
+2025-10-26 09:41:51,638 INFO: 127.0.0.1 - - [26/Oct/2025 09:41:51] "GET / HTTP/1.1" 200 -
+2025-10-26 09:41:55,338 INFO: create_account called (username='aefae')
+2025-10-26 09:41:55,440 INFO: 127.0.0.1 - - [26/Oct/2025 09:41:55] "POST /create_account HTTP/1.1" 200 -
