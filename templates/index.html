@@ -188,6 +188,9 @@
                 </div>
             </ul>
         </nav>
+    {%for user in userlist%}
+        <p>User ID: {{user[0]}}, Username: {{user[1]}}</p>
+    {%endfor%}
     <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Create an Account!</h1>
     <form action="/create_account" method="POST">
         <label for="username">Username:</label>
@@ -196,6 +199,7 @@
         <input type="password" id="password" name="password_input">
         <input type="submit" value="Submit">
     </form>
+    
     
 </body>
 </html>

@@ -6,6 +6,7 @@ from tkinter import *
 from cefpython3 import cefpython as cef
 import ctypes
 from flask import Flask, render_template, request, current_app, g
+from flask.templating import _render
 import mysql
 import mysql.connector as mysqlot
 from flask_mysqldb import MySQL
@@ -41,7 +42,10 @@ def runFlaskBackend():
     def hello_world():
         app.logger.info("Index requested")
         # do not call ping() here; it's a separate route
-        return render_template('index.html')
+        cursor = mysql.connection.cursor()
+        cursor.execute("SELECT userID, username FROM users;")
+        users = cursor.fetchall()
+        return render_template('index.html', userlist=users)
 
     @app.route('/create_account', methods=['POST'])
     def create_account():
@@ -54,7 +58,7 @@ def runFlaskBackend():
             cursor.execute(''' INSERT INTO users VALUES(%s,%s,%s)''',(random.randrange(1000,9999),username,password))
             mysql.connection.commit()
             cursor.close()
-            return f"Done!!"
+            return render_template("Account.html", user_name=username)
     # IMPORTANT: disable the reloader in a child process
     app.run(host='localhost', port=5000, debug=False, use_reloader=False)
 
