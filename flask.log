@@ -617,3 +617,57 @@ AttributeError: 'function' object has no attribute 'template'
 2025-10-29 16:36:47,452 INFO: 127.0.0.1 - - [29/Oct/2025 16:36:47] "GET /static/Buttons.css HTTP/1.1" 200 -
 2025-10-29 16:37:04,628 INFO: 127.0.0.1 - - [29/Oct/2025 16:37:04] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
 2025-10-29 16:37:04,628 INFO: 127.0.0.1 - - [29/Oct/2025 16:37:04] "[36mGET /static/Navbar.css HTTP/1.1[0m" 304 -
+2025-11-01 13:14:58,263 INFO: Starting Flask backend
+2025-11-01 13:14:58,495 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-01 13:14:58,495 INFO: [33mPress CTRL+C to quit[0m
+2025-11-01 13:15:06,018 INFO: Index requested
+2025-11-01 13:15:06,183 ERROR: Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "d:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\Run.py", line 45, in hello_world
+    cursor = mysql.connection.cursor()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_mysqldb\__init__.py", line 109, in connection
+    ctx.mysql_db = self.connect
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_mysqldb\__init__.py", line 97, in connect
+    return MySQLdb.connect(**kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\__init__.py", line 121, in Connect
+    return Connection(*args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 200, in __init__
+    super().__init__(*args, **kwargs2)
+MySQLdb.OperationalError: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+2025-11-01 13:15:06,235 INFO: 127.0.0.1 - - [01/Nov/2025 13:15:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-01 13:15:08,605 INFO: Starting Flask backend
+2025-11-01 13:15:08,653 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-01 13:15:08,653 INFO: [33mPress CTRL+C to quit[0m
+2025-11-01 13:15:13,868 INFO: Index requested
+2025-11-01 13:15:13,895 ERROR: Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "d:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\Run.py", line 45, in hello_world
+    cursor = mysql.connection.cursor()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_mysqldb\__init__.py", line 109, in connection
+    ctx.mysql_db = self.connect
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_mysqldb\__init__.py", line 97, in connect
+    return MySQLdb.connect(**kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\__init__.py", line 121, in Connect
+    return Connection(*args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 200, in __init__
+    super().__init__(*args, **kwargs2)
+MySQLdb.OperationalError: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+2025-11-01 13:15:13,924 INFO: 127.0.0.1 - - [01/Nov/2025 13:15:13] "[35m[1mGET / HTTP/1.1[0m" 500 -
