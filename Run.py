@@ -24,7 +24,7 @@ def runFlaskBackend():
     app = Flask(__name__)
     app.config['MYSQL_HOST'] = 'localhost'
     app.config['MYSQL_USER'] = 'root'
-    app.config['MYSQL_PASSWORD'] = 'VN@220508'
+    app.config['MYSQL_PASSWORD'] = '<password>'
     app.config['MYSQL_DB'] = 'coffee'
     
     mysql = MySQL(app)
