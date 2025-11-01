@@ -5,151 +5,8 @@
     <title>Title</title>
     {# Tailwind CSS! #}
 {#    <link href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">#}
-    <style>
-         /* General Styling */
-    body {
-        font-family: sans-serif;
-        margin: 0;
-    }
-    #grad1 {
-      padding: 20px;
-      font-size: 20px;
-      border-radius: 200px;
-      /* For browsers that do not support gradients */
-      background: -webkit-linear-gradient(to bottom, '#CBCD93', '#ACAD82');
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5) inset;
-    }
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: #333;
-        color: white;
-        padding: 1rem;
-    }
-
-    /* Logo */
-    .logo a {
-        font-size: 1.5rem;
-        font-weight: bold;
-        color: white;
-        text-decoration: none;
-    }
-
-    /* Navigation Links */
-    .nav-links {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        align-items: center;
-    }
-
-    .menu {
-        display: flex;
-    }
-
-    .menu li {
-        padding: 0 1rem;
-    }
-
-    .menu li a {
-        color: white;
-        text-decoration: none;
-        font-size: 1rem;
-        transition: color 0.3s ease;
-    }
-
-    .menu li a:hover {
-        color: #17a2b8;
-    }
-
-    /* Dropdown Menu */
-    .services {
-        position: relative;
-    }
-
-    .dropdown {
-        display: none;
-        position: absolute;
-        background-color: #444;
-        list-style: none;
-        padding: 0.5rem 0;
-        margin-top: 0.5rem;
-        border-radius: 4px;
-        min-width: 150px;
-    }
-
-    .services:hover .dropdown {
-        display: block;
-    }
-
-    .dropdown li {
-        padding: 0.5rem 1rem;
-    }
-
-    .dropdown li a {
-        white-space: nowrap;
-    }
-
-    /* Hamburger Menu */
-    #checkbox_toggle {
-        display: none;
-    }
-
-    .hamburger {
-        display: none;
-        font-size: 24px;
-        cursor: pointer;
-    }
-
-
-    /* Responsive Design */
-    @media (max-width: 768px) {
-        .menu {
-            display: none;
-            flex-direction: column;
-            background-color: #444;
-            position: absolute;
-            top: 60px;
-            left: 0;
-            width: 100%;
-            text-align: center;
-            padding: 1rem 0;
-        }
-
-        .menu li {
-            padding: 1rem 0;
-        }
-
-        .nav-links {
-            order: 1; /* Change order to place hamburger on the right */
-        }
-
-        .logo {
-            order: 0;
-        }
-
-        .hamburger {
-            display: block;
-        }
-
-        #checkbox_toggle:checked ~ .menu {
-            display: flex;
-        }
-
-        .dropdown {
-            position: static;
-            display: none;
-            background-color: #555;
-        }
-
-        .services:hover .dropdown {
-            display: block;
-        }
-    }
-
-    </style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='Buttons.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='Navbar.css') }}">
 </head>
 <body>
     <!-- <script>
@@ -192,6 +49,20 @@
         <p>User ID: {{user[0]}}, Username: {{user[1]}}</p>
     {%endfor%}
     <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Create an Account!</h1>
+    <svg width="0" height="0" style="position:absolute; display:flex;">
+        <defs>
+            <filter id="realistic-glass">
+            <feMorphology in="SourceAlpha" operator="dilate" radius="2" result="alpha-inflated" />
+            <feGaussianBlur in="alpha-inflated" stdDeviation="3" result="alpha-blur" />
+            <feSpecularLighting in="alpha-blur" surfaceScale="5" specularConstant="1.2" specularExponent="20" lighting-color="#ffffff" result="specular-light">
+                <fePointLight x="-500" y="-1000" z="1500" />
+            </feSpecularLighting>
+            
+            <feComposite in="specular-light" in2="SourceGraphic" operator="in" result="specular-map" />
+            <feComposite in="SourceGraphic" in2="specular-map" operator="arithmetic" k1="0" k2="1" k3="1" k4="0" />
+            </filter>
+        </defs>
+    </svg>
     <form action="/create_account" method="POST">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username_input">
@@ -199,7 +70,22 @@
         <input type="password" id="password" name="password_input">
         <input type="submit" value="Submit">
     </form>
-    
+    <button
+        style="
+        background-image: linear-gradient(to top, #FCFF97, #E0E390);
+        width: 285px;
+        height: 60px;
+        border-color: #E0E39F;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 24px;
+        color: #333333;
+        border-radius: 15px;
+        "
+    >
+        Glass Button
+    </button>
     
 </body>
 </html>

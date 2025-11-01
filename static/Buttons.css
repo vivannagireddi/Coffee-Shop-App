@@ -1,0 +1,51 @@
+
+.gel-button {
+  padding: 16px 32px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  
+  /* Base color */
+  background-color: #007bff; /* Blue */
+
+  /* The "Glass" Shine */
+  background-image: 
+    linear-gradient(
+      rgba(255, 255, 255, 0.5) 0%, 
+      rgba(255, 255, 255, 0.1) 40%, 
+      transparent 100%
+    );
+  
+  /* Styling */
+  border: 1px solid #0056b3;
+  border-radius: 50px; /* Rounded for a "liquid" feel */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2), 
+              inset 0 1px 1px rgba(255, 255, 255, 0.3);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+
+.gel-button:hover {
+  background-color: #0069d9;
+}
+
+.gel-button:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.svg-glass-button {
+  padding: 16px 32px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  background: #c0392b; /* Red */
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  
+  /* 3. Apply the filter */
+  filter: url(#realistic-glass);
+}
