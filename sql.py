@@ -1,3 +1,5 @@
+# To Check MySQL Connection.
+
 import mysql.connector
 conn = mysql.connector.connect(
     host='127.0.0.1', user='root', password='VN@220508', database='coffee', port=3306
