@@ -37,12 +37,13 @@
         </div>
       </ul>
     </nav>
+    
     <div class="content">
         <h1>Menu</h1>
         <p>Explore our delicious offerings!</p>
         <div class="tab-bar">
-            <button class="tab-button"><b>Hot Classics</b></button>
-            <button class="tab-button" onclick="location.replace('/menu-cold')">Cold Chillers </button>
+            <button class="tab-button" onclick="location.replace('/menu')">Hot Classics</button>
+            <button class="tab-button"><b>Cold Chillers</b></button>
             <button class="tab-button" onclick="location.replace('/menu-delights')">Delights</button>
             <button class="tab-button" onclick="location.replace('/menu-desserts')>Desserts </button>
         </div>
@@ -50,17 +51,17 @@
         <div class="cards">
             <!-- Card: Espresso -->
             
-            <!-- Card: Latte -->
+            <!-- Card: Cold Coffee -->
             <div class="card" data-price="200.00">
-                <img src="{{ url_for('static', filename='assets/latte.jpg') }}" alt="Latte" class="card-image"/>
+                <img src="{{ url_for('static', filename='assets/cold-coffee.jpg') }}" alt="Latte" class="card-image"/>
                 <div class="card-body">
-                    <h3 class="card-title">Café Latte</h3>
-                    <p class="card-desc">Creamy steamed milk with a smooth espresso base — comforting and balanced.</p>
+                    <h3 class="card-title">Cold Coffee</h3>
+                    <p class="card-desc">A popular chilled beverage made from coffee, milk (or water), and a sweetener, often blended until frothy and served over ice</p>
                     <ul class="card-meta">
                         <li><strong>Sizes:</strong>S   |    M    |    L</li>
                     </ul>
                     <div class="card-footer">
-                        <span class="card-price">₹230.00</span>
+                        <span class="card-price">₹260.00</span>
                         <div class="qty-controls">
                             <button class="qty-decrease">−</button>
                             <input type="number" class="qty-input" value="0" min="0" />
@@ -70,12 +71,12 @@
                 </div>
             </div>
 
-            <!-- Card: Capuccino -->
+            <!-- Card: Iced Tea -->
             <div class="card" data-price="300.00">
-                <img src="{{ url_for('static', filename='assets/capuccino.jpg') }}" alt="Iced Caramel" class="card-image"/>
+                <img src="{{ url_for('static', filename='assets/Iced-Tea.jpg') }}" alt="Iced Caramel" class="card-image"/>
                 <div class="card-body">
-                    <h3 class="card-title">Capuccino</h3>
-                    <p class="card-desc">A frothy perfect balance of espresso, steamed milk and foam.</p>
+                    <h3 class="card-title">Iced Tea</h3>
+                    <p class="card-desc">A cool, crisp, and utterly refreshing: bright brewed tea, a kiss of citrus, and just enough sweetness to make every sip sparkle.</p>
                     <ul class="card-meta">
                         <li><strong>Sizes:</strong>S   |    M    |    L</li>
                     </ul>
@@ -90,10 +91,10 @@
                 </div>
             </div>
             <div class="card" data-price="250.00">
-                <img src="{{ url_for('static', filename='assets/expresso.jpg') }}" alt="Espresso" class="card-image"/>
+                <img src="{{ url_for('static', filename='assets/lemon.jpg') }}" alt="Espresso" class="card-image"/>
                 <div class="card-body">
-                    <h3 class="card-title">Espresso</h3>
-                    <p class="card-desc">A classic, rich shot of espresso made from our signature beans.</p>
+                    <h3 class="card-title">Lemonade</h3>
+                    <p class="card-desc">A zesty, bright, and irresistibly refreshing: freshly squeezed lemons, a touch of sweetness, and ice-cold sparkle in every sip.</p>
                     <ul class="card-meta">
                         <li><strong>Sizes:</strong>S   |    M    |    L</li>
                     </ul>
@@ -116,10 +117,10 @@
           const price = parseFloat(card.dataset.price || '0');
           const qtyInput = card.querySelector('.qty-input');
           card.querySelector('.qty-decrease').addEventListener('click', () => {
-            qtyInput.value = Math.max(0, parseInt(qtyInput.value || '1') - 1);
+            qtyInput.value = Math.max(1, parseInt(qtyInput.value || '1') - 1);
           });
           card.querySelector('.qty-increase').addEventListener('click', () => {
-            qtyInput.value = Math.max(0, parseInt(qtyInput.value || '1') + 1);
+            qtyInput.value = Math.max(1, parseInt(qtyInput.value || '1') + 1);
           });
         });
         </script>

@@ -37,30 +37,31 @@
         </div>
       </ul>
     </nav>
+    
     <div class="content">
         <h1>Menu</h1>
         <p>Explore our delicious offerings!</p>
         <div class="tab-bar">
-            <button class="tab-button"><b>Hot Classics</b></button>
-            <button class="tab-button" onclick="location.replace('/menu-cold')">Cold Chillers </button>
-            <button class="tab-button" onclick="location.replace('/menu-delights')">Delights</button>
+            <button class="tab-button" onclick="location.replace('/menu')">Hot Classics</button>
+            <button class="tab-button" onclick="location.replace('/menu-cold')">Cold Chillers</button>
+            <button class="tab-button"><b>Delights</b></button>
             <button class="tab-button" onclick="location.replace('/menu-desserts')>Desserts </button>
         </div>
 
         <div class="cards">
             <!-- Card: Espresso -->
             
-            <!-- Card: Latte -->
+            <!-- Card: Cold Coffee -->
             <div class="card" data-price="200.00">
-                <img src="{{ url_for('static', filename='assets/latte.jpg') }}" alt="Latte" class="card-image"/>
+                <img src="{{ url_for('static', filename='assets/panini.jpg') }}" alt="Latte" class="card-image"/>
                 <div class="card-body">
-                    <h3 class="card-title">Café Latte</h3>
-                    <p class="card-desc">Creamy steamed milk with a smooth espresso base — comforting and balanced.</p>
+                    <h3 class="card-title">Tofu Spinach Sandwich</h3>
+                    <p class="card-desc">A crispy, pesto-infused healthy herb sandwich - packed with crisp greens and savory cozy comfort.</p>
                     <ul class="card-meta">
                         <li><strong>Sizes:</strong>S   |    M    |    L</li>
                     </ul>
                     <div class="card-footer">
-                        <span class="card-price">₹230.00</span>
+                        <span class="card-price">₹280.00</span>
                         <div class="qty-controls">
                             <button class="qty-decrease">−</button>
                             <input type="number" class="qty-input" value="0" min="0" />
@@ -70,12 +71,12 @@
                 </div>
             </div>
 
-            <!-- Card: Capuccino -->
+            <!-- Card: Iced Tea -->
             <div class="card" data-price="300.00">
-                <img src="{{ url_for('static', filename='assets/capuccino.jpg') }}" alt="Iced Caramel" class="card-image"/>
+                <img src="{{ url_for('static', filename='assets/corny-sandwich.jpg') }}" alt="Iced Caramel" class="card-image"/>
                 <div class="card-body">
-                    <h3 class="card-title">Capuccino</h3>
-                    <p class="card-desc">A frothy perfect balance of espresso, steamed milk and foam.</p>
+                    <h3 class="card-title">Spinach & Corn Sandwich</h3>
+                    <p class="card-desc">A delightful fusion of vibrant spinach and sweet corn, nestled between slices of bread for a fresh, creamy, and satisfying bite.</p>
                     <ul class="card-meta">
                         <li><strong>Sizes:</strong>S   |    M    |    L</li>
                     </ul>
@@ -90,15 +91,15 @@
                 </div>
             </div>
             <div class="card" data-price="250.00">
-                <img src="{{ url_for('static', filename='assets/expresso.jpg') }}" alt="Espresso" class="card-image"/>
+                <img src="{{ url_for('static', filename='assets/chicken.jpg') }}" alt="Espresso" class="card-image"/>
                 <div class="card-body">
-                    <h3 class="card-title">Espresso</h3>
-                    <p class="card-desc">A classic, rich shot of espresso made from our signature beans.</p>
+                    <h3 class="card-title">Chicken Sandwich</h3>
+                    <p class="card-desc">A juicy grilled chicken, crisp greens, zesty sauce, and toasted bread — savory comfort in every bite.</p>
                     <ul class="card-meta">
                         <li><strong>Sizes:</strong>S   |    M    |    L</li>
                     </ul>
                     <div class="card-footer">
-                        <span class="card-price">₹250.00</span>
+                        <span class="card-price">₹270.00</span>
                         <div class="qty-controls">
                             <button class="qty-decrease">−</button>
                             <input type="number" class="qty-input" value="0" min="0"/>
@@ -116,10 +117,10 @@
           const price = parseFloat(card.dataset.price || '0');
           const qtyInput = card.querySelector('.qty-input');
           card.querySelector('.qty-decrease').addEventListener('click', () => {
-            qtyInput.value = Math.max(0, parseInt(qtyInput.value || '1') - 1);
+            qtyInput.value = Math.max(1, parseInt(qtyInput.value || '1') - 1);
           });
           card.querySelector('.qty-increase').addEventListener('click', () => {
-            qtyInput.value = Math.max(0, parseInt(qtyInput.value || '1') + 1);
+            qtyInput.value = Math.max(1, parseInt(qtyInput.value || '1') + 1);
           });
         });
         </script>

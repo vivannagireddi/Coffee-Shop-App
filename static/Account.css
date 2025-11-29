@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url("/static/assets/coffee-background.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed; /* keeps image fixed during scroll */
+}
+
+/* optional: dark overlay to improve text readability — adjust opacity as needed */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ensure page content sits above the overlay */
+body > * {
+  position: relative;
+  z-index: 1;
+}

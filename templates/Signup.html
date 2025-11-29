@@ -16,6 +16,9 @@
     <link
       rel="stylesheet"
       href="{{ url_for('static', filename='menu.css') }}"/>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='Account.css') }}"/>
 </head>
 <body>
     <nav class="navbar">
@@ -37,8 +40,8 @@
         </div>
       </ul>
     </nav>
-    <div class="login-container">
-        <h2>Login</h2>
+    <div class="signup-container">
+        <h2>Create an Account</h2>
         <form action="/menu" method="POST">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
