@@ -1,3 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.main-button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: #6f4e37; /* Coffee brown */
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 300px;
+  transition: background 0.3s ease;
+  box-shadow:inset 0 0 10px rgba(255, 113, 113, 0.2); /* Inner glow effect */ 
+  box-shadow: #e0e0e0 0px 0px 8px 0px; /* Outer glow effect */
+  font-family: 'Lato', sans-serif;
+}
+.tab-button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: black;
+  background: #FFFDD0; /* Cream */
+  border-radius: 300px;
+  transition: background 0.3s ease;
+  font-family: 'Lato', sans-serif;
+  border: none;
+}
+.main-button:hover {
+  transition: box-shadow 1.0s ease;
+  cursor: pointer;
+  box-shadow:inset 0 0 15px rgba(249, 78, 78, 0.3); /* Inner glow effect */ 
+  box-shadow: #a2a2a255 0px 0px 130px 0px; /* Outer glow effect */
+  border: 2.5px solid rgba(255, 255, 255, 0.3);
+}
+.glassy-blur-button:disabled {
+  background: rgba(255, 255, 255, 0.1);
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+.glassy-blur-button {
+  filter: none; /* Remove blur effect from the button itself */
+}
 
 .glassy-blur-button {
   padding: 12px 24px;

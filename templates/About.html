@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='Home.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='Buttons.css') }}"
+    />
+</head>
+<body>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#">Cozy Cup Corner</a>
+      </div>
+      <ul class="nav-links">
+        <div class="menu">
+          <div class="sub-menu1">
+            <li><a href="/"><b>Home</b></a></li>
+            
+            <li><a href="/about-us"><b>About Us</b></a></li>
+            <li><a href="/menu">Menu</a></li>
+            <li><a href="/">Orders</a></li>
+          </div>
+          <div class="sub-menu2">
+            <li><a href="/templates/Signup.html"><i class="fa-regular fa-user" style="color: #fff; height: 10px; width: 10px;"></i></a></li>
+          </div>
+        </div>
+      </ul>
+    </nav>
+    <div class="content">
+        <div class="about-header">
+            <img 
+                src="https://coffeeza.in/cdn/shop/articles/Coffee_Beans_Blog_3888x.jpg?v=1670838724"
+            />
+            <div class="centered"><h1>About Us</h1></div>
+        </div>
+        <div class="about-us">
+            
+            <p>At Cozy Cup Corner, we believe that a great cup of coffee is more than just a beverage – it's an experience. Our mission is to create a warm and inviting space where coffee lovers can gather, relax, and enjoy expertly crafted drinks made from the finest beans.</p>
+            <p>Whether you're in the mood for a classic espresso, a creamy latte, a smooth cappuccino, or a refreshing iced coffee, our skilled baristas are here to serve you with a smile. We source our beans from sustainable farms around the world, ensuring that every cup not only tastes great but also supports ethical practices and fair-trade principles.</p>
+            <p>Our cozy atmosphere is perfect for catching up with friends, working on your laptop, or simply taking a moment to yourself. We offer free WiFi, comfortable seating, and a welcoming environment for all our guests. From students to professionals, families to coffee enthusiasts, everyone finds a place at Cozy Cup Corner.</p>
+            <p>Join us at Cozy Cup Corner and discover your new favorite coffee spot. We can't wait to welcome you to our community and share our passion for great coffee with you!</p>
+        </div>
+        <div class="contact-us">
+            <h1>Contact Us</h1>
+            <p>If you have any questions, feedback, or just want to say hello, we'd love to hear from you! Reach out to us through any of the following methods. Whether it's a suggestion for a new drink, or simply to share your coffee experience with us, we're all ears!</p>
+            <p><strong>Hours of Operation:</strong> Monday - Friday: 7:00 AM - 10:00 PM | Saturday - Sunday: 8:00 AM - 11:00 PM</p>
+            <p><strong>Phone:</strong> (+91) 00000 00000 | <strong>Email:</strong> hello@cozycupcorner.com | <strong>Location:</strong> 123 Coffee Lane, Brew Street, Bangalore</p>
+            
+            <form action="/contact" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone (optional):</label>
+                    <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" placeholder="How can we help?" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell us what's on your mind..." required></textarea>
+                </div>
+
+                <button type="submit" class="main-button">Send Message</button>
+            </form>
+        </div>
+        <div class="footer">
+            <p>&copy; 2025 Cozy Cup Corner. All rights reserved. | Crafted with a lot of <i class="fas fa-heart" style="color: #b58e72;"></i></p>
+            
+        </div>
+    </div>
+</body>
+</html>

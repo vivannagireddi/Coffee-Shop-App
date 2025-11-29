@@ -1,0 +1,317 @@
+/* General Styling */
+
+/* Fonts from Google Fonts */
+/* Montserrat - For text */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* Playfair Display - For headers */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* Lato - for Text */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:1rem;
+  background:var(--panel);
+  backdrop-filter:blur(20px);
+  background-color: #0047abce; /* Sapphire blue */
+  position:sticky;
+  top:0;
+  z-index:999;
+  box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+.logo-image {
+  width: 10px;
+  height: 90px;
+  margin-right: 10px;
+}
+.logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+}
+/* ensure nav list resets */
+.nav-links {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+/* container for menu groups */
+.nav-links .menu {
+  display: flex;
+  gap: 24px; /* space between groups */
+  align-items: center;
+}
+
+/* each group holds its items in a row */
+.nav-links .menu .sub-menu1 {
+  display: flex;
+  gap: 80px; /* space between items */
+  align-items: center;
+}
+
+/* style list items */
+.nav-links .menu .sub-menu1 li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* anchor spacing/appearance */
+.nav-links .menu .sub-menu1 li a {
+  display: inline-block;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: white;
+  transition: text-decoration-color 0.3s ease;  /* smooth color change on hover */
+}
+
+.nav-links .menu .sub-menu1 li a:hover {
+  color: #ffffff !important;
+  text-decoration: underline;
+  text-decoration-color: #ffffff;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  animation: underlineSlide 1.6s ease-in-out forwards;
+}
+
+/* add keyframe animation for underline */
+@keyframes underlineSlide {
+  from {
+    text-decoration-thickness: 0px;
+    text-underline-offset: 4px;
+  }
+  to {
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+  }
+}
+
+.nav-links .menu .sub-menu2 {
+  display: flex;
+  gap: 80px; /* space between items */
+  align-items: center;
+}
+
+/* style list items */
+.nav-links .menu .sub-menu2 li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* anchor spacing/appearance */
+.nav-links .menu .sub-menu2 li a {
+  display: inline-block;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.header {
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  color: #333;
+  margin: 0;
+  position: relative;
+}
+
+.subheader {
+  text-align: center;
+  color: #000;
+  width: 50%;
+  margin-right: 30%;
+  position: absolute;
+  top: 70%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+
+}
+.image-header-drawing {
+  width: 60%;
+  height: auto;
+  margin: 20px ;
+  opacity: 1.0;
+  transform: translateY(10px);
+  transition: transform 0.25s ease;
+}
+
+/* About Us Section */
+.content{
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  margin: 20px;
+}
+h2{
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 20px;
+}
+.about-us p{
+  top: 10%;
+  font-family: 'Lato', serif;
+  margin-bottom: 20px;
+}
+
+/* About page hero image */
+.content img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  border-radius: 10px;
+}
+.about-header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+@media (max-width: 768px) {
+  .content img {
+    height: 200px;
+  }
+}
+
+/* Contact Us Section */
+.contact-us {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+}
+
+.contact-us h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.contact-us p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+/* Contact Form Styling */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 600px;
+  margin-top: 2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-family: 'Lato', serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #8B4513;
+  box-shadow: 0 0 8px rgba(139, 69, 19, 0.3);
+  background-color: #fff;
+}
+
+.form-group textarea {
+  resize: vertical;
+  font-family: 'Lato', sans-serif;
+}
+
+.contact-form .main-button {
+  align-self: flex-start;
+  margin-top: 1rem;
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  background-color: #6f4e37; /* Coffee brown */
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  font-family: 'Lato', sans-serif;
+  margin-top: 50px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .contact-us {
+    padding: 30px;
+    margin: 15px;
+  }
+
+  .contact-us h2 {
+    font-size: 1.8rem;
+  }
+
+  .contact-form {
+    max-width: 100%;
+  }
+}
+

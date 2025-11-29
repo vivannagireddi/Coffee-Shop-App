@@ -16,6 +16,7 @@ def runFlaskBackend(passwd, debugMode):
     app.config['MYSQL_DB'] = 'coffee'
     
     mysql = MySQL(app)
+    
     # simple file + console logging
     logging.basicConfig(filename='flask.log', level=logging.INFO,
                         format='%(asctime)s %(levelname)s: %(message)s')
@@ -25,7 +26,7 @@ def runFlaskBackend(passwd, debugMode):
     app.logger.setLevel(logging.INFO)
 
     app.logger.info("Starting Flask backend")
-
+    isLoggedIn = False
     @app.route("/")
     def hello_world():
         app.logger.info("Index requested")
@@ -37,9 +38,36 @@ def runFlaskBackend(passwd, debugMode):
 
         return render_template('index.html', userlist=users)
 
-    @app.route('/create_account', methods=['POST'])
-    def create_account():
+
+    @app.route('/menu')
+    def menu():
+        # render templates/menu.html if it exists, otherwise return a simple placeholder
+        try:
+            return render_template('Menu.html', session=isLoggedIn)
         
+        except Exception:
+            return "<h1>Menu</h1><p>Menu page coming soon.</p>", 200
+    
+    @app.route('/about-us')
+    def about_us():
+        # render templates/about_us.html if it exists, otherwise return a simple placeholder
+        try:
+            return render_template('About.html')
+        
+        except Exception:
+            return "<h1>About Us</h1><p>About Us page coming soon.</p>", 200
+
+    
+    
+    # Render the Rendering Page
+    @app.route('/ThreeJS.html')
+    def threejs():
+        app.logger.info("ThreeJS requested")
+        return render_template('ThreeJS.html')
+    
+    @app.route('/Signup', methods=['GET', 'POST'])
+    def signup():
+        global isLoggedIn
         if request.method == 'POST':
             username = request.form['username_input']
             password = request.form['password_input']
@@ -48,14 +76,10 @@ def runFlaskBackend(passwd, debugMode):
             cursor.execute(''' INSERT INTO users VALUES(%s,%s,%s)''',(random.randrange(1000,9999),username,password))
             mysql.connection.commit()
             cursor.close()
+            isLoggedIn = True
             return render_template("Account.html", user_name=username)
-    
-    # Render the Rendering Page
-    @app.route('/ThreeJS.html')
-    def threejs():
-        app.logger.info("ThreeJS requested")
-        return render_template('ThreeJS.html')
-    
+        else:
+            return render_template("Signup.html")
     
     # IMPORTANT: disable the reloader in a child process
     app.run(host='localhost', port=5000, debug=debugMode, use_reloader=False)

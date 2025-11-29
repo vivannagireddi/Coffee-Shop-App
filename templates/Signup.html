@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Home</title>
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='Buttons.css') }}">
     <link
       rel="stylesheet"
       href="{{ url_for('static', filename='Home.css') }}"
@@ -14,7 +13,11 @@
       rel="stylesheet"
       href="{{ url_for('static', filename='Buttons.css') }}"
     />
-  <body>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='menu.css') }}"/>
+</head>
+<body>
     <nav class="navbar">
       <div class="logo">
         <a href="#">Cozy Cup Corner</a>
@@ -34,19 +37,19 @@
         </div>
       </ul>
     </nav>
-    <div class="header">
-        <div class="overlay">
-            <image src="{{ url_for('static', filename='assets/Coffee.jpg') }}" alt="Coffee Background" class="image-header-drawing"/>
-        </div>
-        <div class="subheader">
-            <h1>Where every sip feels like home.</h1>
-            <p>Welcome to Cozy Cup Corner!</p>
-            <p>Experience the perfect blend of comfort, quality, and community in every cup. From sunrise to sunset, we're here to brighten your day with exceptional coffee and warm hospitality.</p>
-            <button class="main-button">
-                Explore us
-            </button>
-        </div>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="/menu" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit" class="main-button">Signup</button>
+        </form>
+        <p>Have an account? <a href="/register">Login Here.</a></p>
     </div>
-    
-  </body>
+</body>
 </html>
+
