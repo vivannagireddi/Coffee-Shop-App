@@ -28,8 +28,8 @@
             <li><a href="/"><b>Home</b></a></li>
             
             <li><a href="/about-us">About Us</a></li>
-            <li><a href="/menu"><b>Menu</b></a></li>
-            <li><a href="/">Orders</a></li>
+            <li><a href="/menu">Our Menu</a></li>
+            <li><a href="/">Your Orders</a></li>
           </div>
           <div class="sub-menu2">
             <li><a href="/Signup"><i class="fa-regular fa-user" style="color: #fff; height: 10px; width: 10px;"></i></a></li>
@@ -38,8 +38,13 @@
       </ul>
     </nav>
     <div class="content">
-        <h1>Menu</h1>
-        <p>Explore our delicious offerings!</p>
+        <div class="about-header">
+            <img 
+                src="https://www.indiafoodnetwork.in/h-upload/2025/02/25/1484691-pretty-cafes-cover.webp"
+            />
+            <div class="centered"><h1>Our Menu</h1></div>
+        </div>
+        <p><b>Explore our delicious offerings!</b></p>
         <div class="tab-bar">
             <button class="tab-button"><b>Hot Classics</b></button>
             <button class="tab-button" onclick="location.replace('/menu-cold')">Cold Chillers </button>
@@ -71,7 +76,7 @@
             </div>
 
             <!-- Card: Capuccino -->
-            <div class="card" data-price="300.00">
+            <div class="card" data-price="250.00">
                 <img src="{{ url_for('static', filename='assets/capuccino.jpg') }}" alt="Iced Caramel" class="card-image"/>
                 <div class="card-body">
                     <h3 class="card-title">Capuccino</h3>
@@ -89,7 +94,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card" data-price="250.00">
+            <div class="card" data-price="270.00">
                 <img src="{{ url_for('static', filename='assets/expresso.jpg') }}" alt="Espresso" class="card-image"/>
                 <div class="card-body">
                     <h3 class="card-title">Espresso</h3>
@@ -98,7 +103,7 @@
                         <li><strong>Sizes:</strong>S   |    M    |    L</li>
                     </ul>
                     <div class="card-footer">
-                        <span class="card-price">₹250.00</span>
+                        <span class="card-price">₹270.00</span>
                         <div class="qty-controls">
                             <button class="qty-decrease">−</button>
                             <input type="number" class="qty-input" value="0" min="0"/>
@@ -113,5 +118,8 @@
         <!-- Optional small script to manage qty UI and compute item total (frontend only) -->
         <script src="{{ url_for('static', filename='Scripts/Menu.js') }}"></script>
     </div>
+    <div class="footer">
+            <p>&copy; 2025 Cozy Cup Corner. All rights reserved. | Crafted with a lot of <i class="fas fa-heart" style="color: #b58e72;"></i></p>
+      </div>
 </body>
 </html>
