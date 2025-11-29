@@ -66,7 +66,15 @@ def runFlaskBackend(passwd, debugMode):
         except Exception:
             return "<h1>Delights Menu</h1><p>Delights Menu page coming soon.</p>", 200  
             
-    
+    @app.route('/menu-desserts')
+    def menu_desserts():
+        # render templates/menu_food.html if it exists, otherwise return a simple placeholder
+        try:
+            return render_template('Menu-Desserts.html', session=isLoggedIn)
+        
+        except Exception:
+            return "<h1>Food Menu</h1><p>Food Menu page coming soon.</p>", 200
+        
     @app.route('/about-us')
     def about_us():
         # render templates/about_us.html if it exists, otherwise return a simple placeholder

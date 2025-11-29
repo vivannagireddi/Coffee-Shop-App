@@ -45,7 +45,7 @@
             <button class="tab-button" onclick="location.replace('/menu')">Hot Classics</button>
             <button class="tab-button" onclick="location.replace('/menu-cold')">Cold Chillers</button>
             <button class="tab-button"><b>Delights</b></button>
-            <button class="tab-button" onclick="location.replace('/menu-desserts')>Desserts </button>
+            <button class="tab-button" onclick="location.replace('/menu-desserts')">Desserts </button>
         </div>
 
         <div class="cards">
@@ -112,18 +112,7 @@
         </div>
 
         <!-- Optional small script to manage qty UI and compute item total (frontend only) -->
-        <script>
-        document.querySelectorAll('.card').forEach(card => {
-          const price = parseFloat(card.dataset.price || '0');
-          const qtyInput = card.querySelector('.qty-input');
-          card.querySelector('.qty-decrease').addEventListener('click', () => {
-            qtyInput.value = Math.max(1, parseInt(qtyInput.value || '1') - 1);
-          });
-          card.querySelector('.qty-increase').addEventListener('click', () => {
-            qtyInput.value = Math.max(1, parseInt(qtyInput.value || '1') + 1);
-          });
-        });
-        </script>
+        <script src="{{ url_for('static', filename='Scripts/Menu.js') }}"></script>
     </div>
 </body>
 </html>
