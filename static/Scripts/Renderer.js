@@ -15,7 +15,7 @@ const cube = new THREE.Mesh( geometry, material );
 // scene.add( cube );
 camera.position.z = 5;
 
-const sphere = new THREE.SphereGeometry(1.4, 4096, 4096);
+const sphere = new THREE.SphereGeometry(1.4, 1024, 1024, 0, Math.PI * 2, 0, Math.PI);
 const sphereMaterial = new THREE.MeshPhongMaterial({ color: 0xff0000 });
 sphereMaterial.shininess = 100;
 sphereMaterial.specular = new THREE.Color(0x222222);

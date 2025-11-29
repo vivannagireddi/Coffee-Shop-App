@@ -1529,3 +1529,132 @@ MySQLdb.OperationalError: (1045, "Access denied for user 'root'@'localhost' (usi
 2025-11-20 13:06:31,050 INFO: 127.0.0.1 - - [20/Nov/2025 13:06:31] "GET /ThreeJS.html HTTP/1.1" 200 -
 2025-11-20 13:06:31,317 INFO: 127.0.0.1 - - [20/Nov/2025 13:06:31] "[32mGET /static//Scripts/Renderer.js HTTP/1.1[0m" 308 -
 2025-11-20 13:06:32,328 INFO: 127.0.0.1 - - [20/Nov/2025 13:06:32] "GET /static/Scripts/Renderer.js HTTP/1.1" 200 -
+2025-11-21 11:05:16,621 INFO: Starting Flask backend
+2025-11-21 11:05:16,711 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-21 11:05:16,711 INFO: [33mPress CTRL+C to quit[0m
+2025-11-21 11:05:18,642 INFO: Index requested
+2025-11-21 11:05:19,268 INFO: 127.0.0.1 - - [21/Nov/2025 11:05:19] "GET / HTTP/1.1" 200 -
+2025-11-21 11:05:20,194 INFO: 127.0.0.1 - - [21/Nov/2025 11:05:20] "GET /static/Navbar.css HTTP/1.1" 200 -
+2025-11-21 11:05:20,194 INFO: 127.0.0.1 - - [21/Nov/2025 11:05:20] "GET /static/Buttons.css HTTP/1.1" 200 -
+2025-11-21 11:05:20,276 INFO: 127.0.0.1 - - [21/Nov/2025 11:05:20] "GET /static/assets/Sample.jpg HTTP/1.1" 200 -
+2025-11-21 11:05:23,446 INFO: ThreeJS requested
+2025-11-21 11:05:23,577 INFO: 127.0.0.1 - - [21/Nov/2025 11:05:23] "GET /ThreeJS.html HTTP/1.1" 200 -
+2025-11-21 11:05:23,606 INFO: 127.0.0.1 - - [21/Nov/2025 11:05:23] "[32mGET /static//Scripts/Renderer.js HTTP/1.1[0m" 308 -
+2025-11-21 11:05:23,656 INFO: 127.0.0.1 - - [21/Nov/2025 11:05:23] "GET /static/Scripts/Renderer.js HTTP/1.1" 200 -
+2025-11-21 14:36:52,868 INFO: Starting Flask backend
+2025-11-21 14:36:53,080 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-21 14:36:53,103 INFO: [33mPress CTRL+C to quit[0m
+2025-11-21 14:36:53,635 INFO: Index requested
+2025-11-21 14:36:53,910 INFO: 127.0.0.1 - - [21/Nov/2025 14:36:53] "GET / HTTP/1.1" 200 -
+2025-11-21 14:36:54,739 INFO: 127.0.0.1 - - [21/Nov/2025 14:36:54] "GET /static/Buttons.css HTTP/1.1" 200 -
+2025-11-21 14:36:54,740 INFO: 127.0.0.1 - - [21/Nov/2025 14:36:54] "GET /static/assets/Sample.jpg HTTP/1.1" 200 -
+2025-11-21 14:36:54,740 INFO: 127.0.0.1 - - [21/Nov/2025 14:36:54] "GET /static/Navbar.css HTTP/1.1" 200 -
+2025-11-21 14:37:06,900 INFO: ThreeJS requested
+2025-11-21 14:37:06,904 INFO: 127.0.0.1 - - [21/Nov/2025 14:37:06] "GET /ThreeJS.html HTTP/1.1" 200 -
+2025-11-21 14:37:06,926 INFO: 127.0.0.1 - - [21/Nov/2025 14:37:06] "[32mGET /static//Scripts/Renderer.js HTTP/1.1[0m" 308 -
+2025-11-21 14:37:06,937 INFO: 127.0.0.1 - - [21/Nov/2025 14:37:06] "GET /static/Scripts/Renderer.js HTTP/1.1" 200 -
+2025-11-21 14:37:48,369 INFO: Starting Flask backend
+2025-11-21 14:37:48,450 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-21 14:37:48,451 INFO: [33mPress CTRL+C to quit[0m
+2025-11-21 14:37:48,497 INFO: Index requested
+2025-11-21 14:37:48,552 INFO: 127.0.0.1 - - [21/Nov/2025 14:37:48] "GET / HTTP/1.1" 200 -
+2025-11-21 14:37:49,471 INFO: 127.0.0.1 - - [21/Nov/2025 14:37:49] "GET /static/Buttons.css HTTP/1.1" 200 -
+2025-11-21 14:37:49,491 INFO: 127.0.0.1 - - [21/Nov/2025 14:37:49] "GET /static/assets/Sample.jpg HTTP/1.1" 200 -
+2025-11-21 14:37:49,550 INFO: 127.0.0.1 - - [21/Nov/2025 14:37:49] "GET /static/Navbar.css HTTP/1.1" 200 -
+2025-11-21 14:37:59,351 INFO: Index requested
+2025-11-21 14:37:59,359 INFO: 127.0.0.1 - - [21/Nov/2025 14:37:59] "GET / HTTP/1.1" 200 -
+2025-11-21 14:37:59,389 INFO: 127.0.0.1 - - [21/Nov/2025 14:37:59] "GET /static/Buttons.css HTTP/1.1" 200 -
+2025-11-21 14:37:59,391 INFO: 127.0.0.1 - - [21/Nov/2025 14:37:59] "GET /static/Navbar.css HTTP/1.1" 200 -
+2025-11-21 14:37:59,405 INFO: 127.0.0.1 - - [21/Nov/2025 14:37:59] "GET /static/assets/Sample.jpg HTTP/1.1" 200 -
+2025-11-21 14:38:02,969 INFO: 127.0.0.1 - - [21/Nov/2025 14:38:02] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-21 14:38:02,970 INFO: 127.0.0.1 - - [21/Nov/2025 14:38:02] "[36mGET /static/Navbar.css HTTP/1.1[0m" 304 -
+2025-11-21 14:38:07,383 INFO: ThreeJS requested
+2025-11-21 14:38:07,388 INFO: 127.0.0.1 - - [21/Nov/2025 14:38:07] "GET /ThreeJS.html HTTP/1.1" 200 -
+2025-11-21 14:38:07,409 INFO: 127.0.0.1 - - [21/Nov/2025 14:38:07] "[32mGET /static//Scripts/Renderer.js HTTP/1.1[0m" 308 -
+2025-11-21 14:38:07,424 INFO: 127.0.0.1 - - [21/Nov/2025 14:38:07] "GET /static/Scripts/Renderer.js HTTP/1.1" 200 -
+2025-11-21 14:40:34,310 INFO: ThreeJS requested
+2025-11-21 14:40:35,886 INFO: 127.0.0.1 - - [21/Nov/2025 14:40:35] "GET /ThreeJS.html HTTP/1.1" 200 -
+2025-11-21 14:41:36,170 INFO: 127.0.0.1 - - [21/Nov/2025 14:41:36] "[36mGET /static/Scripts/Renderer.js HTTP/1.1[0m" 304 -
+2025-11-21 14:43:34,151 INFO: ThreeJS requested
+2025-11-21 14:43:34,203 INFO: 127.0.0.1 - - [21/Nov/2025 14:43:34] "GET /ThreeJS.html HTTP/1.1" 200 -
+2025-11-21 14:43:34,284 INFO: 127.0.0.1 - - [21/Nov/2025 14:43:34] "[32mGET /static//Scripts/Renderer.js HTTP/1.1[0m" 308 -
+2025-11-21 14:43:34,313 INFO: 127.0.0.1 - - [21/Nov/2025 14:43:34] "GET /static/Scripts/Renderer.js HTTP/1.1" 200 -
+2025-11-21 14:44:40,221 INFO: Starting Flask backend
+2025-11-21 14:44:40,303 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-21 14:44:40,304 INFO: [33mPress CTRL+C to quit[0m
+2025-11-21 14:44:40,526 INFO: Index requested
+2025-11-21 14:44:40,734 INFO: 127.0.0.1 - - [21/Nov/2025 14:44:40] "GET / HTTP/1.1" 200 -
+2025-11-21 14:44:41,575 INFO: 127.0.0.1 - - [21/Nov/2025 14:44:41] "GET /static/Navbar.css HTTP/1.1" 200 -
+2025-11-21 14:44:41,666 INFO: 127.0.0.1 - - [21/Nov/2025 14:44:41] "GET /static/Buttons.css HTTP/1.1" 200 -
+2025-11-21 14:44:41,666 INFO: 127.0.0.1 - - [21/Nov/2025 14:44:41] "GET /static/assets/Sample.jpg HTTP/1.1" 200 -
+2025-11-21 14:44:44,978 INFO: ThreeJS requested
+2025-11-21 14:44:44,984 INFO: 127.0.0.1 - - [21/Nov/2025 14:44:44] "GET /ThreeJS.html HTTP/1.1" 200 -
+2025-11-21 14:44:45,025 INFO: 127.0.0.1 - - [21/Nov/2025 14:44:45] "[32mGET /static//Scripts/Renderer.js HTTP/1.1[0m" 308 -
+2025-11-21 14:44:45,034 INFO: 127.0.0.1 - - [21/Nov/2025 14:44:45] "GET /static/Scripts/Renderer.js HTTP/1.1" 200 -
+2025-11-21 14:46:07,743 INFO: Starting Flask backend
+2025-11-21 14:46:07,810 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-21 14:46:07,813 INFO: [33mPress CTRL+C to quit[0m
+2025-11-21 14:46:08,443 INFO: Index requested
+2025-11-21 14:46:08,525 ERROR: Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "d:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\Run.py", line 46, in hello_world
+    cursor = mysql.connection.cursor()
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_mysqldb\__init__.py", line 109, in connection
+    ctx.mysql_db = self.connect
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask_mysqldb\__init__.py", line 97, in connect
+    return MySQLdb.connect(**kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\__init__.py", line 121, in Connect
+    return Connection(*args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 200, in __init__
+    super().__init__(*args, **kwargs2)
+MySQLdb.OperationalError: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+2025-11-21 14:46:08,729 INFO: 127.0.0.1 - - [21/Nov/2025 14:46:08] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-21 14:46:24,274 INFO: Starting Flask backend
+2025-11-21 14:46:24,355 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-21 14:46:24,355 INFO: [33mPress CTRL+C to quit[0m
+2025-11-21 14:46:24,478 INFO: Index requested
+2025-11-21 14:46:24,622 INFO: 127.0.0.1 - - [21/Nov/2025 14:46:24] "GET / HTTP/1.1" 200 -
+2025-11-21 14:46:25,153 INFO: 127.0.0.1 - - [21/Nov/2025 14:46:25] "GET /static/Buttons.css HTTP/1.1" 200 -
+2025-11-21 14:46:25,153 INFO: 127.0.0.1 - - [21/Nov/2025 14:46:25] "GET /static/Navbar.css HTTP/1.1" 200 -
+2025-11-21 14:46:25,210 INFO: 127.0.0.1 - - [21/Nov/2025 14:46:25] "GET /static/assets/Sample.jpg HTTP/1.1" 200 -
+2025-11-21 14:46:27,115 INFO: ThreeJS requested
+2025-11-21 14:46:27,128 INFO: 127.0.0.1 - - [21/Nov/2025 14:46:27] "GET /ThreeJS.html HTTP/1.1" 200 -
+2025-11-21 14:46:27,156 INFO: 127.0.0.1 - - [21/Nov/2025 14:46:27] "[32mGET /static//Scripts/Renderer.js HTTP/1.1[0m" 308 -
+2025-11-21 14:46:27,165 INFO: 127.0.0.1 - - [21/Nov/2025 14:46:27] "GET /static/Scripts/Renderer.js HTTP/1.1" 200 -
+2025-11-21 15:41:44,890 INFO: Starting Flask backend
+2025-11-21 15:41:44,970 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-21 15:41:44,984 INFO: [33mPress CTRL+C to quit[0m
+2025-11-21 15:41:45,867 INFO: Index requested
+2025-11-21 15:41:46,018 INFO: 127.0.0.1 - - [21/Nov/2025 15:41:46] "GET / HTTP/1.1" 200 -
+2025-11-21 15:41:46,419 INFO: 127.0.0.1 - - [21/Nov/2025 15:41:46] "GET /static/Navbar.css HTTP/1.1" 200 -
+2025-11-21 15:41:46,419 INFO: 127.0.0.1 - - [21/Nov/2025 15:41:46] "GET /static/Buttons.css HTTP/1.1" 200 -
+2025-11-21 15:41:46,430 INFO: 127.0.0.1 - - [21/Nov/2025 15:41:46] "GET /static/assets/Sample.jpg HTTP/1.1" 200 -
+2025-11-21 15:41:48,669 INFO: Index requested
+2025-11-21 15:41:48,675 INFO: 127.0.0.1 - - [21/Nov/2025 15:41:48] "GET / HTTP/1.1" 200 -
+2025-11-21 15:41:48,708 INFO: 127.0.0.1 - - [21/Nov/2025 15:41:48] "GET /static/Buttons.css HTTP/1.1" 200 -
+2025-11-21 15:41:48,922 INFO: 127.0.0.1 - - [21/Nov/2025 15:41:48] "GET /static/Navbar.css HTTP/1.1" 200 -
+2025-11-21 15:41:49,015 INFO: 127.0.0.1 - - [21/Nov/2025 15:41:49] "GET /static/assets/Sample.jpg HTTP/1.1" 200 -
+2025-11-21 15:41:49,347 INFO: 127.0.0.1 - - [21/Nov/2025 15:41:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-21 15:41:50,591 INFO: ThreeJS requested
+2025-11-21 15:41:50,598 INFO: 127.0.0.1 - - [21/Nov/2025 15:41:50] "GET /ThreeJS.html HTTP/1.1" 200 -
+2025-11-21 15:41:50,921 INFO: 127.0.0.1 - - [21/Nov/2025 15:41:50] "[32mGET /static//Scripts/Renderer.js HTTP/1.1[0m" 308 -
+2025-11-21 15:41:51,240 INFO: 127.0.0.1 - - [21/Nov/2025 15:41:51] "GET /static/Scripts/Renderer.js HTTP/1.1" 200 -
+2025-11-21 15:41:57,354 INFO: ThreeJS requested
+2025-11-21 15:41:57,356 INFO: 127.0.0.1 - - [21/Nov/2025 15:41:57] "GET /ThreeJS.html HTTP/1.1" 200 -
+2025-11-21 15:41:57,377 INFO: 127.0.0.1 - - [21/Nov/2025 15:41:57] "[32mGET /static//Scripts/Renderer.js HTTP/1.1[0m" 308 -
+2025-11-21 15:41:57,382 INFO: 127.0.0.1 - - [21/Nov/2025 15:41:57] "GET /static/Scripts/Renderer.js HTTP/1.1" 200 -

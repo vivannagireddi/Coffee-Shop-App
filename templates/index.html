@@ -1,62 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Title</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='Buttons.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='Navbar.css') }}">
-</head>
-<body style="background-image: url('../static/assets/Sample.jpg'); background-size: cover; background-repeat: no-repeat; height: 100vh; margin: 0;">
-    <!-- <script>
-        function pushNotification(title, body){
-            Notification.requestPermission().then(permission => {
-                if (permission === 'granted') {
-                    const alert = new Notification(title, {body: body});
-                    return alert
-                } else {
-                    console.log('Notification permission denied ..')
-                }
-            });
-        }
-    </script> -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='Buttons.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='Navbar.css') }}"
+    />
+  </head>
+  <body
+    style="
+      background-image: url('../static/assets/Sample.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      margin: 0;
+    "
+  >
     <nav class="navbar">
-            <div class="logo">
-                <a href="#">Logo</a>
-            </div>
-        <button id="grad1">Click me</button>
-            <ul class="nav-links">
-                <input type="checkbox" id="checkbox_toggle" />
-                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-                <div class="menu">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li class="services">
-                        <a href="/">Services</a>
-                        <ul class="dropdown">
-                            <li><a href="/" onclick="pushNotification('I love you', 'OMG DoWnload this now!!!!!')">Dropdown 1</a></li>
-                            <li><a href="/">Dropdown 2</a></li>
-                            <li><a href="/">Dropdown 3</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="/">Pricing</a></li>
-                    <li><a href="/">Contact</a></li>
-                </div>
+      <div class="logo">
+        <a href="#">Logo</a>
+      </div>
+      <ul class="nav-links">
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <div class="menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li class="services">
+            <a href="/">Services</a>
+            <ul class="dropdown">
+              <li>
+                <a
+                  href="/"
+                  onclick="pushNotification('I love you', 'OMG DoWnload this now!!!!!')"
+                  >Dropdown 1</a
+                >
+              </li>
+              <li><a href="/">Dropdown 2</a></li>
+              <li><a href="/">Dropdown 3</a></li>
             </ul>
-        </nav>
+          </li>
+          <li><a href="/">Pricing</a></li>
+          <li><a href="/">Contact</a></li>
+        </div>
+      </ul>
+    </nav>
     <!-- {%for user in userlist%}
         <p>User ID: {{user[0]}}, Username: {{user[1]}}</p>
     {%endfor%} -->
     <form action="/create_account" method="POST">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username_input">
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password_input">
-        <input type="submit" value="Submit">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username_input" />
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password_input" />
+      <input type="submit" value="Submit" />
     </form>
     <div>
-        <button class="glassy-blur-button" onclick="window.location.replace('/ThreeJS.html')">Click Me
-        </button>
+      <button
+        class="glassy-blur-button"
+        onclick="window.location.replace('/ThreeJS.html')"
+      >
+        Click Me
+      </button>
     </div>
-    
-</body>
+  </body>
 </html>

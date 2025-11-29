@@ -1,147 +1,143 @@
 /* General Styling */
-    body {
-        font-family: sans-serif;
-        margin: 0;
-    }
-    #grad1 {
-      padding: 20px;
-      font-size: 20px;
-      border-radius: 200px;
-      /* For browsers that do not support gradients */
-      background: -webkit-linear-gradient(to bottom, '#CBCD93', '#ACAD82');
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5) inset;
-    }
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: #333;
-        color: white;
-        padding: 1rem;
-    }
 
-    /* Logo */
-    .logo a {
-        font-size: 1.5rem;
-        font-weight: bold;
-        color: white;
-        text-decoration: none;
-    }
-
-    /* Navigation Links */
-    .nav-links {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        align-items: center;
-    }
-
-    .menu {
-        display: flex;
-    }
-
-    .menu li {
-        padding: 0 1rem;
-    }
-
-    .menu li a {
-        color: white;
-        text-decoration: none;
-        font-size: 1rem;
-        transition: color 0.3s ease;
-    }
-
-    .menu li a:hover {
-        color: #17a2b8;
-    }
-
-    /* Dropdown Menu */
-    .services {
-        position: relative;
-    }
-
-    .dropdown {
-        display: none;
-        position: absolute;
-        background-color: #444;
-        list-style: none;
-        padding: 0.5rem 0;
-        margin-top: 0.5rem;
-        border-radius: 4px;
-        min-width: 150px;
-    }
-
-    .services:hover .dropdown {
-        display: block;
-    }
-
-    .dropdown li {
-        padding: 0.5rem 1rem;
-    }
-
-    .dropdown li a {
-        white-space: nowrap;
-    }
-
-    /* Hamburger Menu */
-    #checkbox_toggle {
-        display: none;
-    }
-
-    .hamburger {
-        display: none;
-        font-size: 24px;
-        cursor: pointer;
-    }
+/* Fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-    /* Responsive Design */
-    @media (max-width: 768px) {
-        .menu {
-            display: none;
-            flex-direction: column;
-            background-color: #444;
-            position: absolute;
-            top: 60px;
-            left: 0;
-            width: 100%;
-            text-align: center;
-            padding: 1rem 0;
-        }
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  color: white;
+  padding: 1rem;
+}
 
-        .menu li {
-            padding: 1rem 0;
-        }
+/* Logo */
+.logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
 
-        .nav-links {
-            order: 1; /* Change order to place hamburger on the right */
-        }
+/* Navigation Links */
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
 
-        .logo {
-            order: 0;
-        }
+.menu {
+  display: flex;
+}
 
-        .hamburger {
-            display: block;
-        }
+.menu li {
+  padding: 0 1rem;
+}
 
-        #checkbox_toggle:checked ~ .menu {
-            display: flex;
-        }
+.menu li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
 
-        .dropdown {
-            position: static;
-            display: none;
-            background-color: #555;
-        }
+.menu li a:hover {
+  color: #17a2b8;
+}
 
-        .services:hover .dropdown {
-            display: block;
-        }
-    }
+/* Dropdown Menu */
+.services {
+  position: relative;
+}
 
-    .svg-liquid-button {
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #444;
+  list-style: none;
+  padding: 0.5rem 0;
+  margin-top: 0.5rem;
+  border-radius: 4px;
+  min-width: 150px;
+}
+
+.services:hover .dropdown {
+  display: block;
+}
+
+.dropdown li {
+  padding: 0.5rem 1rem;
+}
+
+.dropdown li a {
+  white-space: nowrap;
+}
+
+/* Hamburger Menu */
+#checkbox_toggle {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    background-color: #444;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .menu li {
+    padding: 1rem 0;
+  }
+
+  .nav-links {
+    order: 1; /* Change order to place hamburger on the right */
+  }
+
+  .logo {
+    order: 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  #checkbox_toggle:checked ~ .menu {
+    display: flex;
+  }
+
+  .dropdown {
+    position: static;
+    display: none;
+    background-color: #555;
+  }
+
+  .services:hover .dropdown {
+    display: block;
+  }
+}
+
+.svg-liquid-button {
   padding: 16px 32px;
   font-size: 1.2rem;
   font-weight: bold;
