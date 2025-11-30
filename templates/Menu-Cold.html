@@ -26,10 +26,9 @@
         <div class="menu">
           <div class="sub-menu1">
             <li><a href="/"><b>Home</b></a></li>
-            
             <li><a href="/about-us">About Us</a></li>
             <li><a href="/menu">Our Menu</a></li>
-            <li><a href="/">Your Orders</a></li>
+            <li><a href="/orders">Your Orders</a></li>
           </div>
           <div class="sub-menu2">
             <li class="dropdown user-dropdown">
@@ -50,7 +49,6 @@
         </div>
       </ul>
     </nav>
-    
     <div class="content">
         <div class="about-header">
             <img 
@@ -65,91 +63,65 @@
             <button class="tab-button" onclick="location.replace('/menu-delights')">Delights</button>
             <button class="tab-button" onclick="location.replace('/menu-desserts')">Desserts </button>
         </div>
-
         <div class="cards">
-            <!-- Card: Espresso -->
-            
-            <!-- Card: Cold Coffee -->
-            <div class="card" data-price="230.00" item-name="Cold Coffee">
+            <div class="card" data-price="230.00" data-item-name="Coffee" data-session-status="{{ sessionstate | lower }}" data-username="{{ username }}">
                 <img src="{{ url_for('static', filename='assets/cold-coffee.jpg') }}" alt="Latte" class="card-image"/>
                 <div class="card-body">
                     <h3 class="card-title">Cold Coffee</h3>
                     <p class="card-desc">A popular chilled beverage made from coffee, milk (or water), and a sweetener, often blended until frothy and served over ice</p>
-                    <ul class="card-meta">
-                        <li><strong>Sizes:</strong>S   |    M    |    L</li>
-                    </ul>
                     <div class="card-footer">
-                        <span class="card-price">₹230 | 250 | 270</span>
+                        <span class="card-price">₹270</span>
                         <div class="qty-controls">
-                            <select id="myDropdown" name="selectedOption">
-                              <option value="0" selected> </option>
-                              <option value="S">S</option>
-                              <option value="M">M</option>
-                              <option value="L">L</option>
-                            </select>
+                            <button class="qty-decrease">−</button>
+                            <input type="number" class="qty-input" value="0" min="0" />
+                            <button class="qty-increase">+</button>
                             <button class="addtocart">
                               <i class="fa-solid fa-cart-shopping"></i>
-                              <p>Add to Cart</p>
+                              <p>Add</p>
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
-
             <!-- Card: Iced Tea -->
-            <div class="card" data-price="250.00" item-name="Iced Tea">
+            <div class="card"data-price="250.00" data-item-name="Iced Tea" data-session-status="{{ sessionstate | lower }}" data-username="{{ username }}">
                 <img src="{{ url_for('static', filename='assets/Iced-Tea.jpg') }}" alt="Iced Caramel" class="card-image"/>
                 <div class="card-body">
                     <h3 class="card-title">Iced Tea</h3>
                     <p class="card-desc">A cool, crisp, and utterly refreshing: bright brewed tea, a kiss of citrus, and just enough sweetness to make every sip sparkle.</p>
-                    <ul class="card-meta">
-                        <li><strong>Sizes:</strong>S   |    M    |    L</li>
-                    </ul>
                     <div class="card-footer">
-                        <span class="card-price">₹230 | 250 | 270</span>
+                        <span class="card-price">₹270</span>
                         <div class="qty-controls">
-                              <select id="myDropdown" name="selectedOption">
-                              <option value="0" selected> </option>
-                              <option value="S">S</option>
-                              <option value="M">M</option>
-                              <option value="L">L</option>
-                            </select>
+                            <button class="qty-decrease">−</button>
+                            <input type="number" class="qty-input" value="0" min="0" />
+                            <button class="qty-increase">+</button>
                             <button class="addtocart">
                               <i class="fa-solid fa-cart-shopping"></i>
-                              <p>Add to Cart</p>
+                              <p>Add</p>
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="card" data-price="270.00" item-name="Lemonade">
+            <div class="card" data-price="270.00" data-item-name="Lemonade" data-session-status="{{ sessionstate | lower }}" data-username="{{ username }}">
                 <img src="{{ url_for('static', filename='assets/lemon.jpg') }}" alt="Espresso" class="card-image"/>
                 <div class="card-body">
                     <h3 class="card-title">Lemonade</h3>
                     <p class="card-desc">A zesty, bright, and irresistibly refreshing: freshly squeezed lemons, a touch of sweetness, and ice-cold sparkle in every sip.</p>
-                    <ul class="card-meta">
-                        <li><strong>Sizes:</strong>S   |    M    |    L</li>
-                    </ul>
                     <div class="card-footer">
-                        <span class="card-price">₹230 | 250 | 270</span>
+                        <span class="card-price">₹270</span>
                         <div class="qty-controls">
-                            <select id="myDropdown" name="selectedOption">
-                              <option value="0" selected> </option>
-                              <option value="S">S</option>
-                              <option value="M">M</option>
-                              <option value="L">L</option>
-                            </select>
+                            <button class="qty-decrease">−</button>
+                            <input type="number" class="qty-input" value="0" min="0" />
+                            <button class="qty-increase">+</button>
                             <button class="addtocart">
                               <i class="fa-solid fa-cart-shopping"></i>
-                              <p>Add to Cart</p>
+                              <p>Add</p>
                             </button>
                         </div>
                     </div>
-                </div>
             </div>
-
         </div>
-
         <!-- Optional small script to manage qty UI and compute item total (frontend only) -->
         <script src="{{ url_for('static', filename='Scripts/Menu.js') }}"></script>
     </div>

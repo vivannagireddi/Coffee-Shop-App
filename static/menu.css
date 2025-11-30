@@ -134,7 +134,9 @@
   width:50px;
   text-align:center;
   padding:6px;
+  font-family: 'DM Sans', 'sans-serif';
   border:1px solid #ddd;
+  outline: var(--brown);
   border-radius:6px;
   font-weight:600;
 }

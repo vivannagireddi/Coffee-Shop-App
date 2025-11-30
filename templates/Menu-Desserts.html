@@ -29,7 +29,7 @@
             
             <li><a href="/about-us">About Us</a></li>
             <li><a href="/menu">Our Menu</a></li>
-            <li><a href="/">Your Orders</a></li>
+            <li><a href="/orders">Your Orders</a></li>
           </div>
           <div class="sub-menu2">
             <li class="dropdown user-dropdown">
@@ -63,91 +63,68 @@
             <button class="tab-button" onclick="location.replace('/menu-delights')">Delights</button>
             <button class="tab-button" ><b>Desserts</b></button>
         </div>
-
         <div class="cards">
-            <!-- Card: Espresso -->
-            
-            <!-- Card: Latte -->
-            <div class="card" data-price="230.00" item-name="Chocolate Truffle Cake">
+            <div class="card" data-price="230.00" data-item-name="Chocolate Truffle Cake" data-session-status="{{ sessionstate | lower }}" data-username="{{ username }}">
                 <img src="{{ url_for('static', filename='assets/Chocotrufflecake.jpg') }}" alt="Latte" class="card-image"/>
                 <div class="card-body">
                     <h3 class="card-title">Chocolate Truffle Cake</h3>
                     <p class="card-desc">A rich and mouth-watering chocolate-infused delight! </p>
-                    <ul class="card-meta">
-                        <li><strong>Sizes:</strong>S   |    M    |    L</li>
-                    </ul>
+                     
                     <div class="card-footer">
-                        <span class="card-price">₹230 | 250 | 270</span>
+                        <span class="card-price">₹230</span>
                         <div class="qty-controls">
-                              <select id="myDropdown" name="selectedOption">
-                              <option value="0" selected> </option>
-                              <option value="S">S</option>
-                              <option value="M">M</option>
-                              <option value="L">L</option>
-                            </select>
+                            <button class="qty-decrease">−</button>
+                            <input type="number" class="qty-input" value="0" min="0" />
+                            <button class="qty-increase">+</button>
                             <button class="addtocart">
                               <i class="fa-solid fa-cart-shopping"></i>
-                              <p>Add to Cart</p>
+                              <p>Add</p>
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
-
             <!-- Card: Capuccino -->
-            <div class="card" data-price="250.00" item-name="Red Velvet Muffins">
+            <div class="card" data-price="250.00" data-item-name="Red Velvet Muffins" data-session-status="{{ sessionstate | lower }}" data-username="{{ username }}">
                 <img src="{{ url_for('static', filename='assets/redmuffin.jpg') }}" alt="Iced Caramel" class="card-image"/>
                 <div class="card-body">
                     <h3 class="card-title">Red Velvet Muffins</h3>
                     <p class="card-desc">A soft, moist, and fluffy baked good that features the classic flavor profile and vibrant red hue of a traditional red velvet cake.</p>
-                    <ul class="card-meta">
-                        <li><strong>Sizes:</strong>S   |    M    |    L</li>
-                    </ul>
+                     
                     <div class="card-footer">
-                        <span class="card-price">₹230 | 250 | 270</span>
+                        <span class="card-price">₹250</span>
                         <div class="qty-controls">
-                              <select id="myDropdown" name="selectedOption">
-                              <option value="0" selected> </option>
-                              <option value="S">S</option>
-                              <option value="M">M</option>
-                              <option value="L">L</option>
-                            </select>
+                            <button class="qty-decrease">−</button>
+                            <input type="number" class="qty-input" value="0" min="0" />
+                            <button class="qty-increase">+</button>
                             <button class="addtocart">
                               <i class="fa-solid fa-cart-shopping"></i>
-                              <p>Add to Cart</p>
+                              <p>Add</p>
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="card" data-price="270.00" item-name="Macarons">
+            <div class="card" data-price="270.00" data-item-name="Macarons" data-session-status="{{ sessionstate | lower }}" data-username="{{ username }}">
                 <img src="{{ url_for('static', filename='assets/macarons.jpg') }}" alt="Espresso" class="card-image"/>
                 <div class="card-body">
                     <h3 class="card-title">Macarons</h3>
                     <p class="card-desc">A delicate, colorful French sandwich cookie made from two smooth, meringue-based shells and a creamy filling</p>
-                    <ul class="card-meta">
-                        <li><strong>Sizes:</strong>S   |    M    |    L</li>
-                    </ul>
                     <div class="card-footer">
-                        <span class="card-price">₹230 | 250 | 270</span>
+                        <span class="card-price">₹270</span>
                         <div class="qty-controls">
-                              <select id="myDropdown" name="selectedOption">
-                              <option value="0" selected> </option>
-                              <option value="S">S</option>
-                              <option value="M">M</option>
-                              <option value="L">L</option>
-                            </select>
+                            <button class="qty-decrease">−</button>
+                            <input type="number" class="qty-input" value="0" min="0" />
+                            <button class="qty-increase">+</button>
                             <button class="addtocart">
                               <i class="fa-solid fa-cart-shopping"></i>
-                              <p>Add to Cart</p>
+                              <p>Add</p>
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
-
         <!-- Optional small script to manage qty UI and compute item total (frontend only) -->
         <script src="{{ url_for('static', filename='Scripts/Menu.js') }}"></script>
     </div>

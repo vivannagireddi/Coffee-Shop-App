@@ -30,11 +30,16 @@
               <input type="text" id="username" name="username" required>
 
               <label for="password">Password:</label>
+              <label>(Password must be at least 6 characters, including numbers and alphabets.)</label>
               <input type="password" id="password" name="password" required>
 
               <button type="submit" class="glassy-blur-button">Signup</button>
           </form>
-          <p>Have an account? <a href="/login" style="color:white;">Login Here</a>, or go <a href="/" style="color:white;">back to home.</a></p>
+          <p>Have an account? <a href="/login" style="color:white;">Login here.</a></p>
+          <p><a href="/" style="color:white; text-decoration: none;">➡️ Home</a></p>
+          {% if error %}
+                    <p class="error-message">{{ error }}</p>
+                {% endif %}
       </div>
     </div>
 </body>

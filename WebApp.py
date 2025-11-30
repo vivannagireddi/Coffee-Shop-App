@@ -60,33 +60,51 @@ def runFlaskBackend(passwd, debugMode):
         cursor = mysql.connection.cursor()
         cursor.execute("SELECT userID, username FROM users;")
         users = cursor.fetchall() 
-        # Render the index.html template with the user list. And, Copilot did help me!
-        
-        return render_template('index.html', userlist=users, username=session.get('username'), sessionstate=session.get('logged_in', False))
+        # Render the index.html template with the user list.
+        uname = str(session.get('username')).partition('@')[0]
+        if '.' in uname:
+            uname = uname.partition('.')[0]
+        return render_template('index.html', userlist=users, username=uname, sessionstate=session.get('logged_in', False))
 
     @app.route('/menu')
     def menu():
-        
-        return render_template('Menu.html', sessionstate=session.get('logged_in', False), username=session.get('username'))
+        uname = str(session.get('username')).partition('@')[0]
+        if '.' in uname:
+            uname = uname.partition('.')[0]
+        print(session.get('logged_in', False))
+        return render_template('Menu.html', sessionstate=session.get('logged_in', False), username=uname)
 
     @app.route('/menu-cold')
     def menu_cold():
-        return render_template('Menu-Cold.html', sessionstate=session.get('logged_in', False))
+        uname = str(session.get('username')).partition('@')[0]
+        if '.' in uname:
+            uname = uname.partition('.')[0]
+        return render_template('Menu-Cold.html', sessionstate=session.get('logged_in', False), username=uname)
 
     @app.route('/menu-delights')
     def menu_delights():
-        return render_template('Menu-Delights.html', sessionstate=session.get('logged_in', False))
+        uname = str(session.get('username')).partition('@')[0]
+        if '.' in uname:
+            uname = uname.partition('.')[0]
+        return render_template('Menu-Delights.html', sessionstate=session.get('logged_in', False), username=uname)
 
     @app.route('/menu-desserts')
     def menu_desserts():
-        return render_template('Menu-Desserts.html', sessionstate=session.get('logged_in', False))
+        uname = str(session.get('username')).partition('@')[0]
+        if '.' in uname:
+            uname = uname.partition('.')[0]
+        return render_template('Menu-Desserts.html', sessionstate=session.get('logged_in', False), username=uname)
     @app.route('/about-us')
     def about_us():
-        return render_template('About.html')
+        uname = str(session.get('username')).partition('@')[0]
+        if '.' in uname:
+            uname = uname.partition('.')[0]
+        return render_template('About.html', username=uname)
 
     
     @app.route('/Signup', methods=['GET','POST'])
     def signup():
+        print(session.get('logged_in', False))
         nonlocal orderKey
         if session.get('logged_in', False) == True:
             return redirect('/')
@@ -105,14 +123,24 @@ def runFlaskBackend(passwd, debugMode):
             try:
                 cursor = mysql.connection.cursor()
                 orderKey = generate_random_string(12)
-                cursor.execute("INSERT INTO users VALUES (%s, %s, %s, %s)", (random.randrange(1000, 9999), username, password, orderKey))
-                mysql.connection.commit()
-                cursor.close()
-                session['logged_in'] = True
-                session['username'] = username
                 
-                app.logger.info("User %s created", username)
-                return redirect('/')
+                cursor.execute("SELECT * FROM users")
+                usernames = []
+                for user in cursor.fetchall():
+                    usernames.append(user[1])
+                
+                if username not in usernames:
+                    cursor.execute("INSERT INTO users VALUES (%s, %s, %s, %s)", (random.randrange(1000, 9999), username, password, orderKey))
+                    mysql.connection.commit()
+                    cursor.close()
+                    session['logged_in'] = True
+                    session['username'] = username
+                    
+                    app.logger.info("User %s created", username)
+                    return redirect('/')
+                else:
+                    flash('User already exists!', 'error')
+                    return render_template("Signup.html", error="User already exists!")
 
             except Exception:
                 app.logger.exception("signup DB error")
@@ -124,7 +152,6 @@ def runFlaskBackend(passwd, debugMode):
 
     @app.route('/login', methods=['GET', 'POST'])
     def login():
-        
         app.logger.info("login route hit, method=%s", request.method)
 
         if request.method == 'GET':
@@ -153,6 +180,7 @@ def runFlaskBackend(passwd, debugMode):
                     session['username'] = username # Store the username
                     session['order-key'] = user[3] # store the order key.
                     app.logger.info("User %s authenticated", username)
+                    
                     return redirect('/') # Redirect to home, which will read the session
 
             app.logger.info("Invalid credentials for %s", username)
@@ -163,6 +191,10 @@ def runFlaskBackend(passwd, debugMode):
             return render_template("Login.html", error="Database error")
     @app.route('/logout')
     def logout():
+        cur = mysql.connection.cursor()
+        orderKey = session.get('order-key')
+        cur.execute(f"DELETE FROM cart_for_{orderKey}")
+        mysql.connection.commit()
         session.pop('logged_in', None)
         session.pop('username', None)
         session.pop('order-key', "")
@@ -171,14 +203,14 @@ def runFlaskBackend(passwd, debugMode):
     @app.route('/add-to-cart', methods=['POST'])
     def add_to_cart():
         orderKey = session.get('order-key')
-        # 1. Check state and username from current session.
-        current_username = session.get('username') # Get current user.
+        current_username = str(session.get('username'))
         isLoggedIn = session.get('logged_in', False)
         # 2. Check the user state
         if not isLoggedIn or not current_username:
-            app.logger.warning("add_to_cart: user not logged in")
-            # Return a 401 response
-            return jsonify({'status': 'error', 'message': 'User not logged in'}), 401
+            # app.logger.warning("add_to_cart: user not logged in")
+            app.logger.warning("add_to_cart: user not logged in or missing username")
+            print(f"DEBUG REDIRECT: logged_in={isLoggedIn}, username={current_username}")
+            return redirect('/login')
         else:
             app.logger.info("add_to_cart called by user %s", current_username)
             data = request.get_json(silent=True)
@@ -187,24 +219,12 @@ def runFlaskBackend(passwd, debugMode):
                 return jsonify({'status': 'error', 'message': 'Invalid JSON'}), 400
             
             item_name = str(data.get('itemName'))
-            item_size = str(data.get('size'))  # match the key sent from Menu.js
             item_price = str(data.get('price'))
-            item_quantity = str(1)  # default to 1 if not provided
-
-            # validate required fields
-            if not item_name or not item_size or item_price is None:
-                app.logger.warning(
-                    "add_to_cart: missing fields - itemName=%r, size=%r, price=%r",
-                    item_name, item_size, item_price
-                )
-                return jsonify({
-                    'status': 'error',
-                    'message': 'Missing itemName, size, price, or qty'
-                }), 400
+            item_quantity = str(data.get('qty'))  # default to 1 if not provided
 
             app.logger.info(
-                "Item added to cart: %s, Size: %s, Price: %s, User: %s, Qty: %s",
-                item_name, item_size, item_price, session.get('username'), item_quantity
+                "Item added to cart: %s, Price: %s, User: %s, Qty: %s",
+                item_name, item_price, session.get('username'), item_quantity
             )
 
             # optionally persist to DB
@@ -212,24 +232,24 @@ def runFlaskBackend(passwd, debugMode):
                 cur = mysql.connection.cursor()
                 # Receive data from menu
                 orderKey = session.get('order-key')
-                ordermap = {'user': session.get('username'), 'order-key': orderKey}
+                ordermap = (str(session.get('username')), orderKey)
                 # Create a user-specific cart table if it doesn't exist
                 cur.execute(f"""
                     CREATE TABLE IF NOT EXISTS cart_for_{orderKey} (
-                        cartID INT PRIMARY KEY AUTO_INCREMENT,
+                        orderID INT PRIMARY KEY AUTO_INCREMENT,
                         orderKey VARCHAR(32),
                         user_name VARCHAR(100),
                         item VARCHAR(255),
                         quantity INT,
-                        size VARCHAR(32),
                         price FLOAT,
                         added_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
                     )
                 """)
+                
                 cur.execute(
-                    f"INSERT INTO cart_for_{orderKey} (cartID, orderKey, user_name, item, quantity, size, price) VALUES (%s, %s, %s, %s, %s, %s, %s)",
+                    f"INSERT INTO cart_for_{orderKey} (orderID, orderKey, user_name, item, quantity, price) VALUES (%s, %s, %s, %s, %s, %s)",
                     # The actual data is passed as a separate tuple, which prevents SQL injection
-                    (random.randrange(1000,9999), orderKey, session.get('username'), item_name, item_quantity, item_size, item_price)
+                    (random.randrange(1000,9999), orderKey, session.get('username'), item_name, item_quantity, item_price)
                 )
                 mysql.connection.commit()
                 cur.close()
@@ -238,35 +258,45 @@ def runFlaskBackend(passwd, debugMode):
                 # don't fail the response; just log the error
 
             return jsonify({'status': 'success', 'message': 'Item added to cart'}), 200
-    @app.route('/remove-from-cart')
-    def remove_from_cart():
-        nonlocal orderKey
-        ordermap = {'user': session.get('username'), 'order-key': orderKey}
-        data = request.get_json(silent=True)
-        if not data:
-                app.logger.error("add_to_cart: no JSON received")
-                return jsonify({'status': 'error', 'message': 'Invalid JSON'}), 400
-            
-        item_name = str(data.get('itemName'))
-        item_size = str(data.get('size'))  # match the key sent from Menu.js
-        item_price = str(data.get('price'))
-        item_quantity = str(1)  # default to 1 if not provided
-
-        try:
-                cur = mysql.connection.cursor()
-                # orderKey = generate_random_string(8)
-                # ordermap = {'user': session.get('username'), 'order-key': orderKey}
-                # Delete item.
+    @app.route('/orders')
+    def orders(): 
+        # 1. Check state and username from current session.
+        orderKey = session.get('order-key')
+        current_username = str(session.get('username'))
+        isLoggedIn = session.get('logged_in', False)
+        if not isLoggedIn or not current_username:
+            # app.logger.warning("add_to_cart: user not logged in")
+            app.logger.warning("add_to_cart: user not logged in or missing username")
+            print(f"DEBUG REDIRECT: logged_in={isLoggedIn}, username={current_username}")
+            return redirect('/login')
+        else:
                 
-                cur.execute(f"DELETE FROM cart_for_{orderKey} where item={item_name}")
-                mysql.connection.commit()
-                cur.close()
-        except Exception:
-                app.logger.exception("DB error persisting cart item")
-                # don't fail the response; just log the error
+            uname = str(session.get('username')).partition('@')[0]
+            if '.' in uname:
+                uname = uname.partition('.')[0]
+            print(session.get('logged_in', False))
+            orderKey = session.get('order-key')
+            cur = mysql.connection.cursor()
+            cur.execute(f"""
+                    CREATE TABLE IF NOT EXISTS cart_for_{orderKey} (
+                        orderID INT PRIMARY KEY AUTO_INCREMENT,
+                        orderKey VARCHAR(32),
+                        user_name VARCHAR(100),
+                        item VARCHAR(255),
+                        quantity INT,
+                        price FLOAT,
+                        added_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                    )
+            """)
+            cur.execute(f'SELECT * FROM cart_for_{orderKey};')
+            orders = cur.fetchall()
+            # Calculate the total cost of Products.
+            print(orders)
+            sum = 0
+            for order in orders:
+                sum += int(order[4])*int(order[5])
+            return render_template('Orders.html', session=session.get('logged_in', False), items=orders, cost=sum)
 
-        return jsonify({'status': 'success', 'message': 'Item removed to cart'}), 200
-    
     # IMPORTANT: disable the reloader in a child process
     app.run(host='localhost', port=5000, debug=debugMode, use_reloader=False)
 

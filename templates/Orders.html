@@ -4,8 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orders</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='Home.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='Order.css') }}"/>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='menu.css') }}"/>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='Buttons.css') }}"/>
 </head>
 <body>
-    
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#">Cozy Cup Corner</a>
+      </div>
+      <ul class="nav-links">
+        <div class="menu">
+          <div class="sub-menu1">
+            <li><a href="/"><b>Home</b></a></li>
+            
+            <li><a href="/about-us">About Us</a></li>
+            <li><a href="/menu">Our Menu</a></li>
+            <li><a href="/orders">Your Orders</a></li>
+          </div>
+          <div class="sub-menu2">
+            <li class="dropdown user-dropdown">
+              <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                <i class="fa-regular fa-user" style="color: #fff;"></i>
+              </a>
+              <ul class="dropdown-content">
+                {% if session %}
+                  <li><a href="/logout">Logout</a></li>
+                {% else %}
+                  <li><a href="/login">Login</a></li>
+                  <li><a href="/Signup">Sign Up</a></li>
+                {% endif %}
+
+              </ul>
+            </li>
+        </div>
+      </ul>
+    </nav>
+    <div class="content">
+        <div>
+            <h1>Your Orders</h1>
+        </div>
+        <!-- <div class="Orders">
+            {%for item in items %}
+                <p>{{item[3]}}, {{item[4]}}, {{item[5]}}</p>
+            {% endfor %}
+        </div> -->
+        <div class="Orders">
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in items %}
+                    <tr>
+                        <td>{{item[3]}}</td>
+                        <td>{{item[4]}}</td>
+                        <td>{{item[5]}}</td>
+                    </tr>
+                    {% endfor %}
+                    
+                </tbody>
+            </table>
+        </div>
+        <h2 style="font-family: 'DM Sans';">Total: ₹{{cost}}.00</h2>
+        <hr>
+        <div class="extra-charges">
+            <div class="attributes-cost">
+                <p>GST</p>
+                <p>Extra Charges</p>
+            </div>
+            <div class="values-cost"><b>
+                <p>₹{{cost*0.05}}0</p>
+                <p>₹{{40.0}}0</p></b>
+            </div>
+        </div>
+        <h2 style="font-family: 'DM Sans';">To pay: ₹{{cost*1.05 + 40}}0</h2>
+        <h3 style="font-family: 'DM Sans';">Payment Options</h3>
+        <hr>
+        <div class="payment-options">
+            <button class="glassy-blur-button" style="background-color: #6f4e37;font-family: 'DM Sans';">Cash</button>
+            <button class="glassy-blur-button" style="background-color: #6f4e37;font-family: 'DM Sans';">Credit Card</button>
+            <button class="glassy-blur-button" style="background-color: #6f4e37;font-family: 'DM Sans';">Debit Card</button>
+        </div>
+        <div class="complete-payment">
+            <button class="glassy-blur-button" style="background-color: #6f4e37;font-family: 'DM Sans';">Complete Payment</button>
+            
+        </div>
+        <!-- Optional small script to manage qty UI and compute item total (frontend only) -->
+        <script src="{{ url_for('static', filename='Scripts/Menu.js') }}"></script>
+    </div>
 </body>
 </html>
