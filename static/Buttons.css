@@ -54,12 +54,12 @@
   transition: background 0.3s ease;
   filter: blur(3px);
   box-shadow:inset 0 0 10px rgba(255, 113, 113, 0.2); /* Inner glow effect */ 
-  box-shadow: #e0e0e0 0px 0px 8px 0px; /* Outer glow effect */
+  box-shadow: #e0e0e01d 0px 0px 8px 0px; /* Outer glow effect */
 }
 .glassy-blur-button:hover {
   transition: box-shadow 0.5s ease;
   box-shadow:inset 0 0 15px rgba(249, 78, 78, 0.3); /* Inner glow effect */ 
-  box-shadow: #fff 0px 0px 13px 0px; /* Outer glow effect */
+  box-shadow: #ffffff78 0px 0px 13px 0px; /* Outer glow effect */
 } 
 .glassy-blur-button:active {
   background: rgba(255, 255, 255, 0.4);

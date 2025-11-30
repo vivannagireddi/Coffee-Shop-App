@@ -124,7 +124,52 @@ h1 {
   color: inherit;
 }
 
+/* user dropdown (sub-menu2) */
+.sub-menu2 { display:flex; align-items:center; gap:8px; }
+.sub-menu2 .user-dropdown { position:relative; list-style:none; }
+.sub-menu2 .dropdown-toggle { display:inline-flex; align-items:center; justify-content:center; padding:6px; border-radius:8px; color:inherit; text-decoration:none; }
+.sub-menu2 .dropdown-toggle:hover { background: rgba(255,255,255,0.06); }
 
+.sub-menu2 .dropdown-content{
+  display:none;
+  position:absolute;
+  right:0;
+  top:calc(100% + 8px);
+  min-width:160px;
+  background: #fff;
+  color:#222;
+  border-radius:10px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.12);
+  padding:6px 0;
+  z-index:1200;
+}
+.sub-menu2 .dropdown-content {
+  list-style:none;
+  margin:10px;
+  padding:10px;
+}
+.sub-menu2 .dropdown-content li{ list-style:none; }
+.sub-menu2 .dropdown-content li a{
+  display:block;
+  padding:10px;
+  color:inherit;
+  text-decoration:none;
+  transition:background .15s, color .15s;
+}
+.sub-menu2 .dropdown-content li a:hover{ background:#f3e9df; color:var(--brown); border-radius:6px; }
+
+/* show on hover / focus */
+.sub-menu2 .user-dropdown:hover > .dropdown-content,
+.sub-menu2 .user-dropdown:focus-within > .dropdown-content { display:block; }
+
+/* small-screen: full-width dropdown under navbar item */
+@media (max-width:720px){
+  .sub-menu2 .dropdown-content{ position:static; box-shadow:none; background:transparent; padding:0; }
+  .sub-menu2 .dropdown-content li a{ padding:8px 12px; background: rgba(255,255,255,0.06); border-radius:6px; margin:4px 8px; }
+}
+
+
+/* About Us Section */
 .header {
   flex: 2;
   display: flex;
@@ -294,6 +339,7 @@ h2{
   margin: 0;
   font-size: 0.95rem;
 }
+
 
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {

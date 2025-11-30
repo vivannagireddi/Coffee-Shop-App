@@ -23,18 +23,22 @@
 <body>
     <div class="signup-wrapper">
       <div class="signup-container">
-          <h2>Create an Account</h2>
+          <h2>Login</h2>
           <p class="signup-desc">Create an account to save orders, and access exclusive offers!</p>
-          <form method="POST">
+          <form action="{{ url_for('login') }}" method="post">
               <label for="username">Username:</label>
               <input type="text" id="username" name="username" required>
 
               <label for="password">Password:</label>
               <input type="password" id="password" name="password" required>
 
-              <button type="submit" class="glassy-blur-button">Signup</button>
+              <button type="submit" class="glassy-blur-button">Login</button>
+
+                {% if error %}
+                    <p class="error-message">{{ error }}</p>
+                {% endif %}
           </form>
-          <p>Have an account? <a href="/login" style="color:white;">Login Here</a>, or go <a href="/" style="color:white;">back to home.</a></p>
+          <p>Don't have an account? <a href="/Signup" style="color:white;">Sign up here</a>, or go <a href="/" style="color:white;">back to home.</a></p>
       </div>
     </div>
 </body>

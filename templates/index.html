@@ -14,6 +14,7 @@
       rel="stylesheet"
       href="{{ url_for('static', filename='Buttons.css') }}"
     />
+  </head>
   <body>
     <nav class="navbar">
       <div class="logo">
@@ -26,10 +27,23 @@
             
             <li><a href="/about-us">About Us</a></li>
             <li><a href="/menu">Our Menu</a></li>
-            <li><a href="/">Your Orders</a></li>
+            <li><a href="/orders">Your Orders</a></li>
           </div>
           <div class="sub-menu2">
-            <li><a href="/Signup"><i class="fa-regular fa-user" style="color: #fff; height: 10px; width: 10px;"></i></a></li>
+            <li class="dropdown user-dropdown">
+              <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                <i class="fa-regular fa-user" style="color: #fff;"></i>
+              </a>
+              <ul class="dropdown-content">
+                {% if session %}
+                  <li><a href="/logout">Logout</a></li>
+                {% else %}
+                  <li><a href="/login">Login</a></li>
+                  <li><a href="/Signup">Sign Up</a></li>
+                {% endif %}
+
+              </ul>
+            </li>
           </div>
         </div>
       </ul>
@@ -42,7 +56,7 @@
             <h1>Where every sip feels like home.</h1>
             <p><b>Welcome to Cozy Cup Corner!</b></p>
             <p>Experience the perfect blend of comfort, quality, and community in every cup. From sunrise to sunset, we're here to brighten your day with exceptional coffee and warm hospitality.</p>
-            <button class="main-button">
+            <button class="main-button" onclick="location.replace('/about-us')">
                 Explore us
             </button>
         </div>
