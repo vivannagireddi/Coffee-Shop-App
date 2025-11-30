@@ -36,6 +36,7 @@
               </a>
               <ul class="dropdown-content">
                 {% if session %}
+                  <p><b>Welcome, {{username}}!</b></p>
                   <li><a href="/logout">Logout</a></li>
                 {% else %}
                   <li><a href="/login">Login</a></li>

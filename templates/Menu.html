@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/mysql@2.18.1/index.min.js"></script>
     <link
       rel="stylesheet"
       href="{{ url_for('static', filename='Home.css') }}"
@@ -33,11 +34,13 @@
           </div>
           <div class="sub-menu2">
             <li class="dropdown user-dropdown">
+              <li class="dropdown user-dropdown">
               <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
                 <i class="fa-regular fa-user" style="color: #fff;"></i>
               </a>
               <ul class="dropdown-content">
                 {% if session %}
+                  <p><b>Welcome, {{username}}!</b></p>
                   <li><a href="/logout">Logout</a></li>
                 {% else %}
                   <li><a href="/login">Login</a></li>
@@ -45,6 +48,7 @@
                 {% endif %}
 
               </ul>
+            </li>
             </li>
           </div>
         </div>
@@ -81,12 +85,12 @@
                         <span class="card-price">₹230 | 250 | 270</span>
                         <div class="qty-controls">
                             <select id="myDropdown" name="selectedOption">
-                              <option value="0" selected> </option>
+                              <option value="0" selected></option>
                               <option value="S">S</option>
                               <option value="M">M</option>
                               <option value="L">L</option>
                             </select>
-                            <button class="addtocart">
+                            <button class="addtocart" data-session-status="{{ sessionstate }}" data-username="{{ username }}">
                               <i class="fa-solid fa-cart-shopping"></i>
                               <p>Add to Cart</p>
                             </button>

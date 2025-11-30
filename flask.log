@@ -10837,3 +10837,1814 @@ NameError: name 'item_quantity' is not defined
 2025-11-30 13:25:35,917 INFO: 127.0.0.1 - - [30/Nov/2025 13:25:35] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
 2025-11-30 13:25:35,978 INFO: 127.0.0.1 - - [30/Nov/2025 13:25:35] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
 2025-11-30 13:25:36,172 INFO: 127.0.0.1 - - [30/Nov/2025 13:25:36] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:31:37,410 INFO: login route hit, method=GET
+2025-11-30 13:31:37,410 INFO: 127.0.0.1 - - [30/Nov/2025 13:31:37] "GET /login HTTP/1.1" 200 -
+2025-11-30 13:31:37,449 INFO: 127.0.0.1 - - [30/Nov/2025 13:31:37] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:31:37,657 INFO: 127.0.0.1 - - [30/Nov/2025 13:31:37] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:31:37,758 INFO: 127.0.0.1 - - [30/Nov/2025 13:31:37] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:31:37,758 INFO: 127.0.0.1 - - [30/Nov/2025 13:31:37] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 13:31:38,090 INFO: 127.0.0.1 - - [30/Nov/2025 13:31:38] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:31:45,781 INFO: 127.0.0.1 - - [30/Nov/2025 13:31:45] "[32mGET /Signup HTTP/1.1[0m" 302 -
+2025-11-30 13:31:45,792 INFO: 127.0.0.1 - - [30/Nov/2025 13:31:45] "GET /menu HTTP/1.1" 200 -
+2025-11-30 13:31:46,172 INFO: 127.0.0.1 - - [30/Nov/2025 13:31:46] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:31:46,176 INFO: 127.0.0.1 - - [30/Nov/2025 13:31:46] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:31:46,177 INFO: 127.0.0.1 - - [30/Nov/2025 13:31:46] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:31:46,177 INFO: 127.0.0.1 - - [30/Nov/2025 13:31:46] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:31:46,180 INFO: 127.0.0.1 - - [30/Nov/2025 13:31:46] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 13:31:46,180 INFO: 127.0.0.1 - - [30/Nov/2025 13:31:46] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:32:06,006 INFO: 127.0.0.1 - - [30/Nov/2025 13:32:06] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:32:06,006 INFO: 127.0.0.1 - - [30/Nov/2025 13:32:06] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:32:06,261 INFO: 127.0.0.1 - - [30/Nov/2025 13:32:06] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:33:56,158 INFO: 127.0.0.1 - - [30/Nov/2025 13:33:56] "GET /menu HTTP/1.1" 200 -
+2025-11-30 13:33:56,205 INFO: 127.0.0.1 - - [30/Nov/2025 13:33:56] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:33:56,417 INFO: 127.0.0.1 - - [30/Nov/2025 13:33:56] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:33:56,544 INFO: 127.0.0.1 - - [30/Nov/2025 13:33:56] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:33:56,546 INFO: 127.0.0.1 - - [30/Nov/2025 13:33:56] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:33:56,548 INFO: 127.0.0.1 - - [30/Nov/2025 13:33:56] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:33:56,549 INFO: 127.0.0.1 - - [30/Nov/2025 13:33:56] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:33:56,890 INFO: 127.0.0.1 - - [30/Nov/2025 13:33:56] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 13:34:01,538 INFO: login route hit, method=GET
+2025-11-30 13:34:01,540 INFO: 127.0.0.1 - - [30/Nov/2025 13:34:01] "GET /login HTTP/1.1" 200 -
+2025-11-30 13:34:01,574 INFO: 127.0.0.1 - - [30/Nov/2025 13:34:01] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:34:01,801 INFO: 127.0.0.1 - - [30/Nov/2025 13:34:01] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:34:01,901 INFO: 127.0.0.1 - - [30/Nov/2025 13:34:01] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:34:01,901 INFO: 127.0.0.1 - - [30/Nov/2025 13:34:01] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:34:01,901 INFO: 127.0.0.1 - - [30/Nov/2025 13:34:01] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 13:34:02,235 INFO: 127.0.0.1 - - [30/Nov/2025 13:34:02] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:34:06,971 INFO: login route hit, method=POST
+2025-11-30 13:34:06,972 INFO: login attempt username='labradora@pup.pup'
+2025-11-30 13:34:08,418 INFO: User labradora@pup.pup authenticated
+2025-11-30 13:34:08,418 INFO: 127.0.0.1 - - [30/Nov/2025 13:34:08] "POST /login HTTP/1.1" 200 -
+2025-11-30 13:34:08,484 INFO: 127.0.0.1 - - [30/Nov/2025 13:34:08] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:34:08,500 INFO: 127.0.0.1 - - [30/Nov/2025 13:34:08] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:34:08,833 INFO: 127.0.0.1 - - [30/Nov/2025 13:34:08] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:34:08,834 INFO: 127.0.0.1 - - [30/Nov/2025 13:34:08] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 13:34:08,836 INFO: 127.0.0.1 - - [30/Nov/2025 13:34:08] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:34:08,836 INFO: 127.0.0.1 - - [30/Nov/2025 13:34:08] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:34:08,839 INFO: 127.0.0.1 - - [30/Nov/2025 13:34:08] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:34:12,784 INFO: login route hit, method=GET
+2025-11-30 13:34:12,784 INFO: 127.0.0.1 - - [30/Nov/2025 13:34:12] "GET /login HTTP/1.1" 200 -
+2025-11-30 13:34:13,085 INFO: 127.0.0.1 - - [30/Nov/2025 13:34:13] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:34:13,170 INFO: 127.0.0.1 - - [30/Nov/2025 13:34:13] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:34:13,172 INFO: 127.0.0.1 - - [30/Nov/2025 13:34:13] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:34:13,173 INFO: 127.0.0.1 - - [30/Nov/2025 13:34:13] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 13:34:13,174 INFO: 127.0.0.1 - - [30/Nov/2025 13:34:13] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:38:31,406 INFO: Starting Flask backend
+2025-11-30 13:38:31,496 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 13:38:31,497 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 13:38:37,939 INFO: Index requested
+2025-11-30 13:38:38,084 INFO: 127.0.0.1 - - [30/Nov/2025 13:38:38] "GET / HTTP/1.1" 200 -
+2025-11-30 13:38:38,133 INFO: 127.0.0.1 - - [30/Nov/2025 13:38:38] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:38:38,473 INFO: 127.0.0.1 - - [30/Nov/2025 13:38:38] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:38:38,803 INFO: 127.0.0.1 - - [30/Nov/2025 13:38:38] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:38:38,803 INFO: 127.0.0.1 - - [30/Nov/2025 13:38:38] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:38:40,103 INFO: 127.0.0.1 - - [30/Nov/2025 13:38:40] "GET /menu HTTP/1.1" 200 -
+2025-11-30 13:38:40,320 INFO: 127.0.0.1 - - [30/Nov/2025 13:38:40] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:38:40,350 INFO: 127.0.0.1 - - [30/Nov/2025 13:38:40] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:38:40,478 INFO: 127.0.0.1 - - [30/Nov/2025 13:38:40] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:38:40,490 INFO: 127.0.0.1 - - [30/Nov/2025 13:38:40] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:38:40,492 INFO: 127.0.0.1 - - [30/Nov/2025 13:38:40] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:38:40,637 INFO: 127.0.0.1 - - [30/Nov/2025 13:38:40] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:38:40,651 INFO: 127.0.0.1 - - [30/Nov/2025 13:38:40] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 13:44:14,558 INFO: 127.0.0.1 - - [30/Nov/2025 13:44:14] "GET /menu HTTP/1.1" 200 -
+2025-11-30 13:44:14,619 INFO: 127.0.0.1 - - [30/Nov/2025 13:44:14] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:44:14,777 INFO: 127.0.0.1 - - [30/Nov/2025 13:44:14] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:44:14,952 INFO: 127.0.0.1 - - [30/Nov/2025 13:44:14] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:44:14,954 INFO: 127.0.0.1 - - [30/Nov/2025 13:44:14] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:44:14,955 INFO: 127.0.0.1 - - [30/Nov/2025 13:44:14] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:44:14,956 INFO: 127.0.0.1 - - [30/Nov/2025 13:44:14] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:44:15,005 INFO: 127.0.0.1 - - [30/Nov/2025 13:44:15] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 13:44:17,808 INFO: login route hit, method=GET
+2025-11-30 13:44:17,828 INFO: 127.0.0.1 - - [30/Nov/2025 13:44:17] "GET /login HTTP/1.1" 200 -
+2025-11-30 13:44:17,879 INFO: 127.0.0.1 - - [30/Nov/2025 13:44:17] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:44:18,073 INFO: 127.0.0.1 - - [30/Nov/2025 13:44:18] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:44:18,206 INFO: 127.0.0.1 - - [30/Nov/2025 13:44:18] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:44:18,206 INFO: 127.0.0.1 - - [30/Nov/2025 13:44:18] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:44:18,206 INFO: 127.0.0.1 - - [30/Nov/2025 13:44:18] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 13:44:18,541 INFO: 127.0.0.1 - - [30/Nov/2025 13:44:18] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:44:25,909 INFO: login route hit, method=POST
+2025-11-30 13:44:25,909 INFO: login attempt username='labradora@pup.pup'
+2025-11-30 13:44:26,158 INFO: User labradora@pup.pup authenticated
+2025-11-30 13:44:26,158 ERROR: login DB error
+Traceback (most recent call last):
+  File "d:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\WebApp.py", line 138, in login
+    return render_template("Home.html", session=isLoggedIn, username=username)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: Home.html
+2025-11-30 13:44:26,158 INFO: 127.0.0.1 - - [30/Nov/2025 13:44:26] "POST /login HTTP/1.1" 200 -
+2025-11-30 13:44:26,223 INFO: 127.0.0.1 - - [30/Nov/2025 13:44:26] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:44:26,543 INFO: 127.0.0.1 - - [30/Nov/2025 13:44:26] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:44:26,543 INFO: 127.0.0.1 - - [30/Nov/2025 13:44:26] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:44:26,543 INFO: 127.0.0.1 - - [30/Nov/2025 13:44:26] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:44:26,543 INFO: 127.0.0.1 - - [30/Nov/2025 13:44:26] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 13:45:27,729 INFO: login route hit, method=POST
+2025-11-30 13:45:27,729 INFO: login attempt username='labradora@pup.pup'
+2025-11-30 13:45:27,729 INFO: User labradora@pup.pup authenticated
+2025-11-30 13:45:27,729 ERROR: login DB error
+Traceback (most recent call last):
+  File "d:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\WebApp.py", line 138, in login
+    return render_template("index.html", session=isLoggedIn, username=username)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\jinja2\environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\jinja2\environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\jinja2\environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\templating.py", line 65, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\templating.py", line 99, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: Home.html
+2025-11-30 13:45:27,788 INFO: 127.0.0.1 - - [30/Nov/2025 13:45:27] "POST /login HTTP/1.1" 200 -
+2025-11-30 13:45:27,878 INFO: 127.0.0.1 - - [30/Nov/2025 13:45:27] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:45:28,001 INFO: 127.0.0.1 - - [30/Nov/2025 13:45:28] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:45:28,194 INFO: 127.0.0.1 - - [30/Nov/2025 13:45:28] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:45:28,194 INFO: 127.0.0.1 - - [30/Nov/2025 13:45:28] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 13:45:28,214 INFO: 127.0.0.1 - - [30/Nov/2025 13:45:28] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:45:28,581 INFO: 127.0.0.1 - - [30/Nov/2025 13:45:28] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:45:35,343 INFO: Starting Flask backend
+2025-11-30 13:45:35,380 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 13:45:35,381 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 13:45:37,729 INFO: login route hit, method=POST
+2025-11-30 13:45:37,729 INFO: login attempt username='labradora@pup.pup'
+2025-11-30 13:45:37,830 INFO: User labradora@pup.pup authenticated
+2025-11-30 13:45:37,830 INFO: 127.0.0.1 - - [30/Nov/2025 13:45:37] "POST /login HTTP/1.1" 200 -
+2025-11-30 13:45:37,879 INFO: 127.0.0.1 - - [30/Nov/2025 13:45:37] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:45:38,211 INFO: 127.0.0.1 - - [30/Nov/2025 13:45:38] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:45:38,233 INFO: 127.0.0.1 - - [30/Nov/2025 13:45:38] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:45:38,235 INFO: 127.0.0.1 - - [30/Nov/2025 13:45:38] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:45:49,107 INFO: Starting Flask backend
+2025-11-30 13:45:49,157 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 13:45:49,157 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 13:45:51,337 INFO: login route hit, method=GET
+2025-11-30 13:45:51,355 INFO: 127.0.0.1 - - [30/Nov/2025 13:45:51] "GET /login HTTP/1.1" 200 -
+2025-11-30 13:45:51,418 INFO: 127.0.0.1 - - [30/Nov/2025 13:45:51] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:45:52,013 INFO: 127.0.0.1 - - [30/Nov/2025 13:45:52] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:45:52,164 INFO: 127.0.0.1 - - [30/Nov/2025 13:45:52] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 13:45:52,164 INFO: 127.0.0.1 - - [30/Nov/2025 13:45:52] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:45:52,164 INFO: 127.0.0.1 - - [30/Nov/2025 13:45:52] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:45:52,497 INFO: 127.0.0.1 - - [30/Nov/2025 13:45:52] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:45:59,319 INFO: login route hit, method=POST
+2025-11-30 13:45:59,319 INFO: login attempt username='labradora@pup.pup'
+2025-11-30 13:45:59,400 INFO: User labradora@pup.pup authenticated
+2025-11-30 13:45:59,405 INFO: 127.0.0.1 - - [30/Nov/2025 13:45:59] "POST /login HTTP/1.1" 200 -
+2025-11-30 13:45:59,632 INFO: 127.0.0.1 - - [30/Nov/2025 13:45:59] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:45:59,780 INFO: 127.0.0.1 - - [30/Nov/2025 13:45:59] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:45:59,780 INFO: 127.0.0.1 - - [30/Nov/2025 13:45:59] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:45:59,780 INFO: 127.0.0.1 - - [30/Nov/2025 13:45:59] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:46:02,181 INFO: 127.0.0.1 - - [30/Nov/2025 13:46:02] "GET /menu HTTP/1.1" 200 -
+2025-11-30 13:46:02,351 INFO: 127.0.0.1 - - [30/Nov/2025 13:46:02] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:46:02,447 INFO: 127.0.0.1 - - [30/Nov/2025 13:46:02] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:46:02,573 INFO: 127.0.0.1 - - [30/Nov/2025 13:46:02] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:46:02,575 INFO: 127.0.0.1 - - [30/Nov/2025 13:46:02] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 13:46:02,575 INFO: 127.0.0.1 - - [30/Nov/2025 13:46:02] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:46:02,577 INFO: 127.0.0.1 - - [30/Nov/2025 13:46:02] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:46:02,660 INFO: 127.0.0.1 - - [30/Nov/2025 13:46:02] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:46:05,266 INFO: login route hit, method=GET
+2025-11-30 13:46:05,266 INFO: 127.0.0.1 - - [30/Nov/2025 13:46:05] "GET /login HTTP/1.1" 200 -
+2025-11-30 13:46:05,311 INFO: 127.0.0.1 - - [30/Nov/2025 13:46:05] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:46:05,537 INFO: 127.0.0.1 - - [30/Nov/2025 13:46:05] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:46:05,653 INFO: 127.0.0.1 - - [30/Nov/2025 13:46:05] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:46:05,653 INFO: 127.0.0.1 - - [30/Nov/2025 13:46:05] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:46:05,654 INFO: 127.0.0.1 - - [30/Nov/2025 13:46:05] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 13:46:05,985 INFO: 127.0.0.1 - - [30/Nov/2025 13:46:05] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:47:23,335 INFO: 127.0.0.1 - - [30/Nov/2025 13:47:23] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:47:28,271 INFO: 127.0.0.1 - - [30/Nov/2025 13:47:28] "GET /menu HTTP/1.1" 200 -
+2025-11-30 13:47:28,340 INFO: 127.0.0.1 - - [30/Nov/2025 13:47:28] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:47:28,684 INFO: 127.0.0.1 - - [30/Nov/2025 13:47:28] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:47:28,685 INFO: 127.0.0.1 - - [30/Nov/2025 13:47:28] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:47:28,686 INFO: 127.0.0.1 - - [30/Nov/2025 13:47:28] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:47:28,688 INFO: 127.0.0.1 - - [30/Nov/2025 13:47:28] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:47:28,692 INFO: 127.0.0.1 - - [30/Nov/2025 13:47:28] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 13:47:28,696 INFO: 127.0.0.1 - - [30/Nov/2025 13:47:28] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:47:31,722 INFO: login route hit, method=GET
+2025-11-30 13:47:31,722 INFO: 127.0.0.1 - - [30/Nov/2025 13:47:31] "GET /login HTTP/1.1" 200 -
+2025-11-30 13:47:31,801 INFO: 127.0.0.1 - - [30/Nov/2025 13:47:31] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:47:31,988 INFO: 127.0.0.1 - - [30/Nov/2025 13:47:31] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:47:32,103 INFO: 127.0.0.1 - - [30/Nov/2025 13:47:32] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:47:32,103 INFO: 127.0.0.1 - - [30/Nov/2025 13:47:32] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 13:47:32,158 INFO: 127.0.0.1 - - [30/Nov/2025 13:47:32] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:47:32,439 INFO: 127.0.0.1 - - [30/Nov/2025 13:47:32] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:48:46,606 INFO: 127.0.0.1 - - [30/Nov/2025 13:48:46] "GET /menu HTTP/1.1" 200 -
+2025-11-30 13:48:46,664 INFO: 127.0.0.1 - - [30/Nov/2025 13:48:46] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:48:46,991 INFO: 127.0.0.1 - - [30/Nov/2025 13:48:46] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:48:46,992 INFO: 127.0.0.1 - - [30/Nov/2025 13:48:46] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:48:46,993 INFO: 127.0.0.1 - - [30/Nov/2025 13:48:46] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:48:46,993 INFO: 127.0.0.1 - - [30/Nov/2025 13:48:46] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:48:47,037 INFO: 127.0.0.1 - - [30/Nov/2025 13:48:47] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 13:48:51,595 INFO: 127.0.0.1 - - [30/Nov/2025 13:48:51] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:48:51,595 INFO: 127.0.0.1 - - [30/Nov/2025 13:48:51] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:48:51,846 INFO: 127.0.0.1 - - [30/Nov/2025 13:48:51] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:49:06,844 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:06] "GET /menu HTTP/1.1" 200 -
+2025-11-30 13:49:07,159 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:07] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:49:07,236 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:07] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:49:07,238 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:07] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:49:07,241 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:07] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:49:07,243 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:07] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:49:07,291 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:07] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 13:49:10,515 INFO: login route hit, method=GET
+2025-11-30 13:49:10,517 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:10] "GET /login HTTP/1.1" 200 -
+2025-11-30 13:49:10,561 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:10] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:49:10,787 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:10] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:49:10,878 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:10] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:49:10,881 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:10] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 13:49:11,197 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:11] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:49:13,082 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:13] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:49:13,429 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:13] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:49:13,693 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:13] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:49:13,747 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:13] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:49:13,748 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:13] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 13:49:16,534 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:16] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:49:42,952 INFO: login route hit, method=POST
+2025-11-30 13:49:42,952 INFO: login attempt username='labradora@pup.pup'
+2025-11-30 13:49:42,955 INFO: User labradora@pup.pup authenticated
+2025-11-30 13:49:42,957 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:42] "POST /login HTTP/1.1" 200 -
+2025-11-30 13:49:43,266 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:43] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:49:43,322 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:43] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:49:43,322 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:43] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:49:43,324 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:43] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:49:46,366 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:46] "GET /about-us HTTP/1.1" 200 -
+2025-11-30 13:49:46,755 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:46] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:49:47,370 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:47] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:49:47,683 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:47] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:49:51,571 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:51] "GET /menu HTTP/1.1" 200 -
+2025-11-30 13:49:51,879 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:51] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:49:51,947 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:51] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:49:51,955 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:51] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:49:51,958 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:51] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:49:51,959 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:51] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:49:52,195 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:52] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:49:52,222 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:52] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 13:49:55,614 INFO: login route hit, method=GET
+2025-11-30 13:49:55,614 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:55] "GET /login HTTP/1.1" 200 -
+2025-11-30 13:49:55,670 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:55] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:49:55,871 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:55] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:49:55,997 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:55] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:49:55,997 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:55] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 13:49:55,997 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:55] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:49:56,338 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:56] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:49:57,805 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:57] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:49:58,146 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:58] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:49:58,146 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:58] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:49:58,153 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:58] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:49:59,308 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:59] "GET /menu HTTP/1.1" 200 -
+2025-11-30 13:49:59,619 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:59] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:49:59,700 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:59] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:49:59,701 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:59] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:49:59,701 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:59] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 13:49:59,702 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:59] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:49:59,707 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:59] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:49:59,925 INFO: 127.0.0.1 - - [30/Nov/2025 13:49:59] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:50:56,151 INFO: 127.0.0.1 - - [30/Nov/2025 13:50:56] "GET /menu HTTP/1.1" 200 -
+2025-11-30 13:50:56,199 INFO: 127.0.0.1 - - [30/Nov/2025 13:50:56] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:50:56,420 INFO: 127.0.0.1 - - [30/Nov/2025 13:50:56] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:50:56,530 INFO: 127.0.0.1 - - [30/Nov/2025 13:50:56] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:50:56,530 INFO: 127.0.0.1 - - [30/Nov/2025 13:50:56] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:50:56,533 INFO: 127.0.0.1 - - [30/Nov/2025 13:50:56] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:50:56,535 INFO: 127.0.0.1 - - [30/Nov/2025 13:50:56] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:50:56,639 INFO: 127.0.0.1 - - [30/Nov/2025 13:50:56] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 13:52:11,643 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:11] "GET /menu HTTP/1.1" 200 -
+2025-11-30 13:52:11,694 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:11] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:52:11,715 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:11] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:52:12,024 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:12] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:52:12,024 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:12] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:52:12,038 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:12] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:52:12,039 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:12] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:52:12,081 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:12] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 13:52:31,892 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:31] "GET /menu HTTP/1.1" 200 -
+2025-11-30 13:52:31,934 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:31] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:52:32,161 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:32] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:52:32,251 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:32] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:52:32,252 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:32] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:52:32,254 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:32] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:52:32,294 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:32] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 13:52:35,143 INFO: login route hit, method=GET
+2025-11-30 13:52:35,143 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:35] "GET /login HTTP/1.1" 200 -
+2025-11-30 13:52:35,183 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:35] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:52:35,399 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:35] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:52:35,508 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:35] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:52:35,508 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:35] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 13:52:35,840 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:35] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:52:38,927 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:38] "GET /menu HTTP/1.1" 200 -
+2025-11-30 13:52:39,025 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:39] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:52:39,180 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:39] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:52:39,299 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:39] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:52:39,299 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:39] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 13:52:39,301 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:39] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:52:39,302 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:39] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:52:42,374 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:42] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:52:42,395 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:42] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:52:42,633 INFO: 127.0.0.1 - - [30/Nov/2025 13:52:42] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:53:12,675 INFO: 127.0.0.1 - - [30/Nov/2025 13:53:12] "GET /menu HTTP/1.1" 200 -
+2025-11-30 13:53:12,976 INFO: 127.0.0.1 - - [30/Nov/2025 13:53:12] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:53:13,040 INFO: 127.0.0.1 - - [30/Nov/2025 13:53:13] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:53:13,040 INFO: 127.0.0.1 - - [30/Nov/2025 13:53:13] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:53:13,043 INFO: 127.0.0.1 - - [30/Nov/2025 13:53:13] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:53:13,046 INFO: 127.0.0.1 - - [30/Nov/2025 13:53:13] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:53:13,105 INFO: 127.0.0.1 - - [30/Nov/2025 13:53:13] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 13:53:16,247 INFO: add_to_cart called by user 
+2025-11-30 13:53:16,247 INFO: Item added to cart: Café Latte, Size: L, Price: 200, User: , Qty: 1
+2025-11-30 13:53:16,952 INFO: 127.0.0.1 - - [30/Nov/2025 13:53:16] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 13:53:17,970 INFO: 127.0.0.1 - - [30/Nov/2025 13:53:17] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:53:18,282 INFO: 127.0.0.1 - - [30/Nov/2025 13:53:18] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:53:18,309 INFO: 127.0.0.1 - - [30/Nov/2025 13:53:18] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 13:53:32,964 INFO: login route hit, method=GET
+2025-11-30 13:53:32,966 INFO: 127.0.0.1 - - [30/Nov/2025 13:53:32] "GET /login HTTP/1.1" 200 -
+2025-11-30 13:53:33,013 INFO: 127.0.0.1 - - [30/Nov/2025 13:53:33] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:53:33,229 INFO: 127.0.0.1 - - [30/Nov/2025 13:53:33] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:53:33,327 INFO: 127.0.0.1 - - [30/Nov/2025 13:53:33] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:53:33,327 INFO: 127.0.0.1 - - [30/Nov/2025 13:53:33] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 13:53:33,648 INFO: 127.0.0.1 - - [30/Nov/2025 13:53:33] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:53:38,651 INFO: 127.0.0.1 - - [30/Nov/2025 13:53:38] "GET /about-us HTTP/1.1" 200 -
+2025-11-30 13:53:38,701 INFO: 127.0.0.1 - - [30/Nov/2025 13:53:38] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:53:39,012 INFO: 127.0.0.1 - - [30/Nov/2025 13:53:39] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:53:40,264 INFO: 127.0.0.1 - - [30/Nov/2025 13:53:40] "[32mGET /Signup HTTP/1.1[0m" 302 -
+2025-11-30 13:53:40,380 INFO: Index requested
+2025-11-30 13:53:40,429 INFO: 127.0.0.1 - - [30/Nov/2025 13:53:40] "GET / HTTP/1.1" 200 -
+2025-11-30 13:53:40,522 INFO: 127.0.0.1 - - [30/Nov/2025 13:53:40] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:53:40,801 INFO: 127.0.0.1 - - [30/Nov/2025 13:53:40] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:53:40,802 INFO: 127.0.0.1 - - [30/Nov/2025 13:53:40] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:54:32,834 INFO: Index requested
+2025-11-30 13:54:32,911 INFO: 127.0.0.1 - - [30/Nov/2025 13:54:32] "GET / HTTP/1.1" 200 -
+2025-11-30 13:54:32,954 INFO: 127.0.0.1 - - [30/Nov/2025 13:54:32] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:54:33,104 INFO: 127.0.0.1 - - [30/Nov/2025 13:54:33] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:54:33,287 INFO: 127.0.0.1 - - [30/Nov/2025 13:54:33] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:55:02,679 INFO: Starting Flask backend
+2025-11-30 13:55:02,737 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 13:55:02,737 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 13:55:05,601 INFO: Index requested
+2025-11-30 13:55:05,752 INFO: 127.0.0.1 - - [30/Nov/2025 13:55:05] "GET / HTTP/1.1" 200 -
+2025-11-30 13:55:06,243 INFO: 127.0.0.1 - - [30/Nov/2025 13:55:06] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:55:06,310 INFO: 127.0.0.1 - - [30/Nov/2025 13:55:06] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:55:06,453 INFO: 127.0.0.1 - - [30/Nov/2025 13:55:06] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:55:10,035 INFO: login route hit, method=GET
+2025-11-30 13:55:10,046 INFO: 127.0.0.1 - - [30/Nov/2025 13:55:10] "GET /login HTTP/1.1" 200 -
+2025-11-30 13:55:10,171 INFO: 127.0.0.1 - - [30/Nov/2025 13:55:10] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:55:10,285 INFO: 127.0.0.1 - - [30/Nov/2025 13:55:10] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:55:10,393 INFO: 127.0.0.1 - - [30/Nov/2025 13:55:10] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:55:10,393 INFO: 127.0.0.1 - - [30/Nov/2025 13:55:10] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 13:55:10,404 INFO: 127.0.0.1 - - [30/Nov/2025 13:55:10] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:55:15,787 INFO: login route hit, method=POST
+2025-11-30 13:55:15,792 INFO: login attempt username='labradora@pup.pup'
+2025-11-30 13:55:15,816 INFO: User labradora@pup.pup authenticated
+2025-11-30 13:55:15,818 INFO: 127.0.0.1 - - [30/Nov/2025 13:55:15] "POST /login HTTP/1.1" 200 -
+2025-11-30 13:55:15,864 INFO: 127.0.0.1 - - [30/Nov/2025 13:55:15] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:55:16,054 INFO: 127.0.0.1 - - [30/Nov/2025 13:55:16] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:55:16,171 INFO: 127.0.0.1 - - [30/Nov/2025 13:55:16] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:55:59,320 INFO: 127.0.0.1 - - [30/Nov/2025 13:55:59] "GET /menu HTTP/1.1" 200 -
+2025-11-30 13:55:59,421 INFO: 127.0.0.1 - - [30/Nov/2025 13:55:59] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:55:59,559 INFO: 127.0.0.1 - - [30/Nov/2025 13:55:59] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:55:59,687 INFO: 127.0.0.1 - - [30/Nov/2025 13:55:59] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 13:55:59,700 INFO: 127.0.0.1 - - [30/Nov/2025 13:55:59] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:55:59,704 INFO: 127.0.0.1 - - [30/Nov/2025 13:55:59] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:55:59,719 INFO: 127.0.0.1 - - [30/Nov/2025 13:55:59] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:56:04,373 INFO: add_to_cart called by user 
+2025-11-30 13:56:04,376 INFO: Item added to cart: Café Latte, Size: L, Price: 200, User: , Qty: 1
+2025-11-30 13:56:04,538 INFO: 127.0.0.1 - - [30/Nov/2025 13:56:04] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 13:57:43,614 INFO: Starting Flask backend
+2025-11-30 13:57:43,658 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 13:57:43,658 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 13:58:01,917 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:01] "GET /menu HTTP/1.1" 200 -
+2025-11-30 13:58:03,631 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:03] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:58:03,885 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:03] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:58:03,930 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:03] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 13:58:03,946 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:03] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:58:03,981 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:03] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:58:03,981 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:03] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:58:06,049 INFO: Index requested
+2025-11-30 13:58:06,123 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:06] "GET / HTTP/1.1" 200 -
+2025-11-30 13:58:06,190 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:06] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:58:06,313 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:06] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:58:06,496 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:06] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:58:23,754 INFO: login route hit, method=GET
+2025-11-30 13:58:23,765 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:23] "GET /login HTTP/1.1" 200 -
+2025-11-30 13:58:23,892 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:23] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:58:24,021 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:24] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:58:24,119 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:24] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 13:58:24,119 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:24] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:58:24,137 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:24] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:58:29,464 INFO: login route hit, method=POST
+2025-11-30 13:58:29,471 INFO: login attempt username='labradora@pup.pup'
+2025-11-30 13:58:29,481 INFO: User labradora@pup.pup authenticated
+2025-11-30 13:58:29,488 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:29] "POST /login HTTP/1.1" 200 -
+2025-11-30 13:58:29,541 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:29] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:58:29,718 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:29] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:58:29,849 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:29] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:58:33,637 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:33] "GET /about-us HTTP/1.1" 200 -
+2025-11-30 13:58:33,728 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:33] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:58:33,877 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:33] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 13:58:35,804 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:35] "GET /menu HTTP/1.1" 200 -
+2025-11-30 13:58:36,105 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:36] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 13:58:36,186 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:36] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:58:36,190 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:36] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:58:36,190 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:36] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 13:58:36,195 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:36] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 13:58:36,198 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:36] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 13:58:48,514 INFO: add_to_cart called by user 
+2025-11-30 13:58:48,514 INFO: Item added to cart: Café Latte, Size: M, Price: 200, User: , Qty: 1
+2025-11-30 13:58:48,616 ERROR: DB error persisting cart item
+Traceback (most recent call last):
+  File "d:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\WebApp.py", line 191, in add_to_cart
+    cur.execute("""
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{username} (\n                        cartID INT PRIMARY KEY AUTO_INCREMENT,\n    ' at line 1")
+2025-11-30 13:58:48,627 INFO: 127.0.0.1 - - [30/Nov/2025 13:58:48] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 14:08:47,524 INFO: 127.0.0.1 - - [30/Nov/2025 14:08:47] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:08:47,590 INFO: 127.0.0.1 - - [30/Nov/2025 14:08:47] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:08:47,593 INFO: 127.0.0.1 - - [30/Nov/2025 14:08:47] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:08:48,057 INFO: 127.0.0.1 - - [30/Nov/2025 14:08:48] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:08:48,060 INFO: 127.0.0.1 - - [30/Nov/2025 14:08:48] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:08:48,372 INFO: 127.0.0.1 - - [30/Nov/2025 14:08:48] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:08:48,515 INFO: 127.0.0.1 - - [30/Nov/2025 14:08:48] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 14:08:55,193 INFO: 127.0.0.1 - - [30/Nov/2025 14:08:55] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:08:55,193 INFO: 127.0.0.1 - - [30/Nov/2025 14:08:55] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:08:55,201 INFO: 127.0.0.1 - - [30/Nov/2025 14:08:55] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:10:00,829 INFO: 127.0.0.1 - - [30/Nov/2025 14:10:00] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:10:00,902 INFO: 127.0.0.1 - - [30/Nov/2025 14:10:00] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:10:01,095 INFO: 127.0.0.1 - - [30/Nov/2025 14:10:01] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:10:01,232 INFO: 127.0.0.1 - - [30/Nov/2025 14:10:01] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:10:01,234 INFO: 127.0.0.1 - - [30/Nov/2025 14:10:01] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:10:01,237 INFO: 127.0.0.1 - - [30/Nov/2025 14:10:01] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:10:01,319 INFO: 127.0.0.1 - - [30/Nov/2025 14:10:01] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 14:10:01,456 INFO: 127.0.0.1 - - [30/Nov/2025 14:10:01] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:10:33,455 INFO: 127.0.0.1 - - [30/Nov/2025 14:10:33] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:10:33,531 INFO: 127.0.0.1 - - [30/Nov/2025 14:10:33] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:10:33,714 INFO: 127.0.0.1 - - [30/Nov/2025 14:10:33] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:10:33,860 INFO: 127.0.0.1 - - [30/Nov/2025 14:10:33] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:10:33,871 INFO: 127.0.0.1 - - [30/Nov/2025 14:10:33] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:10:33,876 INFO: 127.0.0.1 - - [30/Nov/2025 14:10:33] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:10:33,880 INFO: 127.0.0.1 - - [30/Nov/2025 14:10:33] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:10:34,133 INFO: 127.0.0.1 - - [30/Nov/2025 14:10:34] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 14:11:08,644 INFO: 127.0.0.1 - - [30/Nov/2025 14:11:08] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:11:08,722 INFO: 127.0.0.1 - - [30/Nov/2025 14:11:08] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:11:08,883 INFO: 127.0.0.1 - - [30/Nov/2025 14:11:08] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:11:09,041 INFO: 127.0.0.1 - - [30/Nov/2025 14:11:09] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:11:09,132 INFO: 127.0.0.1 - - [30/Nov/2025 14:11:09] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:11:09,137 INFO: 127.0.0.1 - - [30/Nov/2025 14:11:09] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:11:09,140 INFO: 127.0.0.1 - - [30/Nov/2025 14:11:09] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:11:09,220 INFO: 127.0.0.1 - - [30/Nov/2025 14:11:09] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 14:14:19,610 INFO: 127.0.0.1 - - [30/Nov/2025 14:14:19] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:14:19,680 INFO: 127.0.0.1 - - [30/Nov/2025 14:14:19] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:14:19,872 INFO: 127.0.0.1 - - [30/Nov/2025 14:14:19] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:14:20,014 INFO: 127.0.0.1 - - [30/Nov/2025 14:14:20] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:14:20,029 INFO: 127.0.0.1 - - [30/Nov/2025 14:14:20] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 14:14:20,038 INFO: 127.0.0.1 - - [30/Nov/2025 14:14:20] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:14:20,044 INFO: 127.0.0.1 - - [30/Nov/2025 14:14:20] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:14:20,049 INFO: 127.0.0.1 - - [30/Nov/2025 14:14:20] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:15:52,915 INFO: 127.0.0.1 - - [30/Nov/2025 14:15:52] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:15:52,974 INFO: 127.0.0.1 - - [30/Nov/2025 14:15:52] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:15:53,172 INFO: 127.0.0.1 - - [30/Nov/2025 14:15:53] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:15:53,299 INFO: 127.0.0.1 - - [30/Nov/2025 14:15:53] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:15:53,301 INFO: 127.0.0.1 - - [30/Nov/2025 14:15:53] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:15:53,321 INFO: 127.0.0.1 - - [30/Nov/2025 14:15:53] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:15:53,324 INFO: 127.0.0.1 - - [30/Nov/2025 14:15:53] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:15:53,331 INFO: 127.0.0.1 - - [30/Nov/2025 14:15:53] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 14:17:00,797 INFO: 127.0.0.1 - - [30/Nov/2025 14:17:00] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:17:00,852 INFO: 127.0.0.1 - - [30/Nov/2025 14:17:00] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:17:01,056 INFO: 127.0.0.1 - - [30/Nov/2025 14:17:01] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:17:01,200 INFO: 127.0.0.1 - - [30/Nov/2025 14:17:01] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:17:01,222 INFO: 127.0.0.1 - - [30/Nov/2025 14:17:01] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:17:01,226 INFO: 127.0.0.1 - - [30/Nov/2025 14:17:01] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:17:01,232 INFO: 127.0.0.1 - - [30/Nov/2025 14:17:01] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:17:01,330 INFO: 127.0.0.1 - - [30/Nov/2025 14:17:01] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 14:17:03,872 INFO: add_to_cart called by user 
+2025-11-30 14:17:03,889 INFO: Item added to cart: Café Latte, Size: S, Price: 200, User: , Qty: 1
+2025-11-30 14:17:04,121 ERROR: DB error persisting cart item
+Traceback (most recent call last):
+  File "d:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\WebApp.py", line 191, in add_to_cart
+    cur.execute(f"""
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{username} (\n                        cartID INT PRIMARY KEY AUTO_INCREMENT,\n    ' at line 1")
+2025-11-30 14:17:04,294 INFO: 127.0.0.1 - - [30/Nov/2025 14:17:04] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 14:26:58,847 INFO: Starting Flask backend
+2025-11-30 14:26:58,911 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 14:26:58,912 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 14:27:09,002 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:09] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:27:11,000 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:11] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:27:11,094 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:11] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:27:11,159 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:11] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:27:11,180 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:11] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 14:27:11,223 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:11] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:27:11,233 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:11] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:27:11,313 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:11] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:27:13,811 INFO: login route hit, method=GET
+2025-11-30 14:27:13,845 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:13] "GET /login HTTP/1.1" 200 -
+2025-11-30 14:27:13,892 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:13] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:27:14,079 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:14] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 14:27:14,251 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:14] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:27:14,256 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:14] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:27:14,259 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:14] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 14:27:14,598 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:14] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:27:22,714 INFO: login route hit, method=POST
+2025-11-30 14:27:22,720 INFO: login attempt username='labradora@pup.pup'
+2025-11-30 14:27:22,941 INFO: User labradora@pup.pup authenticated
+2025-11-30 14:27:22,982 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:22] "POST /login HTTP/1.1" 200 -
+2025-11-30 14:27:23,030 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:23] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:27:23,050 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:23] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:27:23,366 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:23] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 14:27:23,366 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:23] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:27:28,833 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:28] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:27:29,010 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:29] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:27:29,105 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:29] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:27:29,237 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:29] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:27:29,237 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:29] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 14:27:29,237 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:29] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:27:29,246 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:29] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:27:29,328 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:29] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:27:34,594 INFO: add_to_cart called by user 
+2025-11-30 14:27:34,594 INFO: Item added to cart: Café Latte, Size: S, Price: 200, User: , Qty: 1
+2025-11-30 14:27:35,344 ERROR: DB error persisting cart item
+Traceback (most recent call last):
+  File "d:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\WebApp.py", line 223, in add_to_cart
+    cur.execute(
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '{username} (user_name, item, quantity, size, price) VALUES ('', 'Café Latte', 1' at line 1")
+2025-11-30 14:27:35,357 INFO: 127.0.0.1 - - [30/Nov/2025 14:27:35] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 14:29:54,577 INFO: Starting Flask backend
+2025-11-30 14:29:54,727 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 14:29:54,727 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 14:29:58,309 INFO: 127.0.0.1 - - [30/Nov/2025 14:29:58] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:29:58,363 INFO: 127.0.0.1 - - [30/Nov/2025 14:29:58] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:30:00,683 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:00] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:30:00,772 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:00] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 14:30:00,777 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:00] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:30:00,791 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:00] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:30:00,817 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:00] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:30:00,842 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:00] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:30:03,912 INFO: login route hit, method=GET
+2025-11-30 14:30:03,926 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:03] "GET /login HTTP/1.1" 200 -
+2025-11-30 14:30:03,978 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:03] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:30:04,170 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:04] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 14:30:04,308 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:04] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:30:04,308 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:04] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:30:04,322 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:04] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 14:30:04,640 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:04] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:30:09,444 INFO: login route hit, method=POST
+2025-11-30 14:30:09,447 INFO: login attempt username='labradora@pup.pup'
+2025-11-30 14:30:09,576 INFO: User labradora@pup.pup authenticated
+2025-11-30 14:30:09,588 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:09] "POST /login HTTP/1.1" 200 -
+2025-11-30 14:30:09,757 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:09] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:30:09,959 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:09] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 14:30:09,962 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:09] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:30:09,968 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:09] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:30:12,144 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:12] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:30:12,305 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:12] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:30:12,397 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:12] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:30:12,549 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:12] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 14:30:12,556 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:12] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:30:12,563 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:12] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:30:12,568 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:12] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:30:12,614 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:12] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:30:20,655 INFO: add_to_cart called by user 
+2025-11-30 14:30:20,655 INFO: Item added to cart: Café Latte, Size: M, Price: 200, User: , Qty: 1
+2025-11-30 14:30:20,946 ERROR: DB error persisting cart item
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 200, in _mogrify
+    query = query % args
+TypeError: not all arguments converted during bytes formatting
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\WebApp.py", line 223, in add_to_cart
+    cur.execute(
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 176, in execute
+    mogrified_query = self._mogrify(query, args)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 202, in _mogrify
+    raise ProgrammingError(str(m))
+MySQLdb.ProgrammingError: not all arguments converted during bytes formatting
+2025-11-30 14:30:20,949 INFO: 127.0.0.1 - - [30/Nov/2025 14:30:20] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 14:32:22,621 INFO: Starting Flask backend
+2025-11-30 14:32:22,669 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 14:32:22,669 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 14:32:27,784 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:27] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:32:27,839 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:27] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:32:29,959 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:29] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:32:29,991 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:29] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:32:30,010 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:30] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 14:32:30,043 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:30] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:32:30,060 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:30] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:32:30,083 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:30] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:32:32,654 INFO: login route hit, method=GET
+2025-11-30 14:32:32,669 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:32] "GET /login HTTP/1.1" 200 -
+2025-11-30 14:32:32,727 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:32] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:32:32,908 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:32] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 14:32:33,072 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:33] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:32:33,072 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:33] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:32:33,081 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:33] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 14:32:33,410 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:33] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:32:38,023 INFO: login route hit, method=POST
+2025-11-30 14:32:38,025 INFO: login attempt username='labradora@pup.pup'
+2025-11-30 14:32:38,051 INFO: User labradora@pup.pup authenticated
+2025-11-30 14:32:38,056 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:38] "POST /login HTTP/1.1" 200 -
+2025-11-30 14:32:38,328 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:38] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:32:38,433 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:38] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 14:32:38,433 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:38] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:32:38,439 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:38] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:32:40,103 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:40] "GET /about-us HTTP/1.1" 200 -
+2025-11-30 14:32:40,318 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:40] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:32:40,352 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:40] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 14:32:40,492 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:40] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:32:41,760 INFO: Index requested
+2025-11-30 14:32:41,770 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:41] "GET / HTTP/1.1" 200 -
+2025-11-30 14:32:42,070 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:42] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:32:42,158 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:42] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 14:32:42,159 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:42] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:32:42,160 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:42] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:32:50,152 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:50] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:32:50,251 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:50] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:32:50,414 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:50] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:32:50,557 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:50] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 14:32:50,557 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:50] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:32:50,569 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:50] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:32:50,570 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:50] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:32:50,577 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:50] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:32:53,314 INFO: add_to_cart called by user 
+2025-11-30 14:32:53,314 INFO: Item added to cart: Café Latte, Size: L, Price: 200, User: , Qty: 1
+2025-11-30 14:32:53,686 ERROR: DB error persisting cart item
+Traceback (most recent call last):
+  File "d:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\WebApp.py", line 223, in add_to_cart
+    cur.execute(
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', Café Latte, 1, L, 200)' at line 1")
+2025-11-30 14:32:53,691 INFO: 127.0.0.1 - - [30/Nov/2025 14:32:53] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 14:33:41,065 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:41] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 14:33:41,365 INFO: Index requested
+2025-11-30 14:33:41,377 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:41] "GET / HTTP/1.1" 200 -
+2025-11-30 14:33:41,773 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:41] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:33:41,776 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:41] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 14:33:41,781 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:41] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:33:41,781 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:41] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:33:45,321 INFO: login route hit, method=GET
+2025-11-30 14:33:45,321 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:45] "GET /login HTTP/1.1" 200 -
+2025-11-30 14:33:45,627 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:45] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 14:33:45,718 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:45] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:33:45,718 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:45] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:33:45,721 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:45] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:33:45,721 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:45] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 14:33:46,054 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:46] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:33:50,676 INFO: login route hit, method=POST
+2025-11-30 14:33:50,679 INFO: login attempt username='labradora@pup.pup'
+2025-11-30 14:33:50,686 INFO: User labradora@pup.pup authenticated
+2025-11-30 14:33:50,690 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:50] "POST /login HTTP/1.1" 200 -
+2025-11-30 14:33:50,988 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:50] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:33:51,082 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:51] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:33:51,084 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:51] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:33:51,084 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:51] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 14:33:54,407 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:54] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:33:54,533 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:54] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:33:54,669 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:54] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:33:54,796 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:54] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 14:33:54,796 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:54] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:33:54,807 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:54] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:33:54,809 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:54] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:33:54,846 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:54] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:33:57,152 INFO: add_to_cart called by user 
+2025-11-30 14:33:57,157 INFO: Item added to cart: Café Latte, Size: S, Price: 200, User: , Qty: 1
+2025-11-30 14:33:57,412 ERROR: DB error persisting cart item
+Traceback (most recent call last):
+  File "d:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\WebApp.py", line 223, in add_to_cart
+    cur.execute(
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', Café Latte, 1, S, 200)' at line 1")
+2025-11-30 14:33:57,462 INFO: 127.0.0.1 - - [30/Nov/2025 14:33:57] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 14:35:11,661 INFO: Starting Flask backend
+2025-11-30 14:35:11,717 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 14:35:11,717 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 14:35:15,650 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:15] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:35:15,711 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:15] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:35:17,795 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:17] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:35:17,851 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:17] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:35:17,851 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:17] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:35:17,885 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:17] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 14:35:17,911 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:17] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:35:17,916 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:17] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:35:24,116 INFO: login route hit, method=GET
+2025-11-30 14:35:24,137 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:24] "GET /login HTTP/1.1" 200 -
+2025-11-30 14:35:24,211 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:24] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:35:24,378 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:24] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 14:35:24,545 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:24] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:35:24,550 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:24] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 14:35:24,550 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:24] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:35:24,886 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:24] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:35:29,944 INFO: login route hit, method=POST
+2025-11-30 14:35:29,948 INFO: login attempt username='labradora@pup.pup'
+2025-11-30 14:35:30,180 INFO: User labradora@pup.pup authenticated
+2025-11-30 14:35:30,191 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:30] "POST /login HTTP/1.1" 200 -
+2025-11-30 14:35:30,255 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:30] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:35:30,277 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:30] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:35:30,597 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:30] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 14:35:30,607 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:30] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:35:33,662 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:33] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:35:33,796 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:33] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:35:33,923 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:33] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:35:34,059 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:34] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 14:35:34,075 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:34] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:35:34,081 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:34] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:35:34,086 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:34] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:35:34,113 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:34] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:35:39,685 INFO: add_to_cart called by user 
+2025-11-30 14:35:39,685 INFO: Item added to cart: Café Latte, Size: L, Price: 200, User: , Qty: 1
+2025-11-30 14:35:40,596 ERROR: DB error persisting cart item
+Traceback (most recent call last):
+  File "d:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\WebApp.py", line 223, in add_to_cart
+    cur.execute(
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', Café Latte, 1, L, 200)' at line 1")
+2025-11-30 14:35:40,610 INFO: 127.0.0.1 - - [30/Nov/2025 14:35:40] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 14:37:22,398 INFO: Starting Flask backend
+2025-11-30 14:37:22,461 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 14:37:22,461 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 14:37:26,726 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:26] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:37:26,772 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:26] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:37:28,795 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:28] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:37:28,856 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:28] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:37:28,882 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:28] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 14:37:28,898 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:28] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:37:28,910 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:28] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:37:28,915 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:28] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:37:32,151 INFO: login route hit, method=GET
+2025-11-30 14:37:32,181 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:32] "GET /login HTTP/1.1" 200 -
+2025-11-30 14:37:32,277 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:32] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:37:32,403 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:32] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 14:37:32,607 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:32] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:37:32,608 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:32] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:37:32,614 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:32] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 14:37:32,628 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:32] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:37:37,887 INFO: login route hit, method=POST
+2025-11-30 14:37:37,897 INFO: login attempt username='labradora@pup.pup'
+2025-11-30 14:37:37,979 INFO: User labradora@pup.pup authenticated
+2025-11-30 14:37:38,010 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:38] "POST /login HTTP/1.1" 200 -
+2025-11-30 14:37:38,146 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:38] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:37:38,405 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:38] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 14:37:38,408 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:38] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:37:38,536 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:38] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:37:39,718 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:39] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:37:39,832 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:39] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:37:39,976 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:39] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:37:40,109 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:40] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:37:40,112 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:40] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 14:37:40,124 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:40] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:37:40,130 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:40] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:37:40,156 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:40] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:37:42,790 INFO: add_to_cart called by user 
+2025-11-30 14:37:42,794 INFO: Item added to cart: Café Latte, Size: M, Price: 200, User: , Qty: 1
+2025-11-30 14:37:43,263 ERROR: DB error persisting cart item
+Traceback (most recent call last):
+  File "d:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\WebApp.py", line 223, in add_to_cart
+    cur.execute(
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', Café Latte, 1, M, 200)' at line 1")
+2025-11-30 14:37:43,279 INFO: 127.0.0.1 - - [30/Nov/2025 14:37:43] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 14:40:43,764 INFO: Starting Flask backend
+2025-11-30 14:40:43,828 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 14:40:43,828 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 14:40:52,171 INFO: 127.0.0.1 - - [30/Nov/2025 14:40:52] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:40:52,243 INFO: 127.0.0.1 - - [30/Nov/2025 14:40:52] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:40:54,490 INFO: 127.0.0.1 - - [30/Nov/2025 14:40:54] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:40:54,554 INFO: 127.0.0.1 - - [30/Nov/2025 14:40:54] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:40:54,586 INFO: 127.0.0.1 - - [30/Nov/2025 14:40:54] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:40:54,595 INFO: 127.0.0.1 - - [30/Nov/2025 14:40:54] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 14:40:54,614 INFO: 127.0.0.1 - - [30/Nov/2025 14:40:54] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:40:54,628 INFO: 127.0.0.1 - - [30/Nov/2025 14:40:54] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:41:01,300 INFO: login route hit, method=GET
+2025-11-30 14:41:01,312 INFO: 127.0.0.1 - - [30/Nov/2025 14:41:01] "GET /login HTTP/1.1" 200 -
+2025-11-30 14:41:01,359 INFO: 127.0.0.1 - - [30/Nov/2025 14:41:01] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:41:01,551 INFO: 127.0.0.1 - - [30/Nov/2025 14:41:01] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 14:41:01,695 INFO: 127.0.0.1 - - [30/Nov/2025 14:41:01] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:41:01,698 INFO: 127.0.0.1 - - [30/Nov/2025 14:41:01] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:41:01,700 INFO: 127.0.0.1 - - [30/Nov/2025 14:41:01] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 14:41:02,040 INFO: 127.0.0.1 - - [30/Nov/2025 14:41:02] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:41:07,555 INFO: login route hit, method=POST
+2025-11-30 14:41:07,560 INFO: login attempt username='labradora@pup.pup'
+2025-11-30 14:41:07,588 INFO: User labradora@pup.pup authenticated
+2025-11-30 14:41:07,597 INFO: 127.0.0.1 - - [30/Nov/2025 14:41:07] "POST /login HTTP/1.1" 200 -
+2025-11-30 14:41:07,869 INFO: 127.0.0.1 - - [30/Nov/2025 14:41:07] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:41:07,969 INFO: 127.0.0.1 - - [30/Nov/2025 14:41:07] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:41:07,969 INFO: 127.0.0.1 - - [30/Nov/2025 14:41:07] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:41:07,980 INFO: 127.0.0.1 - - [30/Nov/2025 14:41:07] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 14:41:10,436 INFO: 127.0.0.1 - - [30/Nov/2025 14:41:10] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:41:10,529 INFO: 127.0.0.1 - - [30/Nov/2025 14:41:10] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:41:10,695 INFO: 127.0.0.1 - - [30/Nov/2025 14:41:10] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:41:10,815 INFO: 127.0.0.1 - - [30/Nov/2025 14:41:10] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:41:10,815 INFO: 127.0.0.1 - - [30/Nov/2025 14:41:10] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 14:41:10,817 INFO: 127.0.0.1 - - [30/Nov/2025 14:41:10] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:41:10,828 INFO: 127.0.0.1 - - [30/Nov/2025 14:41:10] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:41:10,840 INFO: 127.0.0.1 - - [30/Nov/2025 14:41:10] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:41:14,222 INFO: add_to_cart called by user 
+2025-11-30 14:41:14,222 INFO: Item added to cart: Café Latte, Size: S, Price: 200, User: , Qty: 1
+2025-11-30 14:41:14,273 ERROR: DB error persisting cart item
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 200, in _mogrify
+    query = query % args
+TypeError: not all arguments converted during bytes formatting
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\WebApp.py", line 223, in add_to_cart
+    cur.execute(
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 176, in execute
+    mogrified_query = self._mogrify(query, args)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 202, in _mogrify
+    raise ProgrammingError(str(m))
+MySQLdb.ProgrammingError: not all arguments converted during bytes formatting
+2025-11-30 14:41:14,273 INFO: 127.0.0.1 - - [30/Nov/2025 14:41:14] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 14:42:44,382 INFO: Starting Flask backend
+2025-11-30 14:42:44,425 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 14:42:44,425 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 14:42:51,277 INFO: 127.0.0.1 - - [30/Nov/2025 14:42:51] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:42:51,342 INFO: 127.0.0.1 - - [30/Nov/2025 14:42:51] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:42:53,688 INFO: 127.0.0.1 - - [30/Nov/2025 14:42:53] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:42:53,833 INFO: 127.0.0.1 - - [30/Nov/2025 14:42:53] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:42:53,839 INFO: 127.0.0.1 - - [30/Nov/2025 14:42:53] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 14:42:53,847 INFO: 127.0.0.1 - - [30/Nov/2025 14:42:53] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:42:53,871 INFO: 127.0.0.1 - - [30/Nov/2025 14:42:53] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:42:53,888 INFO: 127.0.0.1 - - [30/Nov/2025 14:42:53] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:42:57,792 INFO: login route hit, method=GET
+2025-11-30 14:42:57,806 INFO: 127.0.0.1 - - [30/Nov/2025 14:42:57] "GET /login HTTP/1.1" 200 -
+2025-11-30 14:42:58,020 INFO: 127.0.0.1 - - [30/Nov/2025 14:42:58] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 14:42:58,042 INFO: 127.0.0.1 - - [30/Nov/2025 14:42:58] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:42:58,198 INFO: 127.0.0.1 - - [30/Nov/2025 14:42:58] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:42:58,200 INFO: 127.0.0.1 - - [30/Nov/2025 14:42:58] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:42:58,200 INFO: 127.0.0.1 - - [30/Nov/2025 14:42:58] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 14:42:58,228 INFO: 127.0.0.1 - - [30/Nov/2025 14:42:58] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:43:02,498 INFO: login route hit, method=POST
+2025-11-30 14:43:02,501 INFO: login attempt username='labradora@pup.pup'
+2025-11-30 14:43:02,550 INFO: User labradora@pup.pup authenticated
+2025-11-30 14:43:02,559 INFO: 127.0.0.1 - - [30/Nov/2025 14:43:02] "POST /login HTTP/1.1" 200 -
+2025-11-30 14:43:02,605 INFO: 127.0.0.1 - - [30/Nov/2025 14:43:02] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:43:02,766 INFO: 127.0.0.1 - - [30/Nov/2025 14:43:02] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:43:02,926 INFO: 127.0.0.1 - - [30/Nov/2025 14:43:02] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 14:43:02,926 INFO: 127.0.0.1 - - [30/Nov/2025 14:43:02] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:43:05,060 INFO: 127.0.0.1 - - [30/Nov/2025 14:43:05] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:43:05,316 INFO: 127.0.0.1 - - [30/Nov/2025 14:43:05] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:43:05,316 INFO: 127.0.0.1 - - [30/Nov/2025 14:43:05] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:43:05,444 INFO: 127.0.0.1 - - [30/Nov/2025 14:43:05] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:43:05,444 INFO: 127.0.0.1 - - [30/Nov/2025 14:43:05] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 14:43:05,466 INFO: 127.0.0.1 - - [30/Nov/2025 14:43:05] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:43:05,466 INFO: 127.0.0.1 - - [30/Nov/2025 14:43:05] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:43:05,628 INFO: 127.0.0.1 - - [30/Nov/2025 14:43:05] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:43:08,778 INFO: add_to_cart called by user 
+2025-11-30 14:43:08,778 INFO: Item added to cart: Café Latte, Size: M, Price: 200, User: , Qty: 1
+2025-11-30 14:43:09,100 ERROR: DB error persisting cart item
+Traceback (most recent call last):
+  File "d:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\WebApp.py", line 223, in add_to_cart
+    cur.execute(
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1366, "Incorrect integer value: 'lWoRnLWS' for column 'cartID' at row 1")
+2025-11-30 14:43:09,107 INFO: 127.0.0.1 - - [30/Nov/2025 14:43:09] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 14:44:09,635 INFO: Starting Flask backend
+2025-11-30 14:44:09,690 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 14:44:09,692 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 14:44:13,508 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:13] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:44:13,560 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:13] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:44:15,695 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:15] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:44:15,722 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:15] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:44:15,752 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:15] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:44:15,772 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:15] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 14:44:15,809 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:15] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:44:15,823 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:15] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:44:18,929 INFO: login route hit, method=GET
+2025-11-30 14:44:18,940 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:18] "GET /login HTTP/1.1" 200 -
+2025-11-30 14:44:19,002 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:19] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:44:19,188 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:19] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 14:44:19,341 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:19] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:44:19,341 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:19] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:44:19,346 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:19] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 14:44:19,682 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:19] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:44:24,615 INFO: login route hit, method=POST
+2025-11-30 14:44:24,619 INFO: login attempt username='labradora@pup.pup'
+2025-11-30 14:44:24,686 INFO: User labradora@pup.pup authenticated
+2025-11-30 14:44:24,699 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:24] "POST /login HTTP/1.1" 200 -
+2025-11-30 14:44:24,932 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:24] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:44:25,087 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:25] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 14:44:25,120 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:25] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:44:25,126 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:25] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:44:26,866 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:26] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:44:27,112 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:27] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:44:27,121 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:27] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:44:27,254 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:27] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:44:27,254 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:27] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 14:44:27,254 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:27] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:44:27,279 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:27] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:44:27,443 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:27] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:44:30,381 INFO: add_to_cart called by user 
+2025-11-30 14:44:30,381 INFO: Item added to cart: Café Latte, Size: S, Price: 200, User: , Qty: 1
+2025-11-30 14:44:30,657 INFO: 127.0.0.1 - - [30/Nov/2025 14:44:30] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 14:45:34,809 INFO: Starting Flask backend
+2025-11-30 14:45:34,860 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 14:45:34,860 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 14:46:04,075 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:04] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:46:04,197 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:04] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:46:06,153 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:06] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:46:06,429 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:06] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:46:06,443 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:06] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:46:06,451 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:06] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 14:46:06,465 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:06] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:46:06,481 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:06] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:46:08,947 INFO: login route hit, method=GET
+2025-11-30 14:46:08,963 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:08] "GET /login HTTP/1.1" 200 -
+2025-11-30 14:46:09,088 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:09] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 14:46:09,217 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:09] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:46:09,334 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:09] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:46:09,338 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:09] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:46:09,343 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:09] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 14:46:09,368 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:09] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:46:14,147 INFO: login route hit, method=POST
+2025-11-30 14:46:14,155 INFO: login attempt username='labradora@pup.pup'
+2025-11-30 14:46:14,164 INFO: User labradora@pup.pup authenticated
+2025-11-30 14:46:14,180 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:14] "POST /login HTTP/1.1" 200 -
+2025-11-30 14:46:14,236 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:14] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:46:14,405 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:14] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:46:14,564 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:14] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 14:46:14,572 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:14] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:46:15,976 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:15] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:46:16,206 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:16] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:46:16,214 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:16] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:46:16,357 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:16] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:46:16,357 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:16] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 14:46:16,357 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:16] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:46:16,371 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:16] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:46:16,520 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:16] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:46:19,837 INFO: add_to_cart called by user 
+2025-11-30 14:46:19,841 INFO: Item added to cart: Café Latte, Size: L, Price: 200, User: , Qty: 1
+2025-11-30 14:46:20,146 INFO: 127.0.0.1 - - [30/Nov/2025 14:46:20] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 14:47:39,002 INFO: login route hit, method=GET
+2025-11-30 14:47:39,002 INFO: 127.0.0.1 - - [30/Nov/2025 14:47:39] "GET /login HTTP/1.1" 200 -
+2025-11-30 14:47:39,054 INFO: 127.0.0.1 - - [30/Nov/2025 14:47:39] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:47:39,261 INFO: 127.0.0.1 - - [30/Nov/2025 14:47:39] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 14:47:39,396 INFO: 127.0.0.1 - - [30/Nov/2025 14:47:39] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:47:39,400 INFO: 127.0.0.1 - - [30/Nov/2025 14:47:39] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:47:39,403 INFO: 127.0.0.1 - - [30/Nov/2025 14:47:39] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 14:47:39,740 INFO: 127.0.0.1 - - [30/Nov/2025 14:47:39] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:47:42,651 INFO: 127.0.0.1 - - [30/Nov/2025 14:47:42] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:47:44,514 INFO: 127.0.0.1 - - [30/Nov/2025 14:47:44] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:47:44,822 INFO: 127.0.0.1 - - [30/Nov/2025 14:47:44] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:47:44,951 INFO: 127.0.0.1 - - [30/Nov/2025 14:47:44] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:47:44,964 INFO: 127.0.0.1 - - [30/Nov/2025 14:47:44] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:47:44,965 INFO: 127.0.0.1 - - [30/Nov/2025 14:47:44] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 14:47:44,970 INFO: 127.0.0.1 - - [30/Nov/2025 14:47:44] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:47:44,980 INFO: 127.0.0.1 - - [30/Nov/2025 14:47:44] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:47:45,143 INFO: 127.0.0.1 - - [30/Nov/2025 14:47:45] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:52:06,445 INFO: 127.0.0.1 - - [30/Nov/2025 14:52:06] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:52:06,504 INFO: 127.0.0.1 - - [30/Nov/2025 14:52:06] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:52:06,517 INFO: 127.0.0.1 - - [30/Nov/2025 14:52:06] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:52:06,837 INFO: 127.0.0.1 - - [30/Nov/2025 14:52:06] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:52:06,839 INFO: 127.0.0.1 - - [30/Nov/2025 14:52:06] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:52:06,839 INFO: 127.0.0.1 - - [30/Nov/2025 14:52:06] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:52:06,842 INFO: 127.0.0.1 - - [30/Nov/2025 14:52:06] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:52:07,548 INFO: 127.0.0.1 - - [30/Nov/2025 14:52:07] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 14:53:29,734 INFO: 127.0.0.1 - - [30/Nov/2025 14:53:29] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:53:31,190 INFO: 127.0.0.1 - - [30/Nov/2025 14:53:31] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:53:31,218 INFO: 127.0.0.1 - - [30/Nov/2025 14:53:31] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:53:31,537 INFO: 127.0.0.1 - - [30/Nov/2025 14:53:31] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:53:31,552 INFO: 127.0.0.1 - - [30/Nov/2025 14:53:31] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:53:31,556 INFO: 127.0.0.1 - - [30/Nov/2025 14:53:31] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:53:31,564 INFO: 127.0.0.1 - - [30/Nov/2025 14:53:31] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:53:35,797 INFO: 127.0.0.1 - - [30/Nov/2025 14:53:35] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 14:54:46,958 INFO: 127.0.0.1 - - [30/Nov/2025 14:54:46] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:54:47,013 INFO: 127.0.0.1 - - [30/Nov/2025 14:54:47] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:54:47,207 INFO: 127.0.0.1 - - [30/Nov/2025 14:54:47] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:54:47,339 INFO: 127.0.0.1 - - [30/Nov/2025 14:54:47] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:54:47,339 INFO: 127.0.0.1 - - [30/Nov/2025 14:54:47] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 14:54:47,359 INFO: 127.0.0.1 - - [30/Nov/2025 14:54:47] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:54:47,366 INFO: 127.0.0.1 - - [30/Nov/2025 14:54:47] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:54:47,367 INFO: 127.0.0.1 - - [30/Nov/2025 14:54:47] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:56:40,663 INFO: 127.0.0.1 - - [30/Nov/2025 14:56:40] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:56:41,014 INFO: 127.0.0.1 - - [30/Nov/2025 14:56:41] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:56:41,020 INFO: 127.0.0.1 - - [30/Nov/2025 14:56:41] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:56:41,040 INFO: 127.0.0.1 - - [30/Nov/2025 14:56:41] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:56:41,044 INFO: 127.0.0.1 - - [30/Nov/2025 14:56:41] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:56:41,051 INFO: 127.0.0.1 - - [30/Nov/2025 14:56:41] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:56:41,111 INFO: 127.0.0.1 - - [30/Nov/2025 14:56:41] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 14:56:41,331 INFO: 127.0.0.1 - - [30/Nov/2025 14:56:41] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:58:00,739 INFO: 127.0.0.1 - - [30/Nov/2025 14:58:00] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:58:00,789 INFO: 127.0.0.1 - - [30/Nov/2025 14:58:00] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:58:01,003 INFO: 127.0.0.1 - - [30/Nov/2025 14:58:01] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:58:01,123 INFO: 127.0.0.1 - - [30/Nov/2025 14:58:01] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:58:01,145 INFO: 127.0.0.1 - - [30/Nov/2025 14:58:01] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:58:01,148 INFO: 127.0.0.1 - - [30/Nov/2025 14:58:01] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:58:01,151 INFO: 127.0.0.1 - - [30/Nov/2025 14:58:01] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:58:01,283 INFO: 127.0.0.1 - - [30/Nov/2025 14:58:01] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 14:58:36,439 INFO: 127.0.0.1 - - [30/Nov/2025 14:58:36] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:58:36,493 INFO: 127.0.0.1 - - [30/Nov/2025 14:58:36] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:58:36,706 INFO: 127.0.0.1 - - [30/Nov/2025 14:58:36] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:58:36,835 INFO: 127.0.0.1 - - [30/Nov/2025 14:58:36] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:58:36,851 INFO: 127.0.0.1 - - [30/Nov/2025 14:58:36] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:58:36,867 INFO: 127.0.0.1 - - [30/Nov/2025 14:58:36] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:58:36,879 INFO: 127.0.0.1 - - [30/Nov/2025 14:58:36] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:58:36,950 INFO: 127.0.0.1 - - [30/Nov/2025 14:58:36] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 14:59:37,660 INFO: 127.0.0.1 - - [30/Nov/2025 14:59:37] "GET /menu HTTP/1.1" 200 -
+2025-11-30 14:59:37,697 INFO: 127.0.0.1 - - [30/Nov/2025 14:59:37] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 14:59:37,897 INFO: 127.0.0.1 - - [30/Nov/2025 14:59:37] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 14:59:38,031 INFO: 127.0.0.1 - - [30/Nov/2025 14:59:38] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 14:59:38,036 INFO: 127.0.0.1 - - [30/Nov/2025 14:59:38] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 14:59:38,039 INFO: 127.0.0.1 - - [30/Nov/2025 14:59:38] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:59:38,054 INFO: 127.0.0.1 - - [30/Nov/2025 14:59:38] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:59:38,058 INFO: 127.0.0.1 - - [30/Nov/2025 14:59:38] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 14:59:40,981 INFO: add_to_cart called by user 
+2025-11-30 14:59:40,983 INFO: Item added to cart: Café Latte, Size: M, Price: 200, User: , Qty: 1
+2025-11-30 14:59:41,320 INFO: 127.0.0.1 - - [30/Nov/2025 14:59:41] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 15:01:32,804 INFO: 127.0.0.1 - - [30/Nov/2025 15:01:32] "GET /menu HTTP/1.1" 200 -
+2025-11-30 15:01:32,846 INFO: 127.0.0.1 - - [30/Nov/2025 15:01:32] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:01:33,067 INFO: 127.0.0.1 - - [30/Nov/2025 15:01:33] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:01:33,196 INFO: 127.0.0.1 - - [30/Nov/2025 15:01:33] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:01:33,196 INFO: 127.0.0.1 - - [30/Nov/2025 15:01:33] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:01:33,196 INFO: 127.0.0.1 - - [30/Nov/2025 15:01:33] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:01:33,215 INFO: 127.0.0.1 - - [30/Nov/2025 15:01:33] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:01:33,283 INFO: 127.0.0.1 - - [30/Nov/2025 15:01:33] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 15:01:36,389 INFO: add_to_cart called by user 
+2025-11-30 15:01:36,389 INFO: Item added to cart: Café Latte, Size: S, Price: 200, User: , Qty: 1
+2025-11-30 15:01:38,126 INFO: 127.0.0.1 - - [30/Nov/2025 15:01:38] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 15:05:21,509 INFO: Index requested
+2025-11-30 15:05:21,526 INFO: 127.0.0.1 - - [30/Nov/2025 15:05:21] "GET / HTTP/1.1" 200 -
+2025-11-30 15:05:21,593 INFO: 127.0.0.1 - - [30/Nov/2025 15:05:21] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:05:21,770 INFO: 127.0.0.1 - - [30/Nov/2025 15:05:21] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:05:21,916 INFO: 127.0.0.1 - - [30/Nov/2025 15:05:21] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:05:21,917 INFO: 127.0.0.1 - - [30/Nov/2025 15:05:21] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:05:24,897 INFO: 127.0.0.1 - - [30/Nov/2025 15:05:24] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:05:24,998 INFO: Index requested
+2025-11-30 15:05:25,033 INFO: 127.0.0.1 - - [30/Nov/2025 15:05:25] "GET / HTTP/1.1" 200 -
+2025-11-30 15:05:25,154 INFO: 127.0.0.1 - - [30/Nov/2025 15:05:25] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:05:25,451 INFO: 127.0.0.1 - - [30/Nov/2025 15:05:25] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:05:25,454 INFO: 127.0.0.1 - - [30/Nov/2025 15:05:25] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:05:25,455 INFO: 127.0.0.1 - - [30/Nov/2025 15:05:25] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:05:28,325 INFO: login route hit, method=GET
+2025-11-30 15:05:28,326 INFO: 127.0.0.1 - - [30/Nov/2025 15:05:28] "GET /login HTTP/1.1" 200 -
+2025-11-30 15:05:28,633 INFO: 127.0.0.1 - - [30/Nov/2025 15:05:28] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:05:28,702 INFO: 127.0.0.1 - - [30/Nov/2025 15:05:28] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:05:28,705 INFO: 127.0.0.1 - - [30/Nov/2025 15:05:28] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:05:28,706 INFO: 127.0.0.1 - - [30/Nov/2025 15:05:28] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:05:28,709 INFO: 127.0.0.1 - - [30/Nov/2025 15:05:28] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 15:05:29,033 INFO: 127.0.0.1 - - [30/Nov/2025 15:05:29] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:06:55,625 INFO: Index requested
+2025-11-30 15:06:55,656 INFO: 127.0.0.1 - - [30/Nov/2025 15:06:55] "GET / HTTP/1.1" 200 -
+2025-11-30 15:06:55,699 INFO: 127.0.0.1 - - [30/Nov/2025 15:06:55] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:06:55,889 INFO: 127.0.0.1 - - [30/Nov/2025 15:06:55] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:06:56,030 INFO: 127.0.0.1 - - [30/Nov/2025 15:06:56] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:06:56,032 INFO: 127.0.0.1 - - [30/Nov/2025 15:06:56] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:06:59,972 INFO: login route hit, method=GET
+2025-11-30 15:06:59,973 INFO: 127.0.0.1 - - [30/Nov/2025 15:06:59] "GET /login HTTP/1.1" 200 -
+2025-11-30 15:07:00,067 INFO: 127.0.0.1 - - [30/Nov/2025 15:07:00] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:07:00,240 INFO: 127.0.0.1 - - [30/Nov/2025 15:07:00] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:07:00,374 INFO: 127.0.0.1 - - [30/Nov/2025 15:07:00] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:07:00,376 INFO: 127.0.0.1 - - [30/Nov/2025 15:07:00] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:07:00,377 INFO: 127.0.0.1 - - [30/Nov/2025 15:07:00] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 15:07:00,394 INFO: 127.0.0.1 - - [30/Nov/2025 15:07:00] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:07:06,590 INFO: login route hit, method=POST
+2025-11-30 15:07:06,590 INFO: login attempt username='labradora@pup.pup'
+2025-11-30 15:07:06,835 INFO: User labradora@pup.pup authenticated
+2025-11-30 15:07:06,837 INFO: 127.0.0.1 - - [30/Nov/2025 15:07:06] "POST /login HTTP/1.1" 200 -
+2025-11-30 15:07:06,883 INFO: 127.0.0.1 - - [30/Nov/2025 15:07:06] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:07:06,900 INFO: 127.0.0.1 - - [30/Nov/2025 15:07:06] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:07:07,205 INFO: 127.0.0.1 - - [30/Nov/2025 15:07:07] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:07:07,211 INFO: 127.0.0.1 - - [30/Nov/2025 15:07:07] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:07:08,857 INFO: 127.0.0.1 - - [30/Nov/2025 15:07:08] "GET /menu HTTP/1.1" 200 -
+2025-11-30 15:07:08,971 INFO: 127.0.0.1 - - [30/Nov/2025 15:07:08] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:07:09,112 INFO: 127.0.0.1 - - [30/Nov/2025 15:07:09] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:07:09,292 INFO: 127.0.0.1 - - [30/Nov/2025 15:07:09] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:07:09,302 INFO: 127.0.0.1 - - [30/Nov/2025 15:07:09] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 15:07:09,306 INFO: 127.0.0.1 - - [30/Nov/2025 15:07:09] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:07:09,320 INFO: 127.0.0.1 - - [30/Nov/2025 15:07:09] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:07:09,324 INFO: 127.0.0.1 - - [30/Nov/2025 15:07:09] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:08:02,989 INFO: Starting Flask backend
+2025-11-30 15:08:03,059 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 15:08:03,059 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 15:08:08,525 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:08] "GET /menu HTTP/1.1" 200 -
+2025-11-30 15:08:08,574 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:08] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:08:08,886 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:08] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:08:08,920 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:08] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 15:08:08,921 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:08] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:08:08,921 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:08] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:08:08,921 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:08] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:08:08,926 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:08] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:08:12,102 INFO: Index requested
+2025-11-30 15:08:12,210 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:12] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:12,251 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:12] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:12,365 INFO: Index requested
+2025-11-30 15:08:12,373 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:12] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:12,564 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:12] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:12,693 INFO: Index requested
+2025-11-30 15:08:12,708 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:12] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:12,879 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:12] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:13,026 INFO: Index requested
+2025-11-30 15:08:13,061 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:13] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:13,194 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:13] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:13,393 INFO: Index requested
+2025-11-30 15:08:13,394 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:13] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:13,507 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:13] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:13,708 INFO: Index requested
+2025-11-30 15:08:13,708 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:13] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:13,826 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:13] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:14,027 INFO: Index requested
+2025-11-30 15:08:14,034 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:14] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:14,145 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:14] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:14,344 INFO: Index requested
+2025-11-30 15:08:14,351 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:14] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:14,461 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:14] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:14,660 INFO: Index requested
+2025-11-30 15:08:14,660 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:14] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:14,778 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:14] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:14,979 INFO: Index requested
+2025-11-30 15:08:15,011 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:15] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:15,095 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:15] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:16,228 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:16] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:16,544 INFO: Index requested
+2025-11-30 15:08:16,549 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:16] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:16,861 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:16] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:17,112 INFO: Index requested
+2025-11-30 15:08:17,182 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:17] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:17,191 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:17] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:17,509 INFO: Index requested
+2025-11-30 15:08:17,524 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:17] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:17,775 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:17] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:17,842 INFO: Index requested
+2025-11-30 15:08:17,859 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:17] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:18,094 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:18] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:18,176 INFO: Index requested
+2025-11-30 15:08:18,192 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:18] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:18,414 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:18] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:18,509 INFO: Index requested
+2025-11-30 15:08:18,510 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:18] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:18,727 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:18] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:18,844 INFO: Index requested
+2025-11-30 15:08:18,865 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:18] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:19,046 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:19] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:19,175 INFO: Index requested
+2025-11-30 15:08:19,192 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:19] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:19,361 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:19] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:19,511 INFO: Index requested
+2025-11-30 15:08:19,517 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:19] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:19,678 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:19] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:19,828 INFO: Index requested
+2025-11-30 15:08:19,834 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:19] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:32,187 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:32] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:32,201 INFO: Index requested
+2025-11-30 15:08:32,239 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:32] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:32,562 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:32] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:32,811 INFO: Index requested
+2025-11-30 15:08:32,814 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:32] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:32,877 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:32] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:33,128 INFO: Index requested
+2025-11-30 15:08:33,166 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:33] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:33,198 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:33] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:33,481 INFO: Index requested
+2025-11-30 15:08:33,486 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:33] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:33,514 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:33] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:33,795 INFO: Index requested
+2025-11-30 15:08:33,801 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:33] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:33,830 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:33] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:34,124 INFO: Index requested
+2025-11-30 15:08:34,126 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:34] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:34,126 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:34] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:34,461 INFO: Index requested
+2025-11-30 15:08:34,462 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:34] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:34,729 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:34] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:34,779 INFO: Index requested
+2025-11-30 15:08:34,784 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:34] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:35,046 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:35] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:35,095 INFO: Index requested
+2025-11-30 15:08:35,096 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:35] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:35,362 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:35] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:35,414 INFO: Index requested
+2025-11-30 15:08:35,414 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:35] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:37,668 INFO: Index requested
+2025-11-30 15:08:37,671 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:37] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:37,981 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:37] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:38,296 INFO: Index requested
+2025-11-30 15:08:38,311 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:38] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:38,547 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:38] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:38,628 INFO: Index requested
+2025-11-30 15:08:38,643 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:38] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:38,863 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:38] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:38,963 INFO: Index requested
+2025-11-30 15:08:38,963 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:38] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:39,181 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:39] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:39,281 INFO: Index requested
+2025-11-30 15:08:39,289 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:39] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:39,495 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:39] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:39,610 INFO: Index requested
+2025-11-30 15:08:39,610 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:39] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:39,829 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:39] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:39,928 INFO: Index requested
+2025-11-30 15:08:39,934 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:39] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:40,147 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:40] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:40,244 INFO: Index requested
+2025-11-30 15:08:40,249 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:40] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:40,462 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:40] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:40,570 INFO: Index requested
+2025-11-30 15:08:40,591 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:40] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:40,775 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:40] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:40,914 INFO: Index requested
+2025-11-30 15:08:40,920 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:40] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:41,095 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:41] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:42,183 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:42] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:42,496 INFO: Index requested
+2025-11-30 15:08:42,503 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:42] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:42,814 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:42] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:43,080 INFO: Index requested
+2025-11-30 15:08:43,086 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:43] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:43,133 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:43] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:43,412 INFO: Index requested
+2025-11-30 15:08:43,413 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:43] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:43,440 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:43] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:43,746 INFO: Index requested
+2025-11-30 15:08:43,752 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:43] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:43,760 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:43] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:44,080 INFO: Index requested
+2025-11-30 15:08:44,087 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:44] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:08:44,329 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:44] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 15:08:44,410 INFO: Index requested
+2025-11-30 15:08:44,417 INFO: 127.0.0.1 - - [30/Nov/2025 15:08:44] "[32mGET / HTTP/1.1[0m" 302 -
+2025-11-30 15:12:47,489 INFO: Starting Flask backend
+2025-11-30 15:12:47,540 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 15:12:47,540 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 15:12:53,948 INFO: Index requested
+2025-11-30 15:12:54,012 INFO: 127.0.0.1 - - [30/Nov/2025 15:12:54] "GET / HTTP/1.1" 200 -
+2025-11-30 15:12:54,053 INFO: 127.0.0.1 - - [30/Nov/2025 15:12:54] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:12:54,714 INFO: 127.0.0.1 - - [30/Nov/2025 15:12:54] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:12:54,797 INFO: 127.0.0.1 - - [30/Nov/2025 15:12:54] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:12:54,797 INFO: 127.0.0.1 - - [30/Nov/2025 15:12:54] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:12:58,602 INFO: login route hit, method=GET
+2025-11-30 15:12:58,613 INFO: 127.0.0.1 - - [30/Nov/2025 15:12:58] "GET /login HTTP/1.1" 200 -
+2025-11-30 15:12:58,726 INFO: 127.0.0.1 - - [30/Nov/2025 15:12:58] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:12:58,870 INFO: 127.0.0.1 - - [30/Nov/2025 15:12:58] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:12:58,999 INFO: 127.0.0.1 - - [30/Nov/2025 15:12:58] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:12:59,003 INFO: 127.0.0.1 - - [30/Nov/2025 15:12:59] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:12:59,004 INFO: 127.0.0.1 - - [30/Nov/2025 15:12:59] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 15:12:59,018 INFO: 127.0.0.1 - - [30/Nov/2025 15:12:59] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:13:01,929 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:01] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:13:01,944 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:01] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:13:01,946 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:01] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:13:02,181 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:02] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:13:02,467 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:02] "GET /menu HTTP/1.1" 200 -
+2025-11-30 15:13:02,765 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:02] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:13:02,826 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:02] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:13:02,832 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:02] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 15:13:02,834 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:02] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:13:02,850 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:02] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:13:02,853 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:02] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:13:03,080 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:03] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:13:08,514 INFO: login route hit, method=GET
+2025-11-30 15:13:08,514 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:08] "GET /login HTTP/1.1" 200 -
+2025-11-30 15:13:08,645 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:08] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:13:08,770 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:08] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:13:08,899 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:08] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:13:08,905 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:08] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:13:08,906 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:08] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 15:13:08,925 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:08] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:13:14,400 INFO: login route hit, method=POST
+2025-11-30 15:13:14,405 INFO: login attempt username='labradora@pup.pup'
+2025-11-30 15:13:14,414 INFO: User labradora@pup.pup authenticated
+2025-11-30 15:13:14,414 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:14] "POST /login HTTP/1.1" 200 -
+2025-11-30 15:13:14,477 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:14] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:13:14,662 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:14] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:13:14,797 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:14] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:13:14,797 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:14] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:13:17,368 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:17] "GET /menu HTTP/1.1" 200 -
+2025-11-30 15:13:17,511 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:17] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:13:17,631 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:17] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:13:17,755 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:17] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:13:17,756 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:17] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 15:13:17,757 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:17] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:13:17,758 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:17] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:13:17,827 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:17] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:13:21,771 INFO: add_to_cart called by user 
+2025-11-30 15:13:21,772 INFO: Item added to cart: Café Latte, Size: S, Price: 200, User: , Qty: 1
+2025-11-30 15:13:22,186 INFO: 127.0.0.1 - - [30/Nov/2025 15:13:22] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 15:30:38,963 INFO: Starting Flask backend
+2025-11-30 15:32:15,137 INFO: Starting Flask backend
+2025-11-30 15:33:37,027 INFO: Starting Flask backend
+2025-11-30 15:33:37,171 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 15:33:37,171 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 15:33:45,589 INFO: Index requested
+2025-11-30 15:33:45,695 INFO: 127.0.0.1 - - [30/Nov/2025 15:33:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-30 15:33:46,032 INFO: 127.0.0.1 - - [30/Nov/2025 15:33:46] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-30 15:33:46,085 INFO: 127.0.0.1 - - [30/Nov/2025 15:33:46] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-30 15:33:46,162 INFO: 127.0.0.1 - - [30/Nov/2025 15:33:46] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:33:46,497 INFO: 127.0.0.1 - - [30/Nov/2025 15:33:46] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=INAGXfZ38Wnwu3bRp1WI HTTP/1.1" 200 -
+2025-11-30 15:33:46,747 INFO: 127.0.0.1 - - [30/Nov/2025 15:33:46] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-30 15:34:54,247 INFO: Starting Flask backend
+2025-11-30 15:34:54,397 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 15:34:54,398 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 15:34:57,388 INFO: Index requested
+2025-11-30 15:34:57,439 INFO: 127.0.0.1 - - [30/Nov/2025 15:34:57] "GET / HTTP/1.1" 200 -
+2025-11-30 15:34:57,477 INFO: 127.0.0.1 - - [30/Nov/2025 15:34:57] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:34:58,085 INFO: 127.0.0.1 - - [30/Nov/2025 15:34:58] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:34:58,233 INFO: 127.0.0.1 - - [30/Nov/2025 15:34:58] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:34:58,235 INFO: 127.0.0.1 - - [30/Nov/2025 15:34:58] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:35:06,319 INFO: login route hit, method=GET
+2025-11-30 15:35:06,319 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:06] "GET /login HTTP/1.1" 200 -
+2025-11-30 15:35:06,443 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:06] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:35:06,570 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:06] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:35:06,721 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:06] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:35:06,724 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:06] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:35:06,725 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:06] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 15:35:06,743 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:06] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:35:12,018 INFO: login route hit, method=POST
+2025-11-30 15:35:12,018 INFO: login attempt username='labradora@pup.pup'
+2025-11-30 15:35:12,066 INFO: User labradora@pup.pup authenticated
+2025-11-30 15:35:12,066 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-30 15:35:12,089 INFO: Index requested
+2025-11-30 15:35:12,153 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:12] "GET / HTTP/1.1" 200 -
+2025-11-30 15:35:12,266 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:12] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:35:12,558 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:12] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:35:12,559 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:12] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:35:12,559 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:12] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:35:17,752 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:17] "GET /about-us HTTP/1.1" 200 -
+2025-11-30 15:35:17,970 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:17] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:35:17,970 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:17] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:35:18,133 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:18] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:35:19,918 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:19] "GET /menu HTTP/1.1" 200 -
+2025-11-30 15:35:20,052 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:20] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:35:20,168 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:20] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:35:20,312 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:20] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 15:35:20,314 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:20] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:35:20,314 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:20] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:35:20,314 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:20] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:35:20,368 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:20] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:35:23,769 INFO: login route hit, method=GET
+2025-11-30 15:35:23,769 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:23] "GET /login HTTP/1.1" 200 -
+2025-11-30 15:35:23,821 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:23] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:35:24,022 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:24] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:35:24,150 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:24] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:35:24,150 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:24] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:35:24,150 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:24] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 15:35:24,487 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:24] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:35:37,154 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:37] "[35m[1mGET /Signup HTTP/1.1[0m" 500 -
+2025-11-30 15:35:37,304 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:37] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:35:37,357 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:37] "GET /Signup?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-30 15:35:37,621 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:37] "GET /Signup?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-30 15:35:38,103 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:38] "GET /Signup?__debugger__=yes&cmd=resource&f=console.png&s=DRR50rwL4kQXA5GLpdDw HTTP/1.1" 200 -
+2025-11-30 15:35:38,353 INFO: 127.0.0.1 - - [30/Nov/2025 15:35:38] "GET /Signup?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-30 15:36:09,270 INFO: Starting Flask backend
+2025-11-30 15:36:09,321 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 15:36:09,321 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 15:36:14,277 INFO: Index requested
+2025-11-30 15:36:14,454 INFO: 127.0.0.1 - - [30/Nov/2025 15:36:14] "GET / HTTP/1.1" 200 -
+2025-11-30 15:36:14,533 INFO: 127.0.0.1 - - [30/Nov/2025 15:36:14] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:36:15,307 INFO: 127.0.0.1 - - [30/Nov/2025 15:36:15] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:36:15,309 INFO: 127.0.0.1 - - [30/Nov/2025 15:36:15] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:36:15,309 INFO: 127.0.0.1 - - [30/Nov/2025 15:36:15] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:36:50,898 INFO: 127.0.0.1 - - [30/Nov/2025 15:36:50] "GET /Signup HTTP/1.1" 200 -
+2025-11-30 15:36:51,018 INFO: 127.0.0.1 - - [30/Nov/2025 15:36:51] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:36:51,141 INFO: 127.0.0.1 - - [30/Nov/2025 15:36:51] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:36:51,300 INFO: 127.0.0.1 - - [30/Nov/2025 15:36:51] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:36:51,309 INFO: 127.0.0.1 - - [30/Nov/2025 15:36:51] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:36:51,309 INFO: 127.0.0.1 - - [30/Nov/2025 15:36:51] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 15:36:51,336 INFO: 127.0.0.1 - - [30/Nov/2025 15:36:51] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:37:05,991 INFO: signup called (username='alice@alice.pup')
+2025-11-30 15:37:06,407 INFO: User alice@alice.pup created
+2025-11-30 15:37:06,407 INFO: 127.0.0.1 - - [30/Nov/2025 15:37:06] "[32mPOST /Signup HTTP/1.1[0m" 302 -
+2025-11-30 15:37:06,407 INFO: Index requested
+2025-11-30 15:37:06,467 INFO: 127.0.0.1 - - [30/Nov/2025 15:37:06] "GET / HTTP/1.1" 200 -
+2025-11-30 15:37:06,508 INFO: 127.0.0.1 - - [30/Nov/2025 15:37:06] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:37:06,849 INFO: 127.0.0.1 - - [30/Nov/2025 15:37:06] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:37:06,850 INFO: 127.0.0.1 - - [30/Nov/2025 15:37:06] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:37:06,850 INFO: 127.0.0.1 - - [30/Nov/2025 15:37:06] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:37:11,761 INFO: 127.0.0.1 - - [30/Nov/2025 15:37:11] "GET /menu HTTP/1.1" 200 -
+2025-11-30 15:37:12,044 INFO: 127.0.0.1 - - [30/Nov/2025 15:37:12] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:37:12,157 INFO: 127.0.0.1 - - [30/Nov/2025 15:37:12] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 15:37:12,158 INFO: 127.0.0.1 - - [30/Nov/2025 15:37:12] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:37:12,158 INFO: 127.0.0.1 - - [30/Nov/2025 15:37:12] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:37:12,161 INFO: 127.0.0.1 - - [30/Nov/2025 15:37:12] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:37:12,162 INFO: 127.0.0.1 - - [30/Nov/2025 15:37:12] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:37:12,357 INFO: 127.0.0.1 - - [30/Nov/2025 15:37:12] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:37:57,328 INFO: 127.0.0.1 - - [30/Nov/2025 15:37:57] "GET /menu HTTP/1.1" 200 -
+2025-11-30 15:37:57,372 INFO: 127.0.0.1 - - [30/Nov/2025 15:37:57] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:37:57,386 INFO: 127.0.0.1 - - [30/Nov/2025 15:37:57] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:37:57,697 INFO: 127.0.0.1 - - [30/Nov/2025 15:37:57] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:37:57,697 INFO: 127.0.0.1 - - [30/Nov/2025 15:37:57] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 15:37:57,697 INFO: 127.0.0.1 - - [30/Nov/2025 15:37:57] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:37:57,722 INFO: 127.0.0.1 - - [30/Nov/2025 15:37:57] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:37:57,722 INFO: 127.0.0.1 - - [30/Nov/2025 15:37:57] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:38:01,017 INFO: Index requested
+2025-11-30 15:38:01,117 INFO: 127.0.0.1 - - [30/Nov/2025 15:38:01] "GET / HTTP/1.1" 200 -
+2025-11-30 15:38:01,186 INFO: 127.0.0.1 - - [30/Nov/2025 15:38:01] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:38:01,264 INFO: 127.0.0.1 - - [30/Nov/2025 15:38:01] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:38:01,520 INFO: 127.0.0.1 - - [30/Nov/2025 15:38:01] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:38:01,521 INFO: 127.0.0.1 - - [30/Nov/2025 15:38:01] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:38:47,203 INFO: Index requested
+2025-11-30 15:38:47,222 INFO: 127.0.0.1 - - [30/Nov/2025 15:38:47] "GET / HTTP/1.1" 200 -
+2025-11-30 15:38:47,257 INFO: 127.0.0.1 - - [30/Nov/2025 15:38:47] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:38:47,466 INFO: 127.0.0.1 - - [30/Nov/2025 15:38:47] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:38:47,582 INFO: 127.0.0.1 - - [30/Nov/2025 15:38:47] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:38:47,584 INFO: 127.0.0.1 - - [30/Nov/2025 15:38:47] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:38:48,709 INFO: 127.0.0.1 - - [30/Nov/2025 15:38:48] "GET /menu HTTP/1.1" 200 -
+2025-11-30 15:38:48,815 INFO: 127.0.0.1 - - [30/Nov/2025 15:38:48] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:38:48,918 INFO: 127.0.0.1 - - [30/Nov/2025 15:38:48] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:38:49,107 INFO: 127.0.0.1 - - [30/Nov/2025 15:38:49] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 15:38:49,108 INFO: 127.0.0.1 - - [30/Nov/2025 15:38:49] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:38:49,109 INFO: 127.0.0.1 - - [30/Nov/2025 15:38:49] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:38:49,112 INFO: 127.0.0.1 - - [30/Nov/2025 15:38:49] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:38:49,127 INFO: 127.0.0.1 - - [30/Nov/2025 15:38:49] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:38:54,131 INFO: 127.0.0.1 - - [30/Nov/2025 15:38:54] "[35m[1mPOST /add-to-cart HTTP/1.1[0m" 500 -
+2025-11-30 15:39:05,356 INFO: login route hit, method=GET
+2025-11-30 15:39:05,382 INFO: 127.0.0.1 - - [30/Nov/2025 15:39:05] "GET /login HTTP/1.1" 200 -
+2025-11-30 15:39:05,672 INFO: 127.0.0.1 - - [30/Nov/2025 15:39:05] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:39:05,749 INFO: 127.0.0.1 - - [30/Nov/2025 15:39:05] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:39:05,749 INFO: 127.0.0.1 - - [30/Nov/2025 15:39:05] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:39:05,749 INFO: 127.0.0.1 - - [30/Nov/2025 15:39:05] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 15:39:05,749 INFO: 127.0.0.1 - - [30/Nov/2025 15:39:05] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:39:06,101 INFO: 127.0.0.1 - - [30/Nov/2025 15:39:06] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:39:06,854 INFO: 127.0.0.1 - - [30/Nov/2025 15:39:06] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:39:08,726 INFO: 127.0.0.1 - - [30/Nov/2025 15:39:08] "GET /menu HTTP/1.1" 200 -
+2025-11-30 15:39:09,037 INFO: 127.0.0.1 - - [30/Nov/2025 15:39:09] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:39:09,089 INFO: 127.0.0.1 - - [30/Nov/2025 15:39:09] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:39:09,092 INFO: 127.0.0.1 - - [30/Nov/2025 15:39:09] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 15:39:09,093 INFO: 127.0.0.1 - - [30/Nov/2025 15:39:09] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:39:09,115 INFO: 127.0.0.1 - - [30/Nov/2025 15:39:09] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:39:09,117 INFO: 127.0.0.1 - - [30/Nov/2025 15:39:09] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:39:09,349 INFO: 127.0.0.1 - - [30/Nov/2025 15:39:09] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:41:12,547 INFO: Starting Flask backend
+2025-11-30 15:41:13,443 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 15:41:13,455 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 15:41:17,826 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:17] "GET /menu HTTP/1.1" 200 -
+2025-11-30 15:41:17,887 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:17] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:41:18,851 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:18] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:41:19,042 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:19] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:41:19,046 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:19] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 15:41:19,048 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:19] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:41:19,052 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:19] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:41:19,056 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:19] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:41:25,625 INFO: login route hit, method=GET
+2025-11-30 15:41:25,636 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:25] "GET /login HTTP/1.1" 200 -
+2025-11-30 15:41:25,698 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:25] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:41:25,891 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:25] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:41:26,028 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:26] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:41:26,028 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:26] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:41:26,028 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:26] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 15:41:26,361 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:26] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:41:33,610 INFO: login route hit, method=POST
+2025-11-30 15:41:33,612 INFO: login attempt username='alice@alice.pup'
+2025-11-30 15:41:33,724 INFO: User alice@alice.pup authenticated
+2025-11-30 15:41:33,727 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-30 15:41:33,925 INFO: Index requested
+2025-11-30 15:41:34,150 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:34] "GET / HTTP/1.1" 200 -
+2025-11-30 15:41:34,565 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:34] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:41:34,566 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:34] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:41:34,572 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:34] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:41:34,576 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:34] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:41:36,936 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:36] "GET /menu HTTP/1.1" 200 -
+2025-11-30 15:41:37,247 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:37] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:41:37,313 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:37] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 15:41:37,315 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:37] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:41:37,323 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:37] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:41:37,324 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:37] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:41:37,326 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:37] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:41:37,559 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:37] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:41:41,671 INFO: add_to_cart called by user alice@alice.pup
+2025-11-30 15:41:41,671 INFO: Item added to cart: Café Latte, Size: M, Price: 200, User: alice@alice.pup, Qty: 1
+2025-11-30 15:41:42,442 INFO: 127.0.0.1 - - [30/Nov/2025 15:41:42] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 15:42:24,490 INFO: Starting Flask backend
+2025-11-30 15:42:24,535 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 15:42:24,535 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 15:42:28,831 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:28] "GET /menu HTTP/1.1" 200 -
+2025-11-30 15:42:28,877 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:28] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:42:29,885 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:29] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:42:30,060 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:30] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:42:30,069 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:30] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:42:30,069 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:30] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:42:30,070 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:30] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:42:30,084 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:30] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 15:42:33,214 INFO: login route hit, method=GET
+2025-11-30 15:42:33,214 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:33] "GET /login HTTP/1.1" 200 -
+2025-11-30 15:42:33,400 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:33] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:42:33,483 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:33] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:42:33,617 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:33] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:42:33,619 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:33] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:42:33,621 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:33] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 15:42:33,639 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:33] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:42:43,632 INFO: login route hit, method=POST
+2025-11-30 15:42:43,638 INFO: login attempt username='labradora@pup.pup'
+2025-11-30 15:42:43,655 INFO: User labradora@pup.pup authenticated
+2025-11-30 15:42:43,657 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-30 15:42:43,665 INFO: Index requested
+2025-11-30 15:42:43,667 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:43] "GET / HTTP/1.1" 200 -
+2025-11-30 15:42:43,891 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:43] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:42:44,034 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:44] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:42:44,034 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:44] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:42:44,034 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:44] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:42:45,133 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:45] "GET /menu HTTP/1.1" 200 -
+2025-11-30 15:42:45,232 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:45] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:42:45,401 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:45] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:42:45,500 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:45] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 15:42:45,511 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:45] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:42:45,515 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:45] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:42:45,516 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:45] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:42:45,553 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:45] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:42:54,885 INFO: add_to_cart called by user labradora@pup.pup
+2025-11-30 15:42:54,888 INFO: Item added to cart: Café Latte, Size: S, Price: 200, User: labradora@pup.pup, Qty: 1
+2025-11-30 15:42:55,132 ERROR: DB error persisting cart item
+Traceback (most recent call last):
+  File "d:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\WebApp.py", line 224, in add_to_cart
+    cur.execute(
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@pup.pup (cartID, orderKey, user_name, item, quantity, size, price) VALUES (8015' at line 1")
+2025-11-30 15:42:55,132 INFO: 127.0.0.1 - - [30/Nov/2025 15:42:55] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 15:43:46,946 INFO: Starting Flask backend
+2025-11-30 15:43:46,986 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 15:43:46,986 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 15:43:52,123 INFO: Index requested
+2025-11-30 15:43:52,168 INFO: 127.0.0.1 - - [30/Nov/2025 15:43:52] "GET / HTTP/1.1" 200 -
+2025-11-30 15:43:52,602 INFO: 127.0.0.1 - - [30/Nov/2025 15:43:52] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:43:52,757 INFO: 127.0.0.1 - - [30/Nov/2025 15:43:52] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:43:52,891 INFO: 127.0.0.1 - - [30/Nov/2025 15:43:52] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:43:52,987 INFO: 127.0.0.1 - - [30/Nov/2025 15:43:52] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:43:55,836 INFO: login route hit, method=GET
+2025-11-30 15:43:55,836 INFO: 127.0.0.1 - - [30/Nov/2025 15:43:55] "GET /login HTTP/1.1" 200 -
+2025-11-30 15:43:55,940 INFO: 127.0.0.1 - - [30/Nov/2025 15:43:55] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:43:56,086 INFO: 127.0.0.1 - - [30/Nov/2025 15:43:56] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:43:56,223 INFO: 127.0.0.1 - - [30/Nov/2025 15:43:56] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:43:56,225 INFO: 127.0.0.1 - - [30/Nov/2025 15:43:56] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 15:43:56,227 INFO: 127.0.0.1 - - [30/Nov/2025 15:43:56] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:43:56,246 INFO: 127.0.0.1 - - [30/Nov/2025 15:43:56] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:44:01,985 INFO: login route hit, method=POST
+2025-11-30 15:44:01,988 INFO: login attempt username='labradora@pup.pup'
+2025-11-30 15:44:02,013 INFO: User labradora@pup.pup authenticated
+2025-11-30 15:44:02,015 INFO: 127.0.0.1 - - [30/Nov/2025 15:44:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-30 15:44:02,023 INFO: Index requested
+2025-11-30 15:44:02,023 INFO: 127.0.0.1 - - [30/Nov/2025 15:44:02] "GET / HTTP/1.1" 200 -
+2025-11-30 15:44:02,256 INFO: 127.0.0.1 - - [30/Nov/2025 15:44:02] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:44:02,401 INFO: 127.0.0.1 - - [30/Nov/2025 15:44:02] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:44:02,401 INFO: 127.0.0.1 - - [30/Nov/2025 15:44:02] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:44:02,401 INFO: 127.0.0.1 - - [30/Nov/2025 15:44:02] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:44:05,154 INFO: 127.0.0.1 - - [30/Nov/2025 15:44:05] "GET /menu HTTP/1.1" 200 -
+2025-11-30 15:44:05,389 INFO: 127.0.0.1 - - [30/Nov/2025 15:44:05] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:44:05,420 INFO: 127.0.0.1 - - [30/Nov/2025 15:44:05] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:44:05,562 INFO: 127.0.0.1 - - [30/Nov/2025 15:44:05] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:44:05,563 INFO: 127.0.0.1 - - [30/Nov/2025 15:44:05] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 15:44:05,566 INFO: 127.0.0.1 - - [30/Nov/2025 15:44:05] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:44:05,568 INFO: 127.0.0.1 - - [30/Nov/2025 15:44:05] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:44:05,702 INFO: 127.0.0.1 - - [30/Nov/2025 15:44:05] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:44:10,307 INFO: add_to_cart called by user labradora@pup.pup
+2025-11-30 15:44:10,307 INFO: Item added to cart: Café Latte, Size: S, Price: 200, User: labradora@pup.pup, Qty: 1
+2025-11-30 15:44:10,418 ERROR: DB error persisting cart item
+Traceback (most recent call last):
+  File "d:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\WebApp.py", line 212, in add_to_cart
+    cur.execute(f"""
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python39\lib\site-packages\MySQLdb\connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@pup.pup (\n                        cartID INT PRIMARY KEY AUTO_INCREMENT,\n      ' at line 1")
+2025-11-30 15:44:10,418 INFO: 127.0.0.1 - - [30/Nov/2025 15:44:10] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 15:44:50,369 INFO: Starting Flask backend
+2025-11-30 15:44:50,407 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 15:44:50,407 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 15:44:55,528 INFO: Index requested
+2025-11-30 15:44:55,625 INFO: 127.0.0.1 - - [30/Nov/2025 15:44:55] "GET / HTTP/1.1" 200 -
+2025-11-30 15:44:55,670 INFO: 127.0.0.1 - - [30/Nov/2025 15:44:55] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:44:56,361 INFO: 127.0.0.1 - - [30/Nov/2025 15:44:56] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:44:56,538 INFO: 127.0.0.1 - - [30/Nov/2025 15:44:56] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:44:56,538 INFO: 127.0.0.1 - - [30/Nov/2025 15:44:56] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:45:33,050 INFO: 127.0.0.1 - - [30/Nov/2025 15:45:33] "GET /about-us HTTP/1.1" 200 -
+2025-11-30 15:45:33,160 INFO: 127.0.0.1 - - [30/Nov/2025 15:45:33] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:45:33,285 INFO: 127.0.0.1 - - [30/Nov/2025 15:45:33] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:45:33,420 INFO: 127.0.0.1 - - [30/Nov/2025 15:45:33] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:45:34,501 INFO: 127.0.0.1 - - [30/Nov/2025 15:45:34] "GET /menu HTTP/1.1" 200 -
+2025-11-30 15:45:34,815 INFO: 127.0.0.1 - - [30/Nov/2025 15:45:34] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:45:34,922 INFO: 127.0.0.1 - - [30/Nov/2025 15:45:34] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 15:45:34,924 INFO: 127.0.0.1 - - [30/Nov/2025 15:45:34] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:45:34,925 INFO: 127.0.0.1 - - [30/Nov/2025 15:45:34] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:45:34,936 INFO: 127.0.0.1 - - [30/Nov/2025 15:45:34] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:45:34,940 INFO: 127.0.0.1 - - [30/Nov/2025 15:45:34] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:45:35,125 INFO: 127.0.0.1 - - [30/Nov/2025 15:45:35] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:45:42,876 INFO: login route hit, method=GET
+2025-11-30 15:45:42,877 INFO: 127.0.0.1 - - [30/Nov/2025 15:45:42] "GET /login HTTP/1.1" 200 -
+2025-11-30 15:45:42,940 INFO: 127.0.0.1 - - [30/Nov/2025 15:45:42] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:45:43,138 INFO: 127.0.0.1 - - [30/Nov/2025 15:45:43] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:45:43,270 INFO: 127.0.0.1 - - [30/Nov/2025 15:45:43] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:45:43,270 INFO: 127.0.0.1 - - [30/Nov/2025 15:45:43] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:45:43,270 INFO: 127.0.0.1 - - [30/Nov/2025 15:45:43] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 15:45:43,595 INFO: 127.0.0.1 - - [30/Nov/2025 15:45:43] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:46:00,869 INFO: login route hit, method=POST
+2025-11-30 15:46:00,871 INFO: login attempt username='manya@samyoed.pup'
+2025-11-30 15:46:00,886 INFO: User manya@samyoed.pup authenticated
+2025-11-30 15:46:00,888 INFO: 127.0.0.1 - - [30/Nov/2025 15:46:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-30 15:46:01,181 INFO: Index requested
+2025-11-30 15:46:01,188 INFO: 127.0.0.1 - - [30/Nov/2025 15:46:01] "GET / HTTP/1.1" 200 -
+2025-11-30 15:46:01,548 INFO: 127.0.0.1 - - [30/Nov/2025 15:46:01] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:46:01,558 INFO: 127.0.0.1 - - [30/Nov/2025 15:46:01] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:46:01,560 INFO: 127.0.0.1 - - [30/Nov/2025 15:46:01] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:46:01,567 INFO: 127.0.0.1 - - [30/Nov/2025 15:46:01] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:46:05,572 INFO: 127.0.0.1 - - [30/Nov/2025 15:46:05] "GET /menu HTTP/1.1" 200 -
+2025-11-30 15:46:05,885 INFO: 127.0.0.1 - - [30/Nov/2025 15:46:05] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:46:05,991 INFO: 127.0.0.1 - - [30/Nov/2025 15:46:05] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:46:05,991 INFO: 127.0.0.1 - - [30/Nov/2025 15:46:05] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:46:05,993 INFO: 127.0.0.1 - - [30/Nov/2025 15:46:05] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 15:46:05,995 INFO: 127.0.0.1 - - [30/Nov/2025 15:46:05] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:46:05,995 INFO: 127.0.0.1 - - [30/Nov/2025 15:46:05] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:46:06,199 INFO: 127.0.0.1 - - [30/Nov/2025 15:46:06] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:46:14,866 INFO: add_to_cart called by user manya@samyoed.pup
+2025-11-30 15:46:14,866 INFO: Item added to cart: Café Latte, Size: M, Price: 200, User: manya@samyoed.pup, Qty: 1
+2025-11-30 15:46:15,248 INFO: 127.0.0.1 - - [30/Nov/2025 15:46:15] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 15:56:15,861 INFO: Starting Flask backend
+2025-11-30 15:59:20,030 INFO: Starting Flask backend
+2025-11-30 15:59:20,069 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 15:59:20,069 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 15:59:24,248 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:24] "GET /menu HTTP/1.1" 200 -
+2025-11-30 15:59:24,304 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:24] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:59:25,387 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:25] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:59:25,523 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:25] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:59:25,526 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:25] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:59:25,528 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:25] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:59:25,541 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:25] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:59:25,638 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:25] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 15:59:29,265 INFO: login route hit, method=GET
+2025-11-30 15:59:29,280 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:29] "GET /login HTTP/1.1" 200 -
+2025-11-30 15:59:29,368 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:29] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:59:29,520 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:29] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:59:29,687 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:29] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:59:29,687 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:29] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 15:59:29,689 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:29] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:59:29,715 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:29] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:59:37,652 INFO: login route hit, method=POST
+2025-11-30 15:59:37,656 INFO: login attempt username='labradora@pup.pup'
+2025-11-30 15:59:40,080 INFO: User labradora@pup.pup authenticated
+2025-11-30 15:59:40,082 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-30 15:59:40,082 INFO: Index requested
+2025-11-30 15:59:40,106 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:40] "GET / HTTP/1.1" 200 -
+2025-11-30 15:59:40,149 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:40] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:59:40,470 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:40] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:59:40,470 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:40] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 15:59:40,472 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:40] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:59:43,667 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:43] "GET /menu HTTP/1.1" 200 -
+2025-11-30 15:59:43,969 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:43] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 15:59:44,036 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:44] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 15:59:44,040 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:44] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 15:59:44,044 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:44] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:59:44,052 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:44] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:59:44,055 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:44] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 15:59:44,282 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:44] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 15:59:48,622 INFO: add_to_cart called by user labradora@pup.pup
+2025-11-30 15:59:48,622 INFO: Item added to cart: Café Latte, Size: M, Price: 200, User: labradora@pup.pup, Qty: 1
+2025-11-30 15:59:49,647 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:49] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 15:59:56,814 INFO: 127.0.0.1 - - [30/Nov/2025 15:59:56] "[31m[1mPOST /remove-from-cart HTTP/1.1[0m" 405 -
+2025-11-30 16:02:53,029 INFO: Starting Flask backend
+2025-11-30 16:02:53,077 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 16:02:53,077 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 16:02:56,846 INFO: 127.0.0.1 - - [30/Nov/2025 16:02:56] "GET /menu HTTP/1.1" 200 -
+2025-11-30 16:02:56,907 INFO: 127.0.0.1 - - [30/Nov/2025 16:02:56] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 16:02:57,847 INFO: 127.0.0.1 - - [30/Nov/2025 16:02:57] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 16:02:57,994 INFO: 127.0.0.1 - - [30/Nov/2025 16:02:57] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 16:02:57,994 INFO: 127.0.0.1 - - [30/Nov/2025 16:02:57] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 16:02:58,001 INFO: 127.0.0.1 - - [30/Nov/2025 16:02:58] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 16:02:58,001 INFO: 127.0.0.1 - - [30/Nov/2025 16:02:58] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 16:02:58,105 INFO: 127.0.0.1 - - [30/Nov/2025 16:02:58] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-11-30 16:03:01,383 INFO: login route hit, method=GET
+2025-11-30 16:03:01,392 INFO: 127.0.0.1 - - [30/Nov/2025 16:03:01] "GET /login HTTP/1.1" 200 -
+2025-11-30 16:03:01,441 INFO: 127.0.0.1 - - [30/Nov/2025 16:03:01] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 16:03:01,647 INFO: 127.0.0.1 - - [30/Nov/2025 16:03:01] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 16:03:01,776 INFO: 127.0.0.1 - - [30/Nov/2025 16:03:01] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 16:03:01,779 INFO: 127.0.0.1 - - [30/Nov/2025 16:03:01] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 16:03:01,781 INFO: 127.0.0.1 - - [30/Nov/2025 16:03:01] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 16:03:02,111 INFO: 127.0.0.1 - - [30/Nov/2025 16:03:02] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 16:03:06,646 INFO: login route hit, method=POST
+2025-11-30 16:03:06,648 INFO: login attempt username='labradora@pup.pup'
+2025-11-30 16:03:06,724 INFO: User labradora@pup.pup authenticated
+2025-11-30 16:03:06,726 INFO: 127.0.0.1 - - [30/Nov/2025 16:03:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-30 16:03:06,737 INFO: Index requested
+2025-11-30 16:03:06,764 INFO: 127.0.0.1 - - [30/Nov/2025 16:03:06] "GET / HTTP/1.1" 200 -
+2025-11-30 16:03:06,914 INFO: 127.0.0.1 - - [30/Nov/2025 16:03:06] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 16:03:07,136 INFO: 127.0.0.1 - - [30/Nov/2025 16:03:07] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 16:03:07,138 INFO: 127.0.0.1 - - [30/Nov/2025 16:03:07] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 16:03:07,138 INFO: 127.0.0.1 - - [30/Nov/2025 16:03:07] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 16:03:10,678 INFO: 127.0.0.1 - - [30/Nov/2025 16:03:10] "GET /menu HTTP/1.1" 200 -
+2025-11-30 16:03:10,815 INFO: 127.0.0.1 - - [30/Nov/2025 16:03:10] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 16:03:10,935 INFO: 127.0.0.1 - - [30/Nov/2025 16:03:10] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 16:03:11,160 INFO: 127.0.0.1 - - [30/Nov/2025 16:03:11] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 16:03:11,160 INFO: 127.0.0.1 - - [30/Nov/2025 16:03:11] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 16:03:11,162 INFO: 127.0.0.1 - - [30/Nov/2025 16:03:11] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 16:03:11,163 INFO: 127.0.0.1 - - [30/Nov/2025 16:03:11] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 16:03:11,164 INFO: 127.0.0.1 - - [30/Nov/2025 16:03:11] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 16:03:13,803 INFO: add_to_cart called by user labradora@pup.pup
+2025-11-30 16:03:13,803 INFO: Item added to cart: Café Latte, Size: M, Price: 200, User: labradora@pup.pup, Qty: 1
+2025-11-30 16:03:14,151 INFO: 127.0.0.1 - - [30/Nov/2025 16:03:14] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 16:03:43,281 INFO: add_to_cart called by user labradora@pup.pup
+2025-11-30 16:03:43,282 INFO: Item added to cart: Café Latte, Size: M, Price: 200, User: labradora@pup.pup, Qty: 1
+2025-11-30 16:03:43,603 INFO: 127.0.0.1 - - [30/Nov/2025 16:03:43] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 16:03:53,066 INFO: add_to_cart called by user labradora@pup.pup
+2025-11-30 16:03:53,067 INFO: Item added to cart: Café Latte, Size: L, Price: 200, User: labradora@pup.pup, Qty: 1
+2025-11-30 16:03:53,280 INFO: 127.0.0.1 - - [30/Nov/2025 16:03:53] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 16:09:24,369 INFO: Starting Flask backend
+2025-11-30 16:09:24,416 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 16:09:24,416 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 16:09:35,663 INFO: Index requested
+2025-11-30 16:09:35,903 INFO: 127.0.0.1 - - [30/Nov/2025 16:09:35] "GET / HTTP/1.1" 200 -
+2025-11-30 16:09:35,984 INFO: 127.0.0.1 - - [30/Nov/2025 16:09:35] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 16:09:36,755 INFO: 127.0.0.1 - - [30/Nov/2025 16:09:36] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 16:09:37,172 INFO: 127.0.0.1 - - [30/Nov/2025 16:09:37] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 16:09:37,172 INFO: 127.0.0.1 - - [30/Nov/2025 16:09:37] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 16:09:44,757 INFO: login route hit, method=GET
+2025-11-30 16:09:44,771 INFO: 127.0.0.1 - - [30/Nov/2025 16:09:44] "GET /login HTTP/1.1" 200 -
+2025-11-30 16:09:44,909 INFO: 127.0.0.1 - - [30/Nov/2025 16:09:44] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 16:09:45,019 INFO: 127.0.0.1 - - [30/Nov/2025 16:09:45] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 16:09:45,161 INFO: 127.0.0.1 - - [30/Nov/2025 16:09:45] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 16:09:45,161 INFO: 127.0.0.1 - - [30/Nov/2025 16:09:45] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 16:09:45,161 INFO: 127.0.0.1 - - [30/Nov/2025 16:09:45] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 16:09:45,308 INFO: 127.0.0.1 - - [30/Nov/2025 16:09:45] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 16:10:00,194 INFO: login route hit, method=POST
+2025-11-30 16:10:00,196 INFO: login attempt username='labradora@pup.pup'
+2025-11-30 16:10:00,206 ERROR: login DB error
+Traceback (most recent call last):
+  File "d:\VIVAN\Vivan - School\Grade 12\Computer Science\Coffee Shop App\WebApp.py", line 153, in login
+    session['order-key'] = user[3] # store the order key.
+IndexError: tuple index out of range
+2025-11-30 16:10:00,216 INFO: 127.0.0.1 - - [30/Nov/2025 16:10:00] "POST /login HTTP/1.1" 200 -
+2025-11-30 16:10:00,284 INFO: 127.0.0.1 - - [30/Nov/2025 16:10:00] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-30 16:10:00,444 INFO: 127.0.0.1 - - [30/Nov/2025 16:10:00] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 16:10:00,617 INFO: 127.0.0.1 - - [30/Nov/2025 16:10:00] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 16:10:00,617 INFO: 127.0.0.1 - - [30/Nov/2025 16:10:00] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 16:10:00,617 INFO: 127.0.0.1 - - [30/Nov/2025 16:10:00] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
