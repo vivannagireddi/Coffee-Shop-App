@@ -16878,3 +16878,714 @@ MySQLdb.ProgrammingError: cursor closed
 2025-11-30 22:43:09,976 INFO: 127.0.0.1 - - [30/Nov/2025 22:43:09] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
 2025-11-30 22:43:09,976 INFO: 127.0.0.1 - - [30/Nov/2025 22:43:09] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
 2025-11-30 22:43:09,982 INFO: 127.0.0.1 - - [30/Nov/2025 22:43:09] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 22:45:34,907 INFO: Starting Flask backend
+2025-11-30 22:45:34,973 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-11-30 22:45:34,973 INFO: [33mPress CTRL+C to quit[0m
+2025-11-30 22:45:36,537 INFO: 127.0.0.1 - - [30/Nov/2025 22:45:36] "GET /menu HTTP/1.1" 200 -
+2025-11-30 22:45:38,310 INFO: 127.0.0.1 - - [30/Nov/2025 22:45:38] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 22:45:38,461 INFO: 127.0.0.1 - - [30/Nov/2025 22:45:38] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 22:45:38,521 INFO: 127.0.0.1 - - [30/Nov/2025 22:45:38] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 22:45:38,539 INFO: 127.0.0.1 - - [30/Nov/2025 22:45:38] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 22:45:38,568 INFO: 127.0.0.1 - - [30/Nov/2025 22:45:38] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 22:45:38,575 INFO: 127.0.0.1 - - [30/Nov/2025 22:45:38] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 22:45:39,830 WARNING: add_to_cart: user not logged in or missing username
+2025-11-30 22:45:39,832 INFO: 127.0.0.1 - - [30/Nov/2025 22:45:39] "[32mGET /orders HTTP/1.1[0m" 302 -
+2025-11-30 22:45:39,948 INFO: login route hit, method=GET
+2025-11-30 22:45:40,056 INFO: 127.0.0.1 - - [30/Nov/2025 22:45:40] "GET /login HTTP/1.1" 200 -
+2025-11-30 22:45:40,102 INFO: 127.0.0.1 - - [30/Nov/2025 22:45:40] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 22:45:40,414 INFO: 127.0.0.1 - - [30/Nov/2025 22:45:40] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 22:45:40,414 INFO: 127.0.0.1 - - [30/Nov/2025 22:45:40] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 22:45:40,417 INFO: 127.0.0.1 - - [30/Nov/2025 22:45:40] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 22:45:40,744 INFO: 127.0.0.1 - - [30/Nov/2025 22:45:40] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 22:45:45,042 INFO: login route hit, method=POST
+2025-11-30 22:45:45,050 INFO: login attempt username='john.doe@cozycup.com'
+2025-11-30 22:45:45,082 INFO: User john.doe@cozycup.com authenticated
+2025-11-30 22:45:45,088 INFO: 127.0.0.1 - - [30/Nov/2025 22:45:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-30 22:45:45,357 INFO: Index requested
+2025-11-30 22:45:45,381 INFO: 127.0.0.1 - - [30/Nov/2025 22:45:45] "GET / HTTP/1.1" 200 -
+2025-11-30 22:45:45,751 INFO: 127.0.0.1 - - [30/Nov/2025 22:45:45] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 22:45:45,751 INFO: 127.0.0.1 - - [30/Nov/2025 22:45:45] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 22:45:45,757 INFO: 127.0.0.1 - - [30/Nov/2025 22:45:45] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 22:45:48,350 INFO: 127.0.0.1 - - [30/Nov/2025 22:45:48] "GET /orders HTTP/1.1" 200 -
+2025-11-30 22:45:48,611 INFO: 127.0.0.1 - - [30/Nov/2025 22:45:48] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 22:45:48,713 INFO: 127.0.0.1 - - [30/Nov/2025 22:45:48] "[36mGET /static/Order.css HTTP/1.1[0m" 304 -
+2025-11-30 22:45:48,713 INFO: 127.0.0.1 - - [30/Nov/2025 22:45:48] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 22:45:48,719 INFO: 127.0.0.1 - - [30/Nov/2025 22:45:48] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 22:45:48,719 INFO: 127.0.0.1 - - [30/Nov/2025 22:45:48] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 22:46:37,816 INFO: 127.0.0.1 - - [30/Nov/2025 22:46:37] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-11-30 22:46:37,939 INFO: Index requested
+2025-11-30 22:46:37,944 INFO: 127.0.0.1 - - [30/Nov/2025 22:46:37] "GET / HTTP/1.1" 200 -
+2025-11-30 22:46:38,068 INFO: 127.0.0.1 - - [30/Nov/2025 22:46:38] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 22:46:38,305 INFO: 127.0.0.1 - - [30/Nov/2025 22:46:38] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 22:46:38,305 INFO: 127.0.0.1 - - [30/Nov/2025 22:46:38] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 22:47:33,840 INFO: login route hit, method=GET
+2025-11-30 22:47:33,843 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:33] "GET /login HTTP/1.1" 200 -
+2025-11-30 22:47:34,156 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:34] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 22:47:34,208 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:34] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 22:47:34,211 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:34] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 22:47:34,213 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:34] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-11-30 22:47:34,540 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:34] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-11-30 22:47:38,679 INFO: login route hit, method=POST
+2025-11-30 22:47:38,679 INFO: login attempt username='john.doe@cozycup.com'
+2025-11-30 22:47:38,684 INFO: User john.doe@cozycup.com authenticated
+2025-11-30 22:47:38,687 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-11-30 22:47:39,005 INFO: Index requested
+2025-11-30 22:47:39,010 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:39] "GET / HTTP/1.1" 200 -
+2025-11-30 22:47:39,370 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:39] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 22:47:39,370 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:39] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 22:47:39,370 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:39] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-11-30 22:47:42,579 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:42] "GET /orders HTTP/1.1" 200 -
+2025-11-30 22:47:42,890 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:42] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 22:47:42,929 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:42] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 22:47:42,930 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:42] "[36mGET /static/Order.css HTTP/1.1[0m" 304 -
+2025-11-30 22:47:42,931 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:42] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 22:47:42,933 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:42] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 22:47:45,107 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:45] "GET /about-us HTTP/1.1" 200 -
+2025-11-30 22:47:45,202 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:45] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 22:47:45,372 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:45] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 22:47:46,839 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:46] "GET /menu HTTP/1.1" 200 -
+2025-11-30 22:47:47,139 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:47] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 22:47:47,200 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:47] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-11-30 22:47:47,203 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:47] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-11-30 22:47:47,205 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:47] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 22:47:47,205 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:47] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 22:47:47,207 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:47] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-11-30 22:47:49,956 INFO: add_to_cart called by user john.doe@cozycup.com
+2025-11-30 22:47:49,956 INFO: Item added to cart: Café Latte, Price: 230, User: john.doe@cozycup.com, Qty: 4
+2025-11-30 22:47:49,986 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:49] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 22:47:57,253 INFO: add_to_cart called by user john.doe@cozycup.com
+2025-11-30 22:47:57,253 INFO: Item added to cart: Capuccino, Price: 250, User: john.doe@cozycup.com, Qty: 54
+2025-11-30 22:47:57,368 INFO: 127.0.0.1 - - [30/Nov/2025 22:47:57] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 22:48:04,238 INFO: add_to_cart called by user john.doe@cozycup.com
+2025-11-30 22:48:04,238 INFO: Item added to cart: Espresso, Price: 270, User: john.doe@cozycup.com, Qty: 67
+2025-11-30 22:48:04,255 INFO: 127.0.0.1 - - [30/Nov/2025 22:48:04] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 22:48:05,704 INFO: 127.0.0.1 - - [30/Nov/2025 22:48:05] "GET /menu-delights HTTP/1.1" 200 -
+2025-11-30 22:48:05,905 INFO: 127.0.0.1 - - [30/Nov/2025 22:48:05] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 22:48:06,055 INFO: 127.0.0.1 - - [30/Nov/2025 22:48:06] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 22:48:06,055 INFO: 127.0.0.1 - - [30/Nov/2025 22:48:06] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 22:48:06,055 INFO: 127.0.0.1 - - [30/Nov/2025 22:48:06] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 22:48:06,055 INFO: 127.0.0.1 - - [30/Nov/2025 22:48:06] "[36mGET /static/assets/panini.jpg HTTP/1.1[0m" 304 -
+2025-11-30 22:48:06,055 INFO: 127.0.0.1 - - [30/Nov/2025 22:48:06] "[36mGET /static/assets/corny-sandwich.jpg HTTP/1.1[0m" 304 -
+2025-11-30 22:48:06,222 INFO: 127.0.0.1 - - [30/Nov/2025 22:48:06] "[36mGET /static/assets/chicken.jpg HTTP/1.1[0m" 304 -
+2025-11-30 22:48:11,057 INFO: add_to_cart called by user john.doe@cozycup.com
+2025-11-30 22:48:11,057 INFO: Item added to cart: Spinach and Corn Sandwich, Price: 250, User: john.doe@cozycup.com, Qty: 46
+2025-11-30 22:48:11,076 INFO: 127.0.0.1 - - [30/Nov/2025 22:48:11] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 22:48:12,872 INFO: 127.0.0.1 - - [30/Nov/2025 22:48:12] "GET /menu-desserts HTTP/1.1" 200 -
+2025-11-30 22:48:13,092 INFO: 127.0.0.1 - - [30/Nov/2025 22:48:13] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 22:48:13,234 INFO: 127.0.0.1 - - [30/Nov/2025 22:48:13] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 22:48:13,236 INFO: 127.0.0.1 - - [30/Nov/2025 22:48:13] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-11-30 22:48:13,236 INFO: 127.0.0.1 - - [30/Nov/2025 22:48:13] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 22:48:13,238 INFO: 127.0.0.1 - - [30/Nov/2025 22:48:13] "[36mGET /static/assets/Chocotrufflecake.jpg HTTP/1.1[0m" 304 -
+2025-11-30 22:48:13,238 INFO: 127.0.0.1 - - [30/Nov/2025 22:48:13] "[36mGET /static/assets/redmuffin.jpg HTTP/1.1[0m" 304 -
+2025-11-30 22:48:13,413 INFO: 127.0.0.1 - - [30/Nov/2025 22:48:13] "[36mGET /static/assets/macarons.jpg HTTP/1.1[0m" 304 -
+2025-11-30 22:48:17,489 INFO: add_to_cart called by user john.doe@cozycup.com
+2025-11-30 22:48:17,490 INFO: Item added to cart: Macarons, Price: 270, User: john.doe@cozycup.com, Qty: 26
+2025-11-30 22:48:17,490 INFO: 127.0.0.1 - - [30/Nov/2025 22:48:17] "POST /add-to-cart HTTP/1.1" 200 -
+2025-11-30 22:48:19,077 INFO: 127.0.0.1 - - [30/Nov/2025 22:48:19] "GET /orders HTTP/1.1" 200 -
+2025-11-30 22:48:19,375 INFO: 127.0.0.1 - - [30/Nov/2025 22:48:19] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-11-30 22:48:19,433 INFO: 127.0.0.1 - - [30/Nov/2025 22:48:19] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-11-30 22:48:19,434 INFO: 127.0.0.1 - - [30/Nov/2025 22:48:19] "[36mGET /static/Order.css HTTP/1.1[0m" 304 -
+2025-11-30 22:48:19,435 INFO: 127.0.0.1 - - [30/Nov/2025 22:48:19] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-11-30 22:48:19,436 INFO: 127.0.0.1 - - [30/Nov/2025 22:48:19] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-01 00:35:19,265 INFO: Starting Flask backend
+2025-12-01 00:35:19,824 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-12-01 00:35:19,824 INFO: [33mPress CTRL+C to quit[0m
+2025-12-01 00:35:24,852 INFO: Index requested
+2025-12-01 00:35:25,088 INFO: 127.0.0.1 - - [01/Dec/2025 00:35:25] "GET / HTTP/1.1" 200 -
+2025-12-01 00:35:26,163 INFO: 127.0.0.1 - - [01/Dec/2025 00:35:26] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-01 00:35:26,166 INFO: 127.0.0.1 - - [01/Dec/2025 00:35:26] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:35:26,180 INFO: 127.0.0.1 - - [01/Dec/2025 00:35:26] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:35:27,571 INFO: 127.0.0.1 - - [01/Dec/2025 00:35:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-01 00:35:35,864 INFO: Index requested
+2025-12-01 00:35:35,882 INFO: 127.0.0.1 - - [01/Dec/2025 00:35:35] "GET / HTTP/1.1" 200 -
+2025-12-01 00:35:35,938 INFO: 127.0.0.1 - - [01/Dec/2025 00:35:35] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:35:36,126 INFO: 127.0.0.1 - - [01/Dec/2025 00:35:36] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-01 00:35:36,234 INFO: 127.0.0.1 - - [01/Dec/2025 00:35:36] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:35:36,733 INFO: 127.0.0.1 - - [01/Dec/2025 00:35:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-01 00:35:43,781 INFO: Index requested
+2025-12-01 00:35:43,792 INFO: 127.0.0.1 - - [01/Dec/2025 00:35:43] "GET / HTTP/1.1" 200 -
+2025-12-01 00:35:43,845 INFO: 127.0.0.1 - - [01/Dec/2025 00:35:43] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:35:44,048 INFO: 127.0.0.1 - - [01/Dec/2025 00:35:44] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-01 00:35:44,158 INFO: 127.0.0.1 - - [01/Dec/2025 00:35:44] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:35:47,785 INFO: 127.0.0.1 - - [01/Dec/2025 00:35:47] "GET /menu HTTP/1.1" 200 -
+2025-12-01 00:35:47,864 INFO: 127.0.0.1 - - [01/Dec/2025 00:35:47] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:35:47,911 INFO: 127.0.0.1 - - [01/Dec/2025 00:35:47] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-01 00:35:48,305 INFO: 127.0.0.1 - - [01/Dec/2025 00:35:48] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:35:48,305 INFO: 127.0.0.1 - - [01/Dec/2025 00:35:48] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:35:48,308 INFO: 127.0.0.1 - - [01/Dec/2025 00:35:48] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:35:48,351 INFO: 127.0.0.1 - - [01/Dec/2025 00:35:48] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-12-01 00:35:51,839 INFO: Index requested
+2025-12-01 00:35:51,852 INFO: 127.0.0.1 - - [01/Dec/2025 00:35:51] "GET / HTTP/1.1" 200 -
+2025-12-01 00:35:52,083 INFO: 127.0.0.1 - - [01/Dec/2025 00:35:52] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:35:52,089 INFO: 127.0.0.1 - - [01/Dec/2025 00:35:52] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-01 00:35:52,221 INFO: 127.0.0.1 - - [01/Dec/2025 00:35:52] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:37:44,771 INFO: 127.0.0.1 - - [01/Dec/2025 00:37:44] "GET /about-us HTTP/1.1" 200 -
+2025-12-01 00:37:44,829 INFO: 127.0.0.1 - - [01/Dec/2025 00:37:44] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:37:44,830 INFO: 127.0.0.1 - - [01/Dec/2025 00:37:44] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-01 00:38:33,867 INFO: 127.0.0.1 - - [01/Dec/2025 00:38:33] "GET /menu HTTP/1.1" 200 -
+2025-12-01 00:38:34,118 INFO: 127.0.0.1 - - [01/Dec/2025 00:38:34] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:38:34,120 INFO: 127.0.0.1 - - [01/Dec/2025 00:38:34] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-01 00:38:34,242 INFO: 127.0.0.1 - - [01/Dec/2025 00:38:34] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:38:34,243 INFO: 127.0.0.1 - - [01/Dec/2025 00:38:34] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:38:34,243 INFO: 127.0.0.1 - - [01/Dec/2025 00:38:34] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-12-01 00:38:34,263 INFO: 127.0.0.1 - - [01/Dec/2025 00:38:34] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:39:30,459 WARNING: add_to_cart: user not logged in or missing username
+2025-12-01 00:39:30,461 INFO: 127.0.0.1 - - [01/Dec/2025 00:39:30] "[32mGET /orders HTTP/1.1[0m" 302 -
+2025-12-01 00:39:30,721 INFO: login route hit, method=GET
+2025-12-01 00:39:30,864 INFO: 127.0.0.1 - - [01/Dec/2025 00:39:30] "GET /login HTTP/1.1" 200 -
+2025-12-01 00:39:30,925 INFO: 127.0.0.1 - - [01/Dec/2025 00:39:30] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-01 00:39:31,238 INFO: 127.0.0.1 - - [01/Dec/2025 00:39:31] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:39:31,238 INFO: 127.0.0.1 - - [01/Dec/2025 00:39:31] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-01 00:39:31,289 INFO: 127.0.0.1 - - [01/Dec/2025 00:39:31] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-12-01 00:39:31,658 INFO: 127.0.0.1 - - [01/Dec/2025 00:39:31] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:40:40,175 INFO: 127.0.0.1 - - [01/Dec/2025 00:40:40] "GET /menu HTTP/1.1" 200 -
+2025-12-01 00:40:40,241 INFO: 127.0.0.1 - - [01/Dec/2025 00:40:40] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:40:40,423 INFO: 127.0.0.1 - - [01/Dec/2025 00:40:40] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-01 00:40:40,562 INFO: 127.0.0.1 - - [01/Dec/2025 00:40:40] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:40:40,562 INFO: 127.0.0.1 - - [01/Dec/2025 00:40:40] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:40:40,567 INFO: 127.0.0.1 - - [01/Dec/2025 00:40:40] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-12-01 00:40:40,568 INFO: 127.0.0.1 - - [01/Dec/2025 00:40:40] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:41:15,850 WARNING: add_to_cart: user not logged in or missing username
+2025-12-01 00:41:15,853 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:15] "[32mGET /orders HTTP/1.1[0m" 302 -
+2025-12-01 00:41:16,103 INFO: login route hit, method=GET
+2025-12-01 00:41:16,103 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:16] "GET /login HTTP/1.1" 200 -
+2025-12-01 00:41:16,497 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:16] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-01 00:41:16,503 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:16] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:41:16,504 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:16] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-01 00:41:16,511 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:16] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-12-01 00:41:16,743 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:16] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:41:20,990 INFO: login route hit, method=POST
+2025-12-01 00:41:21,836 INFO: login attempt username='john.doe@cozycup.com'
+2025-12-01 00:41:21,939 INFO: User john.doe@cozycup.com authenticated
+2025-12-01 00:41:21,972 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-01 00:41:21,982 INFO: Index requested
+2025-12-01 00:41:22,005 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:22] "GET / HTTP/1.1" 200 -
+2025-12-01 00:41:22,394 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:22] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-01 00:41:22,394 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:22] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:41:22,394 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:22] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:41:27,190 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:27] "GET /menu HTTP/1.1" 200 -
+2025-12-01 00:41:27,501 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:27] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:41:27,562 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:27] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-01 00:41:27,562 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:27] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-12-01 00:41:27,570 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:27] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:41:27,570 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:27] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:41:27,578 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:27] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:41:42,123 INFO: add_to_cart called by user john.doe@cozycup.com
+2025-12-01 00:41:42,123 INFO: Item added to cart: Capuccino, Price: 250, User: john.doe@cozycup.com, Qty: 7
+2025-12-01 00:41:42,998 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:42] "POST /add-to-cart HTTP/1.1" 200 -
+2025-12-01 00:41:43,119 INFO: add_to_cart called by user john.doe@cozycup.com
+2025-12-01 00:41:43,120 INFO: Item added to cart: Espresso, Price: 270, User: john.doe@cozycup.com, Qty: 5
+2025-12-01 00:41:43,143 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:43] "POST /add-to-cart HTTP/1.1" 200 -
+2025-12-01 00:41:46,087 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:46] "GET /menu-delights HTTP/1.1" 200 -
+2025-12-01 00:41:46,139 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:46] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:41:46,141 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:46] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-01 00:41:46,484 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:46] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-01 00:41:46,488 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:46] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-12-01 00:41:46,497 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:46] "[36mGET /static/assets/panini.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:41:46,524 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:46] "[36mGET /static/assets/corny-sandwich.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:41:46,530 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:46] "[36mGET /static/assets/chicken.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:41:49,638 INFO: add_to_cart called by user john.doe@cozycup.com
+2025-12-01 00:41:49,638 INFO: Item added to cart: Spinach and Corn Sandwich, Price: 250, User: john.doe@cozycup.com, Qty: 2
+2025-12-01 00:41:49,658 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:49] "POST /add-to-cart HTTP/1.1" 200 -
+2025-12-01 00:41:52,340 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:52] "GET /orders HTTP/1.1" 200 -
+2025-12-01 00:41:52,398 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:52] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:41:52,722 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:52] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-01 00:41:52,722 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:52] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-01 00:41:52,729 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:52] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-12-01 00:41:52,761 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:52] "[36mGET /static/Order.css HTTP/1.1[0m" 304 -
+2025-12-01 00:41:59,410 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:59] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-12-01 00:41:59,630 INFO: Index requested
+2025-12-01 00:41:59,641 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:59] "GET / HTTP/1.1" 200 -
+2025-12-01 00:41:59,697 INFO: 127.0.0.1 - - [01/Dec/2025 00:41:59] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:00,009 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:00] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:00,012 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:00] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:42:03,196 INFO: login route hit, method=GET
+2025-12-01 00:42:03,199 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:03] "GET /login HTTP/1.1" 200 -
+2025-12-01 00:42:03,439 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:03] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:03,450 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:03] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:03,563 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:03] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:03,563 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:03] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:03,578 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:03] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:42:09,132 INFO: login route hit, method=POST
+2025-12-01 00:42:09,132 INFO: login attempt username='john.doe@cozycup.com'
+2025-12-01 00:42:09,141 INFO: User john.doe@cozycup.com authenticated
+2025-12-01 00:42:09,142 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:09] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-01 00:42:09,149 INFO: Index requested
+2025-12-01 00:42:09,157 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:09] "GET / HTTP/1.1" 200 -
+2025-12-01 00:42:09,398 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:09] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:09,528 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:09] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:09,528 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:09] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:42:14,127 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:14] "GET /menu HTTP/1.1" 200 -
+2025-12-01 00:42:14,277 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:14] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:14,382 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:14] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:14,516 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:14] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-12-01 00:42:14,516 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:14] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:42:14,516 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:14] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:42:14,526 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:14] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:42:17,340 INFO: add_to_cart called by user john.doe@cozycup.com
+2025-12-01 00:42:17,340 INFO: Item added to cart: Capuccino, Price: 250, User: john.doe@cozycup.com, Qty: 1
+2025-12-01 00:42:17,362 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:17] "POST /add-to-cart HTTP/1.1" 200 -
+2025-12-01 00:42:18,475 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:18] "GET /menu-delights HTTP/1.1" 200 -
+2025-12-01 00:42:18,790 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:18] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:18,864 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:18] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-12-01 00:42:18,864 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:18] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:18,873 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:18] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:18,877 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:18] "[36mGET /static/assets/panini.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:42:18,884 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:18] "[36mGET /static/assets/corny-sandwich.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:42:19,101 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:19] "[36mGET /static/assets/chicken.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:42:21,714 INFO: add_to_cart called by user john.doe@cozycup.com
+2025-12-01 00:42:21,714 INFO: Item added to cart: Chicken Sandwich, Price: 270, User: john.doe@cozycup.com, Qty: 1
+2025-12-01 00:42:21,736 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:21] "POST /add-to-cart HTTP/1.1" 200 -
+2025-12-01 00:42:23,081 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:23] "GET /menu-desserts HTTP/1.1" 200 -
+2025-12-01 00:42:23,309 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:23] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:23,452 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:23] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-12-01 00:42:23,452 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:23] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:23,457 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:23] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:23,484 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:23] "[36mGET /static/assets/redmuffin.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:42:23,501 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:23] "[36mGET /static/assets/macarons.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:42:23,648 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:23] "[36mGET /static/assets/Chocotrufflecake.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:42:25,686 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:25] "GET /orders HTTP/1.1" 200 -
+2025-12-01 00:42:25,813 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:25] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:25,929 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:25] "[36mGET /static/Order.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:26,060 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:26] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:26,061 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:26] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-12-01 00:42:26,061 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:26] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:37,891 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:37] "GET /menu-cold HTTP/1.1" 200 -
+2025-12-01 00:42:38,053 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:38] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:38,270 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:38] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:38,277 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:38] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:38,282 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:38] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-12-01 00:42:38,318 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:38] "[36mGET /static/assets/lemon.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:42:38,318 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:38] "[36mGET /static/assets/Iced-Tea.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:42:38,391 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:38] "[36mGET /static/assets/cold-coffee.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:42:40,550 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:40] "GET /menu-delights HTTP/1.1" 200 -
+2025-12-01 00:42:40,617 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:40] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:40,818 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:40] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:40,929 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:40] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:40,929 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:40] "[36mGET /static/assets/panini.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:42:40,929 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:40] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-12-01 00:42:40,947 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:40] "[36mGET /static/assets/corny-sandwich.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:42:40,949 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:40] "[36mGET /static/assets/chicken.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:42:43,684 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:43] "GET /menu-desserts HTTP/1.1" 200 -
+2025-12-01 00:42:43,754 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:43] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:43,947 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:43] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:44,078 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:44] "[36mGET /static/assets/Chocotrufflecake.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:42:44,078 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:44] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-12-01 00:42:44,083 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:44] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:44,088 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:44] "[36mGET /static/assets/redmuffin.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:42:44,088 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:44] "[36mGET /static/assets/macarons.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:42:47,751 INFO: add_to_cart called by user john.doe@cozycup.com
+2025-12-01 00:42:47,751 INFO: Item added to cart: Macarons, Price: 270, User: john.doe@cozycup.com, Qty: 1
+2025-12-01 00:42:47,775 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:47] "POST /add-to-cart HTTP/1.1" 200 -
+2025-12-01 00:42:49,320 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:49] "GET /orders HTTP/1.1" 200 -
+2025-12-01 00:42:49,626 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:49] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:49,721 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:49] "[36mGET /static/Order.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:49,721 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:49] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:49,728 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:49] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-01 00:42:49,728 INFO: 127.0.0.1 - - [01/Dec/2025 00:42:49] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-12-01 00:43:40,599 INFO: 127.0.0.1 - - [01/Dec/2025 00:43:40] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-12-01 00:43:40,614 INFO: Index requested
+2025-12-01 00:43:40,616 INFO: 127.0.0.1 - - [01/Dec/2025 00:43:40] "GET / HTTP/1.1" 200 -
+2025-12-01 00:43:40,754 INFO: 127.0.0.1 - - [01/Dec/2025 00:43:40] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:43:40,971 INFO: 127.0.0.1 - - [01/Dec/2025 00:43:40] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-12-01 00:43:40,971 INFO: 127.0.0.1 - - [01/Dec/2025 00:43:40] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-01 00:43:43,012 INFO: 127.0.0.1 - - [01/Dec/2025 00:43:43] "GET /Signup HTTP/1.1" 200 -
+2025-12-01 00:43:43,052 INFO: 127.0.0.1 - - [01/Dec/2025 00:43:43] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-01 00:43:43,363 INFO: 127.0.0.1 - - [01/Dec/2025 00:43:43] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-01 00:43:43,367 INFO: 127.0.0.1 - - [01/Dec/2025 00:43:43] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-12-01 00:43:43,367 INFO: 127.0.0.1 - - [01/Dec/2025 00:43:43] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-01 00:43:43,395 INFO: 127.0.0.1 - - [01/Dec/2025 00:43:43] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-12-22 10:27:28,462 INFO: Starting Flask backend
+2025-12-22 10:27:28,543 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-12-22 10:27:28,545 INFO: [33mPress CTRL+C to quit[0m
+2025-12-22 10:27:32,317 INFO: Index requested
+2025-12-22 10:27:37,550 INFO: 127.0.0.1 - - [22/Dec/2025 10:27:37] "GET / HTTP/1.1" 200 -
+2025-12-22 10:27:38,650 INFO: 127.0.0.1 - - [22/Dec/2025 10:27:38] "GET /static/Buttons.css HTTP/1.1" 200 -
+2025-12-22 10:27:38,689 INFO: 127.0.0.1 - - [22/Dec/2025 10:27:38] "GET /static/assets/Coffee.jpg HTTP/1.1" 200 -
+2025-12-22 10:27:38,755 INFO: 127.0.0.1 - - [22/Dec/2025 10:27:38] "GET /static/Home.css HTTP/1.1" 200 -
+2025-12-22 10:27:45,340 INFO: 127.0.0.1 - - [22/Dec/2025 10:27:45] "GET /about-us HTTP/1.1" 200 -
+2025-12-22 10:27:45,382 INFO: 127.0.0.1 - - [22/Dec/2025 10:27:45] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:27:45,388 INFO: 127.0.0.1 - - [22/Dec/2025 10:27:45] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-22 10:27:58,396 INFO: 127.0.0.1 - - [22/Dec/2025 10:27:58] "GET /menu HTTP/1.1" 200 -
+2025-12-22 10:27:58,445 INFO: 127.0.0.1 - - [22/Dec/2025 10:27:58] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:27:58,487 INFO: 127.0.0.1 - - [22/Dec/2025 10:27:58] "GET /static/assets/capuccino.jpg HTTP/1.1" 200 -
+2025-12-22 10:27:58,498 INFO: 127.0.0.1 - - [22/Dec/2025 10:27:58] "GET /static/assets/expresso.jpg HTTP/1.1" 200 -
+2025-12-22 10:27:58,498 INFO: 127.0.0.1 - - [22/Dec/2025 10:27:58] "GET /static/menu.css HTTP/1.1" 200 -
+2025-12-22 10:27:58,527 INFO: 127.0.0.1 - - [22/Dec/2025 10:27:58] "GET /static/assets/latte.jpg HTTP/1.1" 200 -
+2025-12-22 10:27:59,064 INFO: 127.0.0.1 - - [22/Dec/2025 10:27:59] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-12-22 10:28:15,694 INFO: Starting Flask backend
+2025-12-22 10:28:15,805 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-12-22 10:28:15,805 INFO: [33mPress CTRL+C to quit[0m
+2025-12-22 10:28:20,927 INFO: Index requested
+2025-12-22 10:28:21,153 INFO: 127.0.0.1 - - [22/Dec/2025 10:28:21] "GET / HTTP/1.1" 200 -
+2025-12-22 10:28:22,607 INFO: 127.0.0.1 - - [22/Dec/2025 10:28:22] "GET /static/Home.css HTTP/1.1" 200 -
+2025-12-22 10:28:22,607 INFO: 127.0.0.1 - - [22/Dec/2025 10:28:22] "GET /static/Buttons.css HTTP/1.1" 200 -
+2025-12-22 10:28:22,778 INFO: 127.0.0.1 - - [22/Dec/2025 10:28:22] "GET /static/assets/Coffee.jpg HTTP/1.1" 200 -
+2025-12-22 10:28:23,272 INFO: 127.0.0.1 - - [22/Dec/2025 10:28:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-22 10:28:51,831 INFO: 127.0.0.1 - - [22/Dec/2025 10:28:51] "GET /about-us HTTP/1.1" 200 -
+2025-12-22 10:28:52,368 INFO: 127.0.0.1 - - [22/Dec/2025 10:28:52] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:28:52,378 INFO: 127.0.0.1 - - [22/Dec/2025 10:28:52] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-22 10:29:44,593 INFO: 127.0.0.1 - - [22/Dec/2025 10:29:44] "GET /menu HTTP/1.1" 200 -
+2025-12-22 10:29:44,691 INFO: 127.0.0.1 - - [22/Dec/2025 10:29:44] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:29:44,802 INFO: 127.0.0.1 - - [22/Dec/2025 10:29:44] "GET /static/menu.css HTTP/1.1" 200 -
+2025-12-22 10:29:45,013 INFO: 127.0.0.1 - - [22/Dec/2025 10:29:45] "GET /static/assets/latte.jpg HTTP/1.1" 200 -
+2025-12-22 10:29:45,013 INFO: 127.0.0.1 - - [22/Dec/2025 10:29:45] "GET /static/assets/capuccino.jpg HTTP/1.1" 200 -
+2025-12-22 10:29:45,013 INFO: 127.0.0.1 - - [22/Dec/2025 10:29:45] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2025-12-22 10:29:45,022 INFO: 127.0.0.1 - - [22/Dec/2025 10:29:45] "GET /static/assets/expresso.jpg HTTP/1.1" 200 -
+2025-12-22 10:29:51,160 INFO: login route hit, method=GET
+2025-12-22 10:29:51,576 INFO: 127.0.0.1 - - [22/Dec/2025 10:29:51] "GET /login HTTP/1.1" 200 -
+2025-12-22 10:29:51,840 INFO: 127.0.0.1 - - [22/Dec/2025 10:29:51] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-22 10:29:51,881 INFO: 127.0.0.1 - - [22/Dec/2025 10:29:51] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:29:52,201 INFO: 127.0.0.1 - - [22/Dec/2025 10:29:52] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-22 10:29:52,244 INFO: 127.0.0.1 - - [22/Dec/2025 10:29:52] "GET /static/Account.css HTTP/1.1" 200 -
+2025-12-22 10:29:52,650 INFO: 127.0.0.1 - - [22/Dec/2025 10:29:52] "GET /static/assets/coffee-background.jpg HTTP/1.1" 200 -
+2025-12-22 10:29:57,827 INFO: 127.0.0.1 - - [22/Dec/2025 10:29:57] "GET /Signup HTTP/1.1" 200 -
+2025-12-22 10:29:57,879 INFO: 127.0.0.1 - - [22/Dec/2025 10:29:57] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-22 10:29:57,883 INFO: 127.0.0.1 - - [22/Dec/2025 10:29:57] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:29:58,187 INFO: 127.0.0.1 - - [22/Dec/2025 10:29:58] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-22 10:29:58,218 INFO: 127.0.0.1 - - [22/Dec/2025 10:29:58] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-12-22 10:30:13,445 INFO: login route hit, method=GET
+2025-12-22 10:30:13,448 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:13] "GET /login HTTP/1.1" 200 -
+2025-12-22 10:30:13,580 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:13] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-22 10:30:13,697 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:13] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:30:13,815 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:13] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-22 10:30:13,815 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:13] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-12-22 10:30:22,082 INFO: login route hit, method=POST
+2025-12-22 10:30:22,088 INFO: login attempt username='john.doe@cozycup.com'
+2025-12-22 10:30:23,378 INFO: User john.doe@cozycup.com authenticated
+2025-12-22 10:30:23,383 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-22 10:30:23,422 INFO: Index requested
+2025-12-22 10:30:23,451 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:23] "GET / HTTP/1.1" 200 -
+2025-12-22 10:30:23,810 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:23] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:30:23,810 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:23] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-22 10:30:23,811 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:23] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-12-22 10:30:28,419 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:28] "GET /menu HTTP/1.1" 200 -
+2025-12-22 10:30:28,727 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:28] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:30:28,842 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:28] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-12-22 10:30:28,843 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:28] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-22 10:30:28,864 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:28] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-12-22 10:30:28,871 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:28] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-12-22 10:30:28,871 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:28] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-12-22 10:30:35,946 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:35] "GET /menu-cold HTTP/1.1" 200 -
+2025-12-22 10:30:36,061 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:36] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-22 10:30:36,061 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:36] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:30:36,362 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:36] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-22 10:30:36,375 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:36] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-12-22 10:30:36,580 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:36] "GET /static/assets/lemon.jpg HTTP/1.1" 200 -
+2025-12-22 10:30:36,590 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:36] "GET /static/assets/cold-coffee.jpg HTTP/1.1" 200 -
+2025-12-22 10:30:36,590 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:36] "GET /static/assets/Iced-Tea.jpg HTTP/1.1" 200 -
+2025-12-22 10:30:40,601 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:40] "GET /menu-delights HTTP/1.1" 200 -
+2025-12-22 10:30:40,641 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:40] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:30:40,823 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:40] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-22 10:30:40,963 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:40] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-12-22 10:30:40,963 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:40] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-22 10:30:41,066 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:41] "GET /static/assets/panini.jpg HTTP/1.1" 200 -
+2025-12-22 10:30:41,138 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:41] "GET /static/assets/corny-sandwich.jpg HTTP/1.1" 200 -
+2025-12-22 10:30:41,178 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:41] "GET /static/assets/chicken.jpg HTTP/1.1" 200 -
+2025-12-22 10:30:50,157 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:50] "GET /menu-desserts HTTP/1.1" 200 -
+2025-12-22 10:30:50,187 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:50] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:30:50,384 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:50] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-22 10:30:50,514 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:50] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-12-22 10:30:50,515 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:50] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-22 10:30:50,545 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:50] "GET /static/assets/Chocotrufflecake.jpg HTTP/1.1" 200 -
+2025-12-22 10:30:50,571 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:50] "GET /static/assets/macarons.jpg HTTP/1.1" 200 -
+2025-12-22 10:30:50,592 INFO: 127.0.0.1 - - [22/Dec/2025 10:30:50] "GET /static/assets/redmuffin.jpg HTTP/1.1" 200 -
+2025-12-22 10:31:02,323 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:02] "GET /menu HTTP/1.1" 200 -
+2025-12-22 10:31:02,371 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:02] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:31:02,589 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:02] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-22 10:31:02,691 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:02] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-12-22 10:31:02,695 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:02] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-12-22 10:31:02,695 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:02] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-12-22 10:31:02,696 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:02] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-12-22 10:31:09,028 INFO: add_to_cart called by user john.doe@cozycup.com
+2025-12-22 10:31:09,032 INFO: Item added to cart: Café Latte, Price: 230, User: john.doe@cozycup.com, Qty: 2
+2025-12-22 10:31:09,853 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:09] "POST /add-to-cart HTTP/1.1" 200 -
+2025-12-22 10:31:09,871 INFO: add_to_cart called by user john.doe@cozycup.com
+2025-12-22 10:31:09,871 INFO: Item added to cart: Capuccino, Price: 250, User: john.doe@cozycup.com, Qty: 2
+2025-12-22 10:31:09,961 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:09] "POST /add-to-cart HTTP/1.1" 200 -
+2025-12-22 10:31:12,346 INFO: add_to_cart called by user john.doe@cozycup.com
+2025-12-22 10:31:12,348 INFO: Item added to cart: Espresso, Price: 270, User: john.doe@cozycup.com, Qty: 2
+2025-12-22 10:31:12,369 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:12] "POST /add-to-cart HTTP/1.1" 200 -
+2025-12-22 10:31:13,479 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:13] "GET /menu-delights HTTP/1.1" 200 -
+2025-12-22 10:31:13,784 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:13] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:31:13,821 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:13] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-22 10:31:13,840 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:13] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-12-22 10:31:13,840 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:13] "[36mGET /static/assets/panini.jpg HTTP/1.1[0m" 304 -
+2025-12-22 10:31:13,840 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:13] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-22 10:31:13,840 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:13] "[36mGET /static/assets/corny-sandwich.jpg HTTP/1.1[0m" 304 -
+2025-12-22 10:31:14,099 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:14] "[36mGET /static/assets/chicken.jpg HTTP/1.1[0m" 304 -
+2025-12-22 10:31:18,264 INFO: add_to_cart called by user john.doe@cozycup.com
+2025-12-22 10:31:18,267 INFO: Item added to cart: Tofu Spinach Sandwich, Price: 230, User: john.doe@cozycup.com, Qty: 4
+2025-12-22 10:31:18,293 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:18] "POST /add-to-cart HTTP/1.1" 200 -
+2025-12-22 10:31:20,883 INFO: add_to_cart called by user john.doe@cozycup.com
+2025-12-22 10:31:20,884 INFO: Item added to cart: Spinach and Corn Sandwich, Price: 250, User: john.doe@cozycup.com, Qty: 7
+2025-12-22 10:31:20,913 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:20] "POST /add-to-cart HTTP/1.1" 200 -
+2025-12-22 10:31:23,471 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:23] "GET /menu HTTP/1.1" 200 -
+2025-12-22 10:31:23,687 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:23] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:31:23,741 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:23] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-22 10:31:23,833 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:23] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-12-22 10:31:23,833 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:23] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-12-22 10:31:23,840 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:23] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-12-22 10:31:23,842 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:23] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-12-22 10:31:25,251 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:25] "GET /orders HTTP/1.1" 200 -
+2025-12-22 10:31:25,328 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:25] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:31:25,356 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:25] "GET /static/Order.css HTTP/1.1" 200 -
+2025-12-22 10:31:25,643 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:25] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-22 10:31:25,650 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:25] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-22 10:31:25,651 INFO: 127.0.0.1 - - [22/Dec/2025 10:31:25] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-12-22 10:32:09,848 INFO: Index requested
+2025-12-22 10:32:09,860 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:09] "GET / HTTP/1.1" 200 -
+2025-12-22 10:32:10,003 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:10] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:32:10,107 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:10] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-22 10:32:10,234 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:10] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-12-22 10:32:13,528 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:13] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-12-22 10:32:13,536 INFO: Index requested
+2025-12-22 10:32:13,588 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:13] "GET / HTTP/1.1" 200 -
+2025-12-22 10:32:13,947 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:13] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:32:13,947 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:13] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-12-22 10:32:13,954 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:13] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-22 10:32:20,655 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:20] "GET /Signup HTTP/1.1" 200 -
+2025-12-22 10:32:20,974 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:20] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-22 10:32:21,013 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:21] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:32:21,013 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:21] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-22 10:32:21,013 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:21] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-12-22 10:32:21,347 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:21] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2025-12-22 10:32:29,646 INFO: login route hit, method=GET
+2025-12-22 10:32:29,649 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:29] "GET /login HTTP/1.1" 200 -
+2025-12-22 10:32:29,958 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:29] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-22 10:32:30,014 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:30] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-22 10:32:30,017 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:30] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-12-22 10:32:30,017 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:30] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:32:33,724 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:33] "GET /Signup HTTP/1.1" 200 -
+2025-12-22 10:32:33,971 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:33] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-22 10:32:33,993 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:33] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:32:34,086 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:34] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-12-22 10:32:34,086 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:34] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-22 10:32:43,331 INFO: login route hit, method=GET
+2025-12-22 10:32:43,331 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:43] "GET /login HTTP/1.1" 200 -
+2025-12-22 10:32:43,642 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:43] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-22 10:32:43,732 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:43] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-22 10:32:43,740 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:43] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-12-22 10:32:43,741 INFO: 127.0.0.1 - - [22/Dec/2025 10:32:43] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:33:08,227 INFO: Index requested
+2025-12-22 10:33:08,378 INFO: 127.0.0.1 - - [22/Dec/2025 10:33:08] "GET / HTTP/1.1" 200 -
+2025-12-22 10:33:08,459 INFO: 127.0.0.1 - - [22/Dec/2025 10:33:08] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:33:08,473 INFO: 127.0.0.1 - - [22/Dec/2025 10:33:08] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-22 10:33:08,727 INFO: 127.0.0.1 - - [22/Dec/2025 10:33:08] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2025-12-22 10:33:17,010 INFO: 127.0.0.1 - - [22/Dec/2025 10:33:17] "GET /about-us HTTP/1.1" 200 -
+2025-12-22 10:33:17,328 INFO: 127.0.0.1 - - [22/Dec/2025 10:33:17] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:33:17,416 INFO: 127.0.0.1 - - [22/Dec/2025 10:33:17] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-22 10:34:15,319 INFO: 127.0.0.1 - - [22/Dec/2025 10:34:15] "GET /about-us HTTP/1.1" 200 -
+2025-12-22 10:34:15,549 INFO: 127.0.0.1 - - [22/Dec/2025 10:34:15] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:34:15,559 INFO: 127.0.0.1 - - [22/Dec/2025 10:34:15] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-22 10:34:17,768 INFO: 127.0.0.1 - - [22/Dec/2025 10:34:17] "GET /menu HTTP/1.1" 200 -
+2025-12-22 10:34:18,070 INFO: 127.0.0.1 - - [22/Dec/2025 10:34:18] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:34:18,129 INFO: 127.0.0.1 - - [22/Dec/2025 10:34:18] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-22 10:34:18,136 INFO: 127.0.0.1 - - [22/Dec/2025 10:34:18] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2025-12-22 10:34:18,149 INFO: 127.0.0.1 - - [22/Dec/2025 10:34:18] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2025-12-22 10:34:18,152 INFO: 127.0.0.1 - - [22/Dec/2025 10:34:18] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2025-12-22 10:34:18,160 INFO: 127.0.0.1 - - [22/Dec/2025 10:34:18] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2025-12-22 10:34:19,536 WARNING: add_to_cart: user not logged in or missing username
+2025-12-22 10:34:19,536 INFO: 127.0.0.1 - - [22/Dec/2025 10:34:19] "[32mGET /orders HTTP/1.1[0m" 302 -
+2025-12-22 10:34:19,776 INFO: login route hit, method=GET
+2025-12-22 10:34:19,776 INFO: 127.0.0.1 - - [22/Dec/2025 10:34:19] "GET /login HTTP/1.1" 200 -
+2025-12-22 10:34:19,961 INFO: 127.0.0.1 - - [22/Dec/2025 10:34:19] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-22 10:34:20,273 INFO: 127.0.0.1 - - [22/Dec/2025 10:34:20] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2025-12-22 10:34:20,278 INFO: 127.0.0.1 - - [22/Dec/2025 10:34:20] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:34:20,282 INFO: 127.0.0.1 - - [22/Dec/2025 10:34:20] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2025-12-22 10:34:23,734 INFO: Index requested
+2025-12-22 10:34:23,745 INFO: 127.0.0.1 - - [22/Dec/2025 10:34:23] "GET / HTTP/1.1" 200 -
+2025-12-22 10:34:23,795 INFO: 127.0.0.1 - - [22/Dec/2025 10:34:23] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2025-12-22 10:34:23,998 INFO: 127.0.0.1 - - [22/Dec/2025 10:34:23] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2025-12-22 10:34:24,102 INFO: 127.0.0.1 - - [22/Dec/2025 10:34:24] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:33:52,373 INFO: Starting Flask backend
+2026-01-01 13:33:52,452 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2026-01-01 13:33:52,452 INFO: [33mPress CTRL+C to quit[0m
+2026-01-01 13:33:57,006 INFO: Index requested
+2026-01-01 13:33:57,702 INFO: 127.0.0.1 - - [01/Jan/2026 13:33:57] "GET / HTTP/1.1" 200 -
+2026-01-01 13:33:58,122 INFO: 127.0.0.1 - - [01/Jan/2026 13:33:58] "GET /static/Buttons.css HTTP/1.1" 200 -
+2026-01-01 13:33:58,219 INFO: 127.0.0.1 - - [01/Jan/2026 13:33:58] "GET /static/Home.css HTTP/1.1" 200 -
+2026-01-01 13:33:58,267 INFO: 127.0.0.1 - - [01/Jan/2026 13:33:58] "GET /static/assets/Coffee.jpg HTTP/1.1" 200 -
+2026-01-01 13:33:58,738 INFO: 127.0.0.1 - - [01/Jan/2026 13:33:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-01 13:38:26,504 INFO: login route hit, method=GET
+2026-01-01 13:38:26,763 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:26] "GET /login HTTP/1.1" 200 -
+2026-01-01 13:38:26,788 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:26] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2026-01-01 13:38:26,788 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:26] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:38:27,519 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:27] "GET /static/Account.css HTTP/1.1" 200 -
+2026-01-01 13:38:28,363 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:28] "GET /static/menu.css HTTP/1.1" 200 -
+2026-01-01 13:38:28,852 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:28] "GET /static/assets/coffee-background.jpg HTTP/1.1" 200 -
+2026-01-01 13:38:37,773 INFO: login route hit, method=POST
+2026-01-01 13:38:37,812 INFO: login attempt username='john.doe@cozycup.com'
+2026-01-01 13:38:37,867 INFO: User john.doe@cozycup.com authenticated
+2026-01-01 13:38:37,872 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-01-01 13:38:37,881 INFO: Index requested
+2026-01-01 13:38:37,887 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:37] "GET / HTTP/1.1" 200 -
+2026-01-01 13:38:38,039 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:38] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:38:38,222 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:38] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2026-01-01 13:38:38,222 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:38] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:38:41,206 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:41] "GET /menu HTTP/1.1" 200 -
+2026-01-01 13:38:41,243 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:41] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:38:41,291 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:41] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2026-01-01 13:38:41,565 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:41] "GET /static/Scripts/Menu.js HTTP/1.1" 200 -
+2026-01-01 13:38:41,697 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:41] "GET /static/assets/expresso.jpg HTTP/1.1" 200 -
+2026-01-01 13:38:41,703 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:41] "GET /static/assets/capuccino.jpg HTTP/1.1" 200 -
+2026-01-01 13:38:41,703 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:41] "GET /static/assets/latte.jpg HTTP/1.1" 200 -
+2026-01-01 13:38:43,060 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:43] "GET /orders HTTP/1.1" 200 -
+2026-01-01 13:38:43,088 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:43] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:38:43,184 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:43] "GET /static/Order.css HTTP/1.1" 200 -
+2026-01-01 13:38:43,397 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:43] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2026-01-01 13:38:43,399 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:43] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2026-01-01 13:38:43,400 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:43] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2026-01-01 13:38:48,473 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:48] "GET /about-us HTTP/1.1" 200 -
+2026-01-01 13:38:48,591 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:48] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:38:48,623 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:48] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2026-01-01 13:38:56,442 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:56] "GET /menu HTTP/1.1" 200 -
+2026-01-01 13:38:56,692 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:56] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:38:56,699 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:56] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2026-01-01 13:38:56,829 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:56] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:38:56,829 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:56] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:38:56,829 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:56] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:38:56,832 INFO: 127.0.0.1 - - [01/Jan/2026 13:38:56] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2026-01-01 13:39:00,474 INFO: add_to_cart called by user john.doe@cozycup.com
+2026-01-01 13:39:00,477 INFO: Item added to cart: Café Latte, Price: 230, User: john.doe@cozycup.com, Qty: 3
+2026-01-01 13:39:00,623 INFO: 127.0.0.1 - - [01/Jan/2026 13:39:00] "POST /add-to-cart HTTP/1.1" 200 -
+2026-01-01 13:39:08,452 INFO: add_to_cart called by user john.doe@cozycup.com
+2026-01-01 13:39:08,452 INFO: Item added to cart: Capuccino, Price: 250, User: john.doe@cozycup.com, Qty: 4
+2026-01-01 13:39:08,595 INFO: 127.0.0.1 - - [01/Jan/2026 13:39:08] "POST /add-to-cart HTTP/1.1" 200 -
+2026-01-01 13:39:10,278 INFO: 127.0.0.1 - - [01/Jan/2026 13:39:10] "GET /orders HTTP/1.1" 200 -
+2026-01-01 13:39:10,577 INFO: 127.0.0.1 - - [01/Jan/2026 13:39:10] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:39:10,648 INFO: 127.0.0.1 - - [01/Jan/2026 13:39:10] "[36mGET /static/Order.css HTTP/1.1[0m" 304 -
+2026-01-01 13:39:10,649 INFO: 127.0.0.1 - - [01/Jan/2026 13:39:10] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2026-01-01 13:39:10,649 INFO: 127.0.0.1 - - [01/Jan/2026 13:39:10] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2026-01-01 13:39:10,651 INFO: 127.0.0.1 - - [01/Jan/2026 13:39:10] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2026-01-01 13:39:26,409 INFO: 127.0.0.1 - - [01/Jan/2026 13:39:26] "GET /about-us HTTP/1.1" 200 -
+2026-01-01 13:39:26,643 INFO: 127.0.0.1 - - [01/Jan/2026 13:39:26] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:39:26,657 INFO: 127.0.0.1 - - [01/Jan/2026 13:39:26] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2026-01-01 13:39:31,998 INFO: Index requested
+2026-01-01 13:39:32,002 INFO: 127.0.0.1 - - [01/Jan/2026 13:39:32] "GET / HTTP/1.1" 200 -
+2026-01-01 13:39:32,311 INFO: 127.0.0.1 - - [01/Jan/2026 13:39:32] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:39:32,366 INFO: 127.0.0.1 - - [01/Jan/2026 13:39:32] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2026-01-01 13:39:32,368 INFO: 127.0.0.1 - - [01/Jan/2026 13:39:32] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:39:39,509 INFO: 127.0.0.1 - - [01/Jan/2026 13:39:39] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-01-01 13:39:39,710 INFO: Index requested
+2026-01-01 13:39:39,710 INFO: 127.0.0.1 - - [01/Jan/2026 13:39:39] "GET / HTTP/1.1" 200 -
+2026-01-01 13:39:39,741 INFO: 127.0.0.1 - - [01/Jan/2026 13:39:39] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:39:40,047 INFO: 127.0.0.1 - - [01/Jan/2026 13:39:40] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2026-01-01 13:39:40,048 INFO: 127.0.0.1 - - [01/Jan/2026 13:39:40] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:39:49,696 INFO: 127.0.0.1 - - [01/Jan/2026 13:39:49] "GET /Signup HTTP/1.1" 200 -
+2026-01-01 13:39:49,729 INFO: 127.0.0.1 - - [01/Jan/2026 13:39:49] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2026-01-01 13:39:49,729 INFO: 127.0.0.1 - - [01/Jan/2026 13:39:49] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:39:50,036 INFO: 127.0.0.1 - - [01/Jan/2026 13:39:50] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2026-01-01 13:39:50,037 INFO: 127.0.0.1 - - [01/Jan/2026 13:39:50] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2026-01-01 13:39:50,359 INFO: 127.0.0.1 - - [01/Jan/2026 13:39:50] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:46:26,536 INFO: login route hit, method=GET
+2026-01-01 13:46:26,538 INFO: 127.0.0.1 - - [01/Jan/2026 13:46:26] "GET /login HTTP/1.1" 200 -
+2026-01-01 13:46:26,763 INFO: 127.0.0.1 - - [01/Jan/2026 13:46:26] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2026-01-01 13:46:26,807 INFO: 127.0.0.1 - - [01/Jan/2026 13:46:26] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:46:26,893 INFO: 127.0.0.1 - - [01/Jan/2026 13:46:26] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2026-01-01 13:46:26,895 INFO: 127.0.0.1 - - [01/Jan/2026 13:46:26] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2026-01-01 13:46:26,920 INFO: 127.0.0.1 - - [01/Jan/2026 13:46:26] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:47:54,795 INFO: Index requested
+2026-01-01 13:47:54,914 INFO: 127.0.0.1 - - [01/Jan/2026 13:47:54] "GET / HTTP/1.1" 200 -
+2026-01-01 13:47:55,027 INFO: 127.0.0.1 - - [01/Jan/2026 13:47:55] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:47:55,051 INFO: 127.0.0.1 - - [01/Jan/2026 13:47:55] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2026-01-01 13:47:55,259 INFO: 127.0.0.1 - - [01/Jan/2026 13:47:55] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:47:57,208 INFO: 127.0.0.1 - - [01/Jan/2026 13:47:57] "GET /about-us HTTP/1.1" 200 -
+2026-01-01 13:47:57,511 INFO: 127.0.0.1 - - [01/Jan/2026 13:47:57] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:47:57,564 INFO: 127.0.0.1 - - [01/Jan/2026 13:47:57] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2026-01-01 13:48:07,730 INFO: 127.0.0.1 - - [01/Jan/2026 13:48:07] "GET /menu HTTP/1.1" 200 -
+2026-01-01 13:48:07,978 INFO: 127.0.0.1 - - [01/Jan/2026 13:48:07] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:48:08,095 INFO: 127.0.0.1 - - [01/Jan/2026 13:48:08] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2026-01-01 13:48:08,104 INFO: 127.0.0.1 - - [01/Jan/2026 13:48:08] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2026-01-01 13:48:08,105 INFO: 127.0.0.1 - - [01/Jan/2026 13:48:08] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:48:08,107 INFO: 127.0.0.1 - - [01/Jan/2026 13:48:08] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:48:08,115 INFO: 127.0.0.1 - - [01/Jan/2026 13:48:08] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:48:23,431 INFO: login route hit, method=GET
+2026-01-01 13:48:23,433 INFO: 127.0.0.1 - - [01/Jan/2026 13:48:23] "GET /login HTTP/1.1" 200 -
+2026-01-01 13:48:23,466 INFO: 127.0.0.1 - - [01/Jan/2026 13:48:23] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2026-01-01 13:48:23,684 INFO: 127.0.0.1 - - [01/Jan/2026 13:48:23] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:48:23,785 INFO: 127.0.0.1 - - [01/Jan/2026 13:48:23] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2026-01-01 13:48:23,785 INFO: 127.0.0.1 - - [01/Jan/2026 13:48:23] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2026-01-01 13:48:24,115 INFO: 127.0.0.1 - - [01/Jan/2026 13:48:24] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:49:11,541 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:11] "GET /menu HTTP/1.1" 200 -
+2026-01-01 13:49:11,852 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:11] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:49:11,950 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:11] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2026-01-01 13:49:11,959 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:11] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:49:11,959 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:11] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:49:11,960 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:11] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2026-01-01 13:49:11,967 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:11] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:49:15,900 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:15] "GET /menu-cold HTTP/1.1" 200 -
+2026-01-01 13:49:15,945 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:15] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:49:16,083 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:16] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2026-01-01 13:49:16,261 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:16] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2026-01-01 13:49:16,262 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:16] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2026-01-01 13:49:16,292 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:16] "GET /static/assets/lemon.jpg HTTP/1.1" 200 -
+2026-01-01 13:49:16,317 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:16] "GET /static/assets/cold-coffee.jpg HTTP/1.1" 200 -
+2026-01-01 13:49:16,340 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:16] "GET /static/assets/Iced-Tea.jpg HTTP/1.1" 200 -
+2026-01-01 13:49:20,252 INFO: login route hit, method=GET
+2026-01-01 13:49:20,254 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:20] "GET /login HTTP/1.1" 200 -
+2026-01-01 13:49:20,284 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:20] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2026-01-01 13:49:20,500 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:20] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:49:20,601 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:20] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2026-01-01 13:49:20,603 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:20] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2026-01-01 13:49:20,931 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:20] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:49:24,058 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:24] "GET /menu HTTP/1.1" 200 -
+2026-01-01 13:49:24,366 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:24] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:49:24,457 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:24] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2026-01-01 13:49:24,460 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:24] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2026-01-01 13:49:24,461 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:24] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:49:24,462 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:24] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:49:24,464 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:24] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:49:29,417 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:29] "GET /menu-desserts HTTP/1.1" 200 -
+2026-01-01 13:49:29,460 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:29] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:49:29,600 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:29] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2026-01-01 13:49:29,777 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:29] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2026-01-01 13:49:29,778 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:29] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2026-01-01 13:49:29,811 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:29] "GET /static/assets/redmuffin.jpg HTTP/1.1" 200 -
+2026-01-01 13:49:29,812 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:29] "GET /static/assets/macarons.jpg HTTP/1.1" 200 -
+2026-01-01 13:49:29,908 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:29] "GET /static/assets/Chocotrufflecake.jpg HTTP/1.1" 200 -
+2026-01-01 13:49:57,540 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:57] "GET /menu HTTP/1.1" 200 -
+2026-01-01 13:49:57,575 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:57] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:49:57,791 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:57] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2026-01-01 13:49:57,902 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:57] "[36mGET /static/assets/latte.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:49:57,902 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:57] "[36mGET /static/assets/capuccino.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:49:57,902 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:57] "[36mGET /static/Scripts/Menu.js HTTP/1.1[0m" 304 -
+2026-01-01 13:49:57,914 INFO: 127.0.0.1 - - [01/Jan/2026 13:49:57] "[36mGET /static/assets/expresso.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:50:05,453 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:05] "GET /about-us HTTP/1.1" 200 -
+2026-01-01 13:50:05,697 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:05] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:50:05,718 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:05] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2026-01-01 13:50:10,901 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:10] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:50:11,205 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:11] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2026-01-01 13:50:11,256 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:11] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-01-01 13:50:23,820 INFO: Index requested
+2026-01-01 13:50:23,838 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:23] "GET / HTTP/1.1" 200 -
+2026-01-01 13:50:23,877 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:23] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-01-01 13:50:24,085 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:24] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:50:24,202 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:24] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2026-01-01 13:50:24,204 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:24] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:50:28,422 WARNING: add_to_cart: user not logged in or missing username
+2026-01-01 13:50:28,422 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:28] "[32mGET /orders HTTP/1.1[0m" 302 -
+2026-01-01 13:50:28,422 INFO: login route hit, method=GET
+2026-01-01 13:50:28,422 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:28] "GET /login HTTP/1.1" 200 -
+2026-01-01 13:50:28,677 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:28] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2026-01-01 13:50:28,790 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:28] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:50:28,790 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:28] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2026-01-01 13:50:28,791 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:28] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-01-01 13:50:28,792 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:28] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2026-01-01 13:50:29,119 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:29] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:50:40,202 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:40] "GET /Signup HTTP/1.1" 200 -
+2026-01-01 13:50:40,505 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:40] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2026-01-01 13:50:40,557 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:40] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:50:40,559 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:40] "[36mGET /static/menu.css HTTP/1.1[0m" 304 -
+2026-01-01 13:50:40,560 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:40] "[36mGET /static/Account.css HTTP/1.1[0m" 304 -
+2026-01-01 13:50:40,886 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:40] "[36mGET /static/assets/coffee-background.jpg HTTP/1.1[0m" 304 -
+2026-01-01 13:50:42,800 INFO: Index requested
+2026-01-01 13:50:43,798 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:43] "GET / HTTP/1.1" 200 -
+2026-01-01 13:50:43,833 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:43] "[36mGET /static/Home.css HTTP/1.1[0m" 304 -
+2026-01-01 13:50:44,143 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:44] "[36mGET /static/Buttons.css HTTP/1.1[0m" 304 -
+2026-01-01 13:50:44,146 INFO: 127.0.0.1 - - [01/Jan/2026 13:50:44] "[36mGET /static/assets/Coffee.jpg HTTP/1.1[0m" 304 -

@@ -13,26 +13,28 @@ document.querySelectorAll(".card").forEach((card) => {
         // nothing to send
         return;
       } else {
+        // Make a dictionary to send to Flask.
         const payload = {
           qty: qtyVal,
           itemName: itemName,
           price: price,
         };
         fetch("/add-to-cart", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(payload),
+          method: "POST", // This posts data to Flask.
+          headers: { "Content-Type": "application/json" }, // The type of data being sent.
+          body: JSON.stringify(payload), // The data being sent in JSON format.
         })
-          .then((response) => response.json())
-          .then((data) => console.log(data))
-          .catch((error) => console.error("Error:", error));
+          .then((response) => response.json()) // Parse the JSON response.
+          .then((data) => console.log(data)) // Log the response data.
+          .catch((error) => console.error("Error:", error)); // Log any errors.
         
-          
+        // Update the button to show it was added.
         cartbutton = card.querySelector(".addtocart");
         cartbutton.textContent = "Added!";
         cartbutton.disabled = true;
         card.querySelector(".qty-decrease").disabled = true;
         card.querySelector(".qty-increase").disabled = true;
+        
         console.log(userState);
       }
     } else {

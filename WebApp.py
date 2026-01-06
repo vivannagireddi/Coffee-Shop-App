@@ -1,5 +1,4 @@
 import logging
-import pickle
 import random
 import sys
 from tkinter import *
@@ -31,12 +30,12 @@ def runFlaskBackend(passwd, debugMode):
     # allow both /login and /login/ without 405 errors
     app.url_map.strict_slashes = False
     # Generate a secret key for user sessions.
-    app.config['SECRET_KEY'] = secrets.token_hex(32)
-    app.config['MYSQL_HOST'] = 'localhost'
-    app.config['MYSQL_USER'] = 'root'
+    app.config['SECRET_KEY'] = secrets.token_hex(32) # app.config is a directory-like object for Flask settings.
+    app.config['MYSQL_HOST'] = 'localhost' # Database host
+    app.config['MYSQL_USER'] = 'root'  # Database user
     
-    app.config['MYSQL_PASSWORD'] = passwd
-    app.config['MYSQL_DB'] = 'coffee'
+    app.config['MYSQL_PASSWORD'] = passwd # Database password
+    app.config['MYSQL_DB'] = 'coffee' # Database name
     
     mysql = MySQL(app)
     
@@ -265,7 +264,6 @@ def runFlaskBackend(passwd, debugMode):
         current_username = str(session.get('username'))
         isLoggedIn = session.get('logged_in', False)
         if not isLoggedIn or not current_username:
-            # app.logger.warning("add_to_cart: user not logged in")
             app.logger.warning("add_to_cart: user not logged in or missing username")
             print(f"DEBUG REDIRECT: logged_in={isLoggedIn}, username={current_username}")
             return redirect('/login')
